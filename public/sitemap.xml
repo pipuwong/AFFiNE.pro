@@ -1588,6 +1588,11 @@
         <priority>1.0</priority>
     </url>
     <url>
+        <loc>https://affine.pro/blog/best-app-for-knowledge-sharing</loc>
+        <changefreq>daily</changefreq>
+        <priority>1.0</priority>
+    </url>
+    <url>
         <loc>https://affine.pro/blog/best-app-for-personal-family-knowledge-and-document-sharing</loc>
         <changefreq>daily</changefreq>
         <priority>1.0</priority>
