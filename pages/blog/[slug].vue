@@ -123,7 +123,7 @@ const pageMeta = computed(() => {
   const url = `${PATH.SHARE_HOST}/blog/${article.value?.slug}`;
   const image =
     article.value?.ogimage ||
-    article.value?.cover ||
+    (article.value?.cover + '.webp') ||
     'https://affine.pro/og.jpeg';
 
   return {

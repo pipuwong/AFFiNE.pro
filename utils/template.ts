@@ -10,7 +10,7 @@ export const getTemplateCateMeta = (meta: TemplateContentFileMeta) => {
     meta.description ||
     'There can be more than Notion and Miro. AFFiNE is a next-gen knowledge base that brings planning, sorting and creating all together.';
   const url = `${PATH.SHARE_HOST}/templates/category-${meta.cateSlug}`;
-  const image = meta.cover || 'https://affine.pro/og.jpeg';
+  const image = (meta.cover + '.webp') || 'https://affine.pro/og.jpeg';
 
   return [
     { name: 'twitter:title', content: title },

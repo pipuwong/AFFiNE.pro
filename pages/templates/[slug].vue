@@ -97,7 +97,7 @@ const pageMeta = computed(() => {
     template.value?.description ||
     'There can be more than Notion and Miro. AFFiNE is a next-gen knowledge base that brings planning, sorting and creating all together.';
   const url = `${PATH.SHARE_HOST}/templates/${template.value?.slug}`;
-  const image = template.value?.cover || 'https://affine.pro/og.jpeg';
+  const image = (template.value?.cover + '.webp') || 'https://affine.pro/og.jpeg';
 
   return {
     title: template.value?.title,
