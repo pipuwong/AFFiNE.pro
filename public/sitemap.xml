@@ -1728,6 +1728,11 @@
         <priority>1.0</priority>
     </url>
     <url>
+        <loc>https://affine.pro/templates/adhd-productivity-planner</loc>
+        <changefreq>daily</changefreq>
+        <priority>1.0</priority>
+    </url>
+    <url>
         <loc>https://affine.pro/templates/best-academic-planner</loc>
         <changefreq>daily</changefreq>
         <priority>1.0</priority>
@@ -1764,6 +1769,11 @@
     </url>
     <url>
         <loc>https://affine.pro/templates/cornell-notes-template</loc>
+        <changefreq>daily</changefreq>
+        <priority>1.0</priority>
+    </url>
+    <url>
+        <loc>https://affine.pro/templates/daily-adhd-planner</loc>
         <changefreq>daily</changefreq>
         <priority>1.0</priority>
     </url>
