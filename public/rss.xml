@@ -5,9 +5,18 @@
     <description>All In One KnowledgeOS</description>
     <link>https://affine.pro</link>
     <atom:link href="https://affine.pro/rss.xml" rel="self" type="application/rss+xml" />
-    <lastBuildDate>Wed, 30 Oct 2024 07:13:02 GMT</lastBuildDate>
-    <pubDate>Wed, 30 Oct 2024 07:13:02 GMT</pubDate>
+    <lastBuildDate>Wed, 30 Oct 2024 09:41:00 GMT</lastBuildDate>
+    <pubDate>Wed, 30 Oct 2024 09:41:00 GMT</pubDate>
     <ttl>60</ttl>
+    
+    <item>
+      <title>AI Notes Summarize Record Visual: Enhance Your Workflow with Intelligent Note-Taking</title>
+      <description><![CDATA[Discover the power of AI in note-taking and visualization with tools like Affine. Learn how AI-driven summarization, efficient recording, and customizable visual organization enhance productivity. Explore Affine’s flexibility and privacy features for a personalized note-taking experience that goes beyond traditional methods. Try Affine today to transform the way you capture and manage information!]]></description>
+      <link>https://affine.pro/blog/ai-notes-visual</link>
+      <guid isPermaLink="true">https://affine.pro/blog/ai-notes-visual</guid>
+      <pubDate>Wed, 30 Oct 2024 00:00:00 GMT</pubDate>
+      <enclosure url="https://app.affine.pro/api/workspaces/qf73AF6vzWphbTJdN7KiX/blobs/N9f1q_Fj1hAVsbklVUAUCVt490CyQThT-e-BtcIHyl8=" type="image/png" />
+    </item>
     
     <item>
       <title>Top 12 One-Pager Examples and Templates</title>
