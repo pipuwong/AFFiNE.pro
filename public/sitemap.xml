@@ -38,6 +38,11 @@
         <priority>1.0</priority>
     </url>
     <url>
+        <loc>https://affine.pro/blog/5-best-free-daily-planner-apps-for-2023</loc>
+        <changefreq>daily</changefreq>
+        <priority>1.0</priority>
+    </url>
+    <url>
         <loc>https://affine.pro/blog/top-12-one-pager-examples-how-to-create-your-own</loc>
         <changefreq>daily</changefreq>
         <priority>1.0</priority>
@@ -224,11 +229,6 @@
     </url>
     <url>
         <loc>https://affine.pro/blog/top-8-concept-map-templates-examples</loc>
-        <changefreq>daily</changefreq>
-        <priority>1.0</priority>
-    </url>
-    <url>
-        <loc>https://affine.pro/blog/10-best-free-chore-chart-templates-kids-adults</loc>
         <changefreq>daily</changefreq>
         <priority>1.0</priority>
     </url>
