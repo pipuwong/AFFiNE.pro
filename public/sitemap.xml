@@ -168,6 +168,11 @@
         <priority>1.0</priority>
     </url>
     <url>
+        <loc>https://affine.pro/blog/power-personal-knowledge-management-pkm-tool-recommendations</loc>
+        <changefreq>daily</changefreq>
+        <priority>1.0</priority>
+    </url>
+    <url>
         <loc>https://affine.pro/blog/tips-where-and-how-contribute-open-source-projects</loc>
         <changefreq>daily</changefreq>
         <priority>1.0</priority>
@@ -674,11 +679,6 @@
     </url>
     <url>
         <loc>https://affine.pro/blog/best-free-social-media-scheduler-tools-to-empower-workflow</loc>
-        <changefreq>daily</changefreq>
-        <priority>1.0</priority>
-    </url>
-    <url>
-        <loc>https://affine.pro/blog/power-personal-knowledge-management-pkm-tool-recommendations</loc>
         <changefreq>daily</changefreq>
         <priority>1.0</priority>
     </url>
