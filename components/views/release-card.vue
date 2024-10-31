@@ -96,139 +96,157 @@
 </template>
 
 <script setup lang="ts">
-import { PATH } from '~/utils/constants'
-import { useMouseInElement, useDateFormat } from '@vueuse/core'
+import { PATH } from '~/utils/constants';
+import { useMouseInElement, useDateFormat } from '@vueuse/core';
 
-const el = ref(null)
-const isShowOtherVersionModal = ref(false)
-const isShowCanaryModal = ref(false)
-const { isOutside } = useMouseInElement(el, { handleOutside: false })
+const el = ref(null);
+const isShowOtherVersionModal = ref(false);
+const isShowCanaryModal = ref(false);
+const { isOutside } = useMouseInElement(el, { handleOutside: false });
 
 const props = defineProps<{
-  isLatest: boolean
-  isShowTitleGlow: boolean
-  title: string
-  desc: string
-  updateFrequency: string
-  icon: string
-  tips?: string
-  tag_name: string
-  prerelease: boolean
-  published_at: string
-  releases: Record<string, Release>
-  assets: Asset[]
-}>()
+  isLatest: boolean;
+  isShowTitleGlow: boolean;
+  title: string;
+  desc: string;
+  updateFrequency: string;
+  icon: string;
+  tips?: string;
+  tag_name: string;
+  prerelease: boolean;
+  published_at: string;
+  releases: Record<string, Release>;
+  assets: Asset[];
+}>();
 
 const Platform = {
   Mac: 'macOS',
   MacArm: 'Apple Silicon (Arm64)',
   Win: 'Windows',
-  Linux: 'Linux'
-}
+  Linux: 'Linux',
+};
 
-const mixpanel = useMixpanel()
-const $device = useDevice()
-const isObsolete = computed(() => !props.isLatest && !props.isShowTitleGlow)
-const publishDate = useDateFormat(new Date(props.published_at || Date.now()), 'MMM DD, YYYY')
-const hasAssets = computed(() => !isObsolete.value && !!props.tag_name && props.assets.length > 0)
-const isArm64 = ref(false)
-const isShowOtherVersion = ref(false)
+const mixpanel = useMixpanel();
+const gtm = useGtm();
 
-const isWinAsset = (asset: Asset) => asset.name.includes('windows')
-const isWinExeAsset = (asset: Asset) => isWinAsset(asset) && asset.name.endsWith('.exe')
-const isMacAsset = (asset: Asset) => asset.name.includes('macos')
-const isMacArmAsset = (asset: Asset) => isMacAsset(asset) && asset.name.includes('arm64')
-const isLinuxAsset = (asset: Asset) => asset.name.includes('linux')
+const $device = useDevice();
+const isObsolete = computed(() => !props.isLatest && !props.isShowTitleGlow);
+const publishDate = useDateFormat(
+  new Date(props.published_at || Date.now()),
+  'MMM DD, YYYY'
+);
+const hasAssets = computed(
+  () => !isObsolete.value && !!props.tag_name && props.assets.length > 0
+);
+const isArm64 = ref(false);
+const isShowOtherVersion = ref(false);
+
+const isWinAsset = (asset: Asset) => asset.name.includes('windows');
+const isWinExeAsset = (asset: Asset) =>
+  isWinAsset(asset) && asset.name.endsWith('.exe');
+const isMacAsset = (asset: Asset) => asset.name.includes('macos');
+const isMacArmAsset = (asset: Asset) =>
+  isMacAsset(asset) && asset.name.includes('arm64');
+const isLinuxAsset = (asset: Asset) => asset.name.includes('linux');
 
 const defaultAssetPlatformName = computed(() => {
-  const asset = defaultAsset.value
-  if (!asset) return
+  const asset = defaultAsset.value;
+  if (!asset) return;
 
-  if (isMacArmAsset(asset)) return Platform.MacArm
-  if (isMacAsset(asset)) return Platform.Mac
-  if (isWinAsset(asset)) return Platform.Win
-  if (isLinuxAsset(asset)) return Platform.Linux
-})
+  if (isMacArmAsset(asset)) return Platform.MacArm;
+  if (isMacAsset(asset)) return Platform.Mac;
+  if (isWinAsset(asset)) return Platform.Win;
+  if (isLinuxAsset(asset)) return Platform.Linux;
+});
 
 const defaultAsset = computed(() => {
-  let asset
-  const assets = props.assets || []
+  let asset;
+  const assets = props.assets || [];
 
   if ($device.isMobileOrTablet) {
-    asset = assets.find(el => isWinExeAsset(el))
+    asset = assets.find((el) => isWinExeAsset(el));
   } else if ($device.isMacOS) {
     asset = isArm64.value
-      ? assets.find(el => isMacArmAsset(el))
-      : assets.find(el => !isMacArmAsset(el) && isMacAsset(el))
+      ? assets.find((el) => isMacArmAsset(el))
+      : assets.find((el) => !isMacArmAsset(el) && isMacAsset(el));
   } else if ($device.isWindows) {
-    asset = assets.find(el => isWinExeAsset(el))
+    asset = assets.find((el) => isWinExeAsset(el));
   }
 
   if (!asset) {
-    asset = assets[0]
+    asset = assets[0];
   }
 
-  return asset
-})
+  return asset;
+});
 
 const assetsMap = computed(() => {
-  let mac: Asset[] = []
-  let windows: Asset[] = []
-  let linux: Asset[] = []
+  let mac: Asset[] = [];
+  let windows: Asset[] = [];
+  let linux: Asset[] = [];
 
-  props.assets.map(asset => {
+  props.assets.map((asset) => {
     if (isMacAsset(asset)) {
-      return mac.push(asset)
+      return mac.push(asset);
     }
     if (isWinAsset(asset)) {
-      return windows.push(asset)
+      return windows.push(asset);
     }
     if (isLinuxAsset(asset)) {
-      return linux.push(asset)
+      return linux.push(asset);
     }
-  })
+  });
 
-  mac = mac.filter(el => el.name !== defaultAsset.value.name)
-  windows = windows.filter(el => el.name !== defaultAsset.value.name)
-  linux = linux.filter(el => el.name !== defaultAsset.value.name)
+  mac = mac.filter((el) => el.name !== defaultAsset.value.name);
+  windows = windows.filter((el) => el.name !== defaultAsset.value.name);
+  linux = linux.filter((el) => el.name !== defaultAsset.value.name);
 
   return {
     mac,
     windows,
     linux,
-  }
-})
+  };
+});
 
 const handleDownloadClick = (asset: Asset, type?: string) => {
   if (type === 'Canary') {
-    isShowCanaryModal.value = true
-    return
+    isShowCanaryModal.value = true;
+    return;
   }
-  if (!asset) return
-  mixpanel.track('Button', { 'resolve': type })
-  var link = document.createElement('a')
-  link.download = asset.name
-  link.href = asset.url
-  link.click()
-}
+  if (!asset) return;
+  mixpanel.track('Button', { resolve: type });
+  gtm?.trackEvent({
+    action: 'download',
+    category: 'file',
+    label: `${asset.name}`,
+    value: asset.url,
+  });
+
+  var link = document.createElement('a');
+  link.download = asset.name;
+  link.href = asset.url;
+  link.click();
+};
 
 onBeforeMount(async () => {
   if ($device.isSafari) {
-    const w = document.createElement("canvas").getContext("webgl")
-    if (w && w.getSupportedExtensions()?.includes('WEBGL_compressed_texture_s3tc_srgb')) {
-      isArm64.value = true
+    const w = document.createElement('canvas').getContext('webgl');
+    if (
+      w &&
+      w.getSupportedExtensions()?.includes('WEBGL_compressed_texture_s3tc_srgb')
+    ) {
+      isArm64.value = true;
     }
-    return
+    return;
   }
 
-  const { architecture } = await navigator.userAgentData?.getHighEntropyValues(['architecture'])
-  if (
-    architecture?.includes('arm')
-  ) {
-    isArm64.value = true
+  const { architecture } = await navigator.userAgentData?.getHighEntropyValues([
+    'architecture',
+  ]);
+  if (architecture?.includes('arm')) {
+    isArm64.value = true;
   }
-})
-
+});
 </script>
 
 <style lang="stylus">
