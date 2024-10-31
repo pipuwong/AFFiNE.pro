@@ -1713,6 +1713,11 @@
         <priority>1.0</priority>
     </url>
     <url>
+        <loc>https://affine.pro/blog/weekend-planner</loc>
+        <changefreq>daily</changefreq>
+        <priority>1.0</priority>
+    </url>
+    <url>
         <loc>https://affine.pro/templates/2024-digital-planner</loc>
         <changefreq>daily</changefreq>
         <priority>1.0</priority>
