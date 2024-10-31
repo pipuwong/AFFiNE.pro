@@ -39,39 +39,40 @@
 </template>
 
 <script setup lang="ts">
-import { useResizeObserver } from '@vueuse/core'
-import { PATH } from '~/utils/constants'
+import { useResizeObserver } from '@vueuse/core';
+import { PATH } from '~/utils/constants';
 
-type IssueType = 'open' | 'closed'
+type IssueType = 'open' | 'closed';
 
-const store = useStore()
+const store = useStore();
 
-const isLoading = ref(true)
-const isError = ref(false)
-const issueList = ref(null)
-const openedIssues = ref([])
-const closedIssues = ref([])
-const maxIssueLength = ref(3)
-const currentTab = ref<IssueType>('open')
+const isLoading = ref(true);
+const isError = ref(false);
+const issueList = ref(null);
+const openedIssues = ref([]);
+const closedIssues = ref([]);
+const maxIssueLength = ref(3);
+const currentTab = ref<IssueType>('open');
 
 const finalIssues = computed(() => {
-  const issues = currentTab.value === 'open' ? openedIssues.value : closedIssues.value
-  return issues.slice(0, maxIssueLength.value)
-})
+  const issues =
+    currentTab.value === 'open' ? openedIssues.value : closedIssues.value;
+  return issues.slice(0, maxIssueLength.value);
+});
 
 const loadData = async () => {
   try {
-    isLoading.value = true
-    const res = await fetch(`${CONFIG.API_HOST}/api/status`)
-    const data = await res.json() 
-    openedIssues.value = data.opened_issues
-    closedIssues.value = data.closed_issues
-    store.github.starAmount = data.stargazers_count
-  } catch(error) {
-    isError.value = true
+    isLoading.value = true;
+    const res = await fetch(`${CONFIG.API_HOST}/api/worker/issues`);
+    const data = await res.json();
+    openedIssues.value = data.opened_issues;
+    closedIssues.value = data.closed_issues;
+    store.github.starAmount = data.stargazers_count;
+  } catch (error) {
+    isError.value = true;
   }
-  isLoading.value = false
-}
+  isLoading.value = false;
+};
 
 // Setup dynamic issues amount
 useResizeObserver(issueList, (entries) => {
@@ -81,12 +82,11 @@ useResizeObserver(issueList, (entries) => {
   // const itemHeight = $item?.getBoundingClientRect().height || 1
   // const count = Math.round(height / itemHeight)
   // maxIssueLength.value = Math.min(8, count)
-})
+});
 
 onMounted(() => {
-  loadData()
-})
-
+  loadData();
+});
 </script>
 
 <style lang="stylus">
@@ -165,5 +165,4 @@ onMounted(() => {
 
     @media $mediaInXS
       overflow: hidden
-
 </style>
