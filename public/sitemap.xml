@@ -1773,6 +1773,11 @@
         <priority>1.0</priority>
     </url>
     <url>
+        <loc>https://affine.pro/templates/chore-chart-roommate-checklist</loc>
+        <changefreq>daily</changefreq>
+        <priority>1.0</priority>
+    </url>
+    <url>
         <loc>https://affine.pro/templates/college-planner</loc>
         <changefreq>daily</changefreq>
         <priority>1.0</priority>
@@ -1904,6 +1909,11 @@
     </url>
     <url>
         <loc>https://affine.pro/templates/pregnancy-planner</loc>
+        <changefreq>daily</changefreq>
+        <priority>1.0</priority>
+    </url>
+    <url>
+        <loc>https://affine.pro/templates/printable-chore-chart</loc>
         <changefreq>daily</changefreq>
         <priority>1.0</priority>
     </url>
