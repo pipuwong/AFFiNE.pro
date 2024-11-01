@@ -17,6 +17,11 @@ concurrency:
   group: blog-sync
   cancel-in-progress: false  # Queue instead of canceling
 
+env:
+  R2_ACCOUNT_ID: ${{ secrets.R2_ACCOUNT_ID }}
+  R2_ACCESS_KEY_ID: ${{ secrets.R2_ACCESS_KEY_ID }}
+  R2_SECRET_ACCESS_KEY: ${{ secrets.R2_SECRET_ACCESS_KEY }}
+
 jobs:
   sync-blog:
     runs-on: ubuntu-latest
@@ -29,11 +34,20 @@ jobs:
       - run: yarn install
         working-directory: ./generation
       - name: "Run sync command"
+        id: sync-command
         working-directory: ./generation
-        env:
-          R2_ACCOUNT_ID: ${{ secrets.R2_ACCOUNT_ID }}
-          R2_ACCESS_KEY_ID: ${{ secrets.R2_ACCESS_KEY_ID }}
-          R2_SECRET_ACCESS_KEY: ${{ secrets.R2_SECRET_ACCESS_KEY }}
+        run: yarn gen:all
+        continue-on-error: true
+      - name: "Run sync command again if failed (#2)"
+        id: sync-command-again
+        if: steps.sync-command.outcome == 'failure'
+        working-directory: ./generation
+        run: yarn gen:all
+        continue-on-error: true
+      - name: "Run sync command again if failed (#3)"
+        id: sync-command-again-2
+        if: steps.sync-command-again.outcome == 'failure'
+        working-directory: ./generation
         run: yarn gen:all
       - name: "Commit sync contents"
         uses: stefanzweifel/git-auto-commit-action@v4
