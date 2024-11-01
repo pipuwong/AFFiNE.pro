@@ -1748,6 +1748,11 @@
         <priority>1.0</priority>
     </url>
     <url>
+        <loc>https://affine.pro/templates/assignment-tracker</loc>
+        <changefreq>daily</changefreq>
+        <priority>1.0</priority>
+    </url>
+    <url>
         <loc>https://affine.pro/templates/best-academic-planner</loc>
         <changefreq>daily</changefreq>
         <priority>1.0</priority>
@@ -2033,6 +2038,11 @@
         <priority>1.0</priority>
     </url>
     <url>
+        <loc>https://affine.pro/templates/category-checklist-template</loc>
+        <changefreq>daily</changefreq>
+        <priority>1.0</priority>
+    </url>
+    <url>
         <loc>https://affine.pro/templates/category-digital-planner</loc>
         <changefreq>daily</changefreq>
         <priority>1.0</priority>
@@ -2054,11 +2064,6 @@
     </url>
     <url>
         <loc>https://affine.pro/templates/category-storyboard-template</loc>
-        <changefreq>daily</changefreq>
-        <priority>1.0</priority>
-    </url>
-    <url>
-        <loc>https://affine.pro/templates/category-checklist-template</loc>
         <changefreq>daily</changefreq>
         <priority>1.0</priority>
     </url>
