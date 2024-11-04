@@ -458,6 +458,11 @@
         <priority>1.0</priority>
     </url>
     <url>
+        <loc>https://affine.pro/blog/top-10-time-blocking-templates</loc>
+        <changefreq>daily</changefreq>
+        <priority>1.0</priority>
+    </url>
+    <url>
         <loc>https://affine.pro/blog/resource-allocation-guide-peak-efficiency</loc>
         <changefreq>daily</changefreq>
         <priority>1.0</priority>
@@ -1609,6 +1614,11 @@
     </url>
     <url>
         <loc>https://affine.pro/blog/best-app-for-student-knowledge-sharing</loc>
+        <changefreq>daily</changefreq>
+        <priority>1.0</priority>
+    </url>
+    <url>
+        <loc>https://affine.pro/blog/best-apps-for-drawing-and-writing-notes</loc>
         <changefreq>daily</changefreq>
         <priority>1.0</priority>
     </url>
