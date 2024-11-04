@@ -458,11 +458,6 @@
         <priority>1.0</priority>
     </url>
     <url>
-        <loc>https://affine.pro/blog/top-10-time-blocking-templates</loc>
-        <changefreq>daily</changefreq>
-        <priority>1.0</priority>
-    </url>
-    <url>
         <loc>https://affine.pro/blog/resource-allocation-guide-peak-efficiency</loc>
         <changefreq>daily</changefreq>
         <priority>1.0</priority>
@@ -1578,6 +1573,11 @@
         <priority>1.0</priority>
     </url>
     <url>
+        <loc>https://affine.pro/blog/academic-planners</loc>
+        <changefreq>daily</changefreq>
+        <priority>1.0</priority>
+    </url>
+    <url>
         <loc>https://affine.pro/blog/ai-notes-visual</loc>
         <changefreq>daily</changefreq>
         <priority>1.0</priority>
@@ -1908,6 +1908,11 @@
         <priority>1.0</priority>
     </url>
     <url>
+        <loc>https://affine.pro/templates/planner-2024</loc>
+        <changefreq>daily</changefreq>
+        <priority>1.0</priority>
+    </url>
+    <url>
         <loc>https://affine.pro/templates/planner-for-day</loc>
         <changefreq>daily</changefreq>
         <priority>1.0</priority>
@@ -2043,12 +2048,12 @@
         <priority>1.0</priority>
     </url>
     <url>
-        <loc>https://affine.pro/templates/category-checklist-template</loc>
+        <loc>https://affine.pro/templates/category-digital-planner</loc>
         <changefreq>daily</changefreq>
         <priority>1.0</priority>
     </url>
     <url>
-        <loc>https://affine.pro/templates/category-digital-planner</loc>
+        <loc>https://affine.pro/templates/category-checklist-template</loc>
         <changefreq>daily</changefreq>
         <priority>1.0</priority>
     </url>
