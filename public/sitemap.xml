@@ -33,6 +33,16 @@
         <priority>0.8</priority>
     </url>
     <url>
+        <loc>https://affine.pro/blog/how-to-make-work-plan-step-by-step-guide</loc>
+        <changefreq>daily</changefreq>
+        <priority>1.0</priority>
+    </url>
+    <url>
+        <loc>https://affine.pro/blog/top-8-proven-brainstorming-techniques-creativity</loc>
+        <changefreq>daily</changefreq>
+        <priority>1.0</priority>
+    </url>
+    <url>
         <loc>https://affine.pro/blog/whats-new-affine-sep</loc>
         <changefreq>daily</changefreq>
         <priority>1.0</priority>
@@ -229,11 +239,6 @@
     </url>
     <url>
         <loc>https://affine.pro/blog/top-5-free-practical-time-management-templates</loc>
-        <changefreq>daily</changefreq>
-        <priority>1.0</priority>
-    </url>
-    <url>
-        <loc>https://affine.pro/blog/top-5-mind-maps-examples-and-tools</loc>
         <changefreq>daily</changefreq>
         <priority>1.0</priority>
     </url>
@@ -749,16 +754,6 @@
     </url>
     <url>
         <loc>https://affine.pro/blog/how-to-create-a-project-timeline-template-in-excel-step-by-step-guide</loc>
-        <changefreq>daily</changefreq>
-        <priority>1.0</priority>
-    </url>
-    <url>
-        <loc>https://affine.pro/blog/how-to-make-work-plan-step-by-step-guide</loc>
-        <changefreq>daily</changefreq>
-        <priority>1.0</priority>
-    </url>
-    <url>
-        <loc>https://affine.pro/blog/top-8-proven-brainstorming-techniques-creativity</loc>
         <changefreq>daily</changefreq>
         <priority>1.0</priority>
     </url>
