@@ -32,23 +32,25 @@ export default defineNuxtConfig({
   },
 
   nitro: {
-    routeRules: process.env.NODE_ENV === 'production' ? {
-      '/': { prerender: true },
-      '/ai': { prerender: true },
-      '/templates': { prerender: true },
-      '/templates/**': { prerender: true },
-      '/blog': { prerender: true },
-      '/blog/**': { prerender: true },
-      }
-      : {
-        '/': { prerender: true },
-        '/ai': { prerender: true },
-        '/templates': { prerender: true },
-        '/templates/**': { prerender: true },
-        '/blog': { prerender: true },
-        '/blog/**': { prerender: false },
-        '/api/worker/**': { proxy: 'https://affine.pro/api/worker/**' }
-      },
+    routeRules:
+      process.env.NODE_ENV === 'production'
+        ? {
+            '/': { prerender: true },
+            '/ai': { prerender: true },
+            '/templates': { prerender: true },
+            '/templates/**': { prerender: true },
+            '/blog': { prerender: true },
+            '/blog/**': { prerender: true },
+          }
+        : {
+            '/': { prerender: true },
+            '/ai': { prerender: true },
+            '/templates': { prerender: true },
+            '/templates/**': { prerender: true },
+            '/blog': { prerender: true },
+            '/blog/**': { prerender: false },
+            '/api/worker/**': { proxy: 'https://affine.pro/api/worker/**' },
+          },
 
     prerender: {
       autoSubfolderIndex: false,
@@ -93,6 +95,10 @@ export default defineNuxtConfig({
             'The universal editor that lets you work, play, present or create just about anything.',
         },
         { name: 'saashub-verification', content: 'koz5tiouhxbt' },
+        {
+          name: 'p:domain_verify',
+          content: 'cb092fed886f634e985734cdf09fcb2f',
+        },
       ],
       link: [
         { rel: 'icon', type: 'image/x-icon', href: '/favicon-96.png' },
