@@ -1953,6 +1953,11 @@
         <priority>1.0</priority>
     </url>
     <url>
+        <loc>https://affine.pro/templates/printable-template-to-track-hitting-lessons%E2%80%8B</loc>
+        <changefreq>daily</changefreq>
+        <priority>1.0</priority>
+    </url>
+    <url>
         <loc>https://affine.pro/templates/reading-log</loc>
         <changefreq>daily</changefreq>
         <priority>1.0</priority>
@@ -2068,12 +2073,12 @@
         <priority>1.0</priority>
     </url>
     <url>
-        <loc>https://affine.pro/templates/category-digital-planner</loc>
+        <loc>https://affine.pro/templates/category-checklist-template</loc>
         <changefreq>daily</changefreq>
         <priority>1.0</priority>
     </url>
     <url>
-        <loc>https://affine.pro/templates/category-checklist-template</loc>
+        <loc>https://affine.pro/templates/category-digital-planner</loc>
         <changefreq>daily</changefreq>
         <priority>1.0</priority>
     </url>
