@@ -33,12 +33,22 @@
         <priority>0.8</priority>
     </url>
     <url>
+        <loc>https://affine.pro/blog/how-to-build-go-to-market-strategy-free-templates</loc>
+        <changefreq>daily</changefreq>
+        <priority>1.0</priority>
+    </url>
+    <url>
         <loc>https://affine.pro/blog/how-to-make-work-plan-step-by-step-guide</loc>
         <changefreq>daily</changefreq>
         <priority>1.0</priority>
     </url>
     <url>
         <loc>https://affine.pro/blog/top-8-proven-brainstorming-techniques-creativity</loc>
+        <changefreq>daily</changefreq>
+        <priority>1.0</priority>
+    </url>
+    <url>
+        <loc>https://affine.pro/blog/14-best-free-content-planning-apps-price-features</loc>
         <changefreq>daily</changefreq>
         <priority>1.0</priority>
     </url>
@@ -54,6 +64,11 @@
     </url>
     <url>
         <loc>https://affine.pro/blog/10-best-free-performance-review-templates-examples-2023</loc>
+        <changefreq>daily</changefreq>
+        <priority>1.0</priority>
+    </url>
+    <url>
+        <loc>https://affine.pro/blog/top-10-best-process-mapping-tools-software-2023-free-paid</loc>
         <changefreq>daily</changefreq>
         <priority>1.0</priority>
     </url>
@@ -778,22 +793,12 @@
         <priority>1.0</priority>
     </url>
     <url>
-        <loc>https://affine.pro/blog/how-to-build-go-to-market-strategy-free-templates</loc>
-        <changefreq>daily</changefreq>
-        <priority>1.0</priority>
-    </url>
-    <url>
         <loc>https://affine.pro/blog/10-best-Memorizing-techniques-tools-upgrade-your-memory</loc>
         <changefreq>daily</changefreq>
         <priority>1.0</priority>
     </url>
     <url>
         <loc>https://affine.pro/blog/10-best-free-online-sticky-notes-free-software-tools</loc>
-        <changefreq>daily</changefreq>
-        <priority>1.0</priority>
-    </url>
-    <url>
-        <loc>https://affine.pro/blog/14-best-free-content-planning-apps-price-features</loc>
         <changefreq>daily</changefreq>
         <priority>1.0</priority>
     </url>
@@ -909,11 +914,6 @@
     </url>
     <url>
         <loc>https://affine.pro/blog/top-10-best-agile-project-scheduling-software-2023</loc>
-        <changefreq>daily</changefreq>
-        <priority>1.0</priority>
-    </url>
-    <url>
-        <loc>https://affine.pro/blog/top-10-best-process-mapping-tools-software-2023-free-paid</loc>
         <changefreq>daily</changefreq>
         <priority>1.0</priority>
     </url>
