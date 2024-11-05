@@ -2028,6 +2028,11 @@
         <priority>1.0</priority>
     </url>
     <url>
+        <loc>https://affine.pro/templates/topps-finest-baseball-checklist</loc>
+        <changefreq>daily</changefreq>
+        <priority>1.0</priority>
+    </url>
+    <url>
         <loc>https://affine.pro/templates/travel-checklist-packing%E2%80%8B</loc>
         <changefreq>daily</changefreq>
         <priority>1.0</priority>
