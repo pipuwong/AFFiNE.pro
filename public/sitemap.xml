@@ -1768,6 +1768,11 @@
         <priority>1.0</priority>
     </url>
     <url>
+        <loc>https://affine.pro/templates/aws-environment-assessment-checklist</loc>
+        <changefreq>daily</changefreq>
+        <priority>1.0</priority>
+    </url>
+    <url>
         <loc>https://affine.pro/templates/best-academic-planner</loc>
         <changefreq>daily</changefreq>
         <priority>1.0</priority>
@@ -1999,6 +2004,16 @@
     </url>
     <url>
         <loc>https://affine.pro/templates/teacher-planner</loc>
+        <changefreq>daily</changefreq>
+        <priority>1.0</priority>
+    </url>
+    <url>
+        <loc>https://affine.pro/templates/template-to-track-hitting-lessons</loc>
+        <changefreq>daily</changefreq>
+        <priority>1.0</priority>
+    </url>
+    <url>
+        <loc>https://affine.pro/templates/travel-checklist-packing%E2%80%8B</loc>
         <changefreq>daily</changefreq>
         <priority>1.0</priority>
     </url>
