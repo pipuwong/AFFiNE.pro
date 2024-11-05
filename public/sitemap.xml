@@ -1763,6 +1763,11 @@
         <priority>1.0</priority>
     </url>
     <url>
+        <loc>https://affine.pro/templates/army-career-tracker</loc>
+        <changefreq>daily</changefreq>
+        <priority>1.0</priority>
+    </url>
+    <url>
         <loc>https://affine.pro/templates/assignment-tracker</loc>
         <changefreq>daily</changefreq>
         <priority>1.0</priority>
@@ -1929,6 +1934,11 @@
     </url>
     <url>
         <loc>https://affine.pro/templates/one-pager-template</loc>
+        <changefreq>daily</changefreq>
+        <priority>1.0</priority>
+    </url>
+    <url>
+        <loc>https://affine.pro/templates/password-tracker-template</loc>
         <changefreq>daily</changefreq>
         <priority>1.0</priority>
     </url>
