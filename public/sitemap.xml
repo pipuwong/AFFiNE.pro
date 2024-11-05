@@ -1873,6 +1873,11 @@
         <priority>1.0</priority>
     </url>
     <url>
+        <loc>https://affine.pro/templates/habit-tracker-printable%E2%80%8B</loc>
+        <changefreq>daily</changefreq>
+        <priority>1.0</priority>
+    </url>
+    <url>
         <loc>https://affine.pro/templates/high-note-collection-planners</loc>
         <changefreq>daily</changefreq>
         <priority>1.0</priority>
