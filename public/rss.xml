@@ -5,9 +5,27 @@
     <description>All In One KnowledgeOS</description>
     <link>https://affine.pro</link>
     <atom:link href="https://affine.pro/rss.xml" rel="self" type="application/rss+xml" />
-    <lastBuildDate>Wed, 06 Nov 2024 10:31:22 GMT</lastBuildDate>
-    <pubDate>Wed, 06 Nov 2024 10:31:22 GMT</pubDate>
+    <lastBuildDate>Wed, 06 Nov 2024 11:24:11 GMT</lastBuildDate>
+    <pubDate>Wed, 06 Nov 2024 11:24:11 GMT</pubDate>
     <ttl>60</ttl>
+    
+    <item>
+      <title>Elevate Your Planning Experience with High Note Collection Planners: A Comprehensive Guide</title>
+      <description><![CDATA[Discover how High Note Collection Planners blend art and function to boost productivity, plus explore Affine's modern digital alternatives.]]></description>
+      <link>https://affine.pro/blog/high-note-collection-planner</link>
+      <guid isPermaLink="true">https://affine.pro/blog/high-note-collection-planner</guid>
+      <pubDate>Wed, 06 Nov 2024 00:00:00 GMT</pubDate>
+      <enclosure url="https://app.affine.pro/api/workspaces/qf73AF6vzWphbTJdN7KiX/blobs/hLLYogbs-4IxKxOvFVM_B12MLP00g9OAwCNFNKlJ97A=" type="image/png" />
+    </item>
+    
+    <item>
+      <title>Top Work Planners for 2024: Enhance Productivity and Organization </title>
+      <description><![CDATA[Discover top work planners of 2024 to boost productivity and organization, featuring digital and paper options for every professional need.]]></description>
+      <link>https://affine.pro/blog/work-planners</link>
+      <guid isPermaLink="true">https://affine.pro/blog/work-planners</guid>
+      <pubDate>Wed, 06 Nov 2024 00:00:00 GMT</pubDate>
+      <enclosure url="https://app.affine.pro/api/workspaces/qf73AF6vzWphbTJdN7KiX/blobs/4KLTJLUM61ROb46yzwv1l6RUS4YBKbRT7VlObGm-1hA=" type="image/png" />
+    </item>
     
     <item>
       <title>How to Build a Go-to-Market (GTM) Strategy (with Free Templates)</title>
