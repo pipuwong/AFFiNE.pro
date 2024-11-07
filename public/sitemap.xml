@@ -2078,6 +2078,11 @@
         <priority>1.0</priority>
     </url>
     <url>
+        <loc>https://affine.pro/templates/template-for-sharing-trip-expenses</loc>
+        <changefreq>daily</changefreq>
+        <priority>1.0</priority>
+    </url>
+    <url>
         <loc>https://affine.pro/templates/template-to-track-hitting-lessons</loc>
         <changefreq>daily</changefreq>
         <priority>1.0</priority>
@@ -2188,6 +2193,11 @@
         <priority>1.0</priority>
     </url>
     <url>
+        <loc>https://affine.pro/templates/category-free-travel-itinerary-template</loc>
+        <changefreq>daily</changefreq>
+        <priority>1.0</priority>
+    </url>
+    <url>
         <loc>https://affine.pro/templates/category-academic-cv-template</loc>
         <changefreq>daily</changefreq>
         <priority>1.0</priority>
@@ -2199,11 +2209,6 @@
     </url>
     <url>
         <loc>https://affine.pro/templates/category-storyboard-template</loc>
-        <changefreq>daily</changefreq>
-        <priority>1.0</priority>
-    </url>
-    <url>
-        <loc>https://affine.pro/templates/category-free-travel-itinerary-template</loc>
         <changefreq>daily</changefreq>
         <priority>1.0</priority>
     </url>
