@@ -56,8 +56,12 @@ async function crawlChangelogs() {
 }
 
 async function main() {
+  console.log('Sync Changelog Start');
+
   await clean();
   await crawlChangelogs();
+
+  console.log('Sync Changelog Done');
 }
 
 main();

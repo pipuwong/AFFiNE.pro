@@ -1,9 +1,3 @@
-const ALLOW_ORIGINS = new Set([
-  'https://affine.pro',
-  'https://insider.affine.pro',
-  'https://affine.fail',
-]);
-
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
   runtimeConfig: {
@@ -15,20 +9,10 @@ export default defineNuxtConfig({
   },
 
   security: {
-    corsHandler: {
-      origin: (origin: string) => ALLOW_ORIGINS.has(origin),
-      methods: ['GET', 'HEAD', 'OPTIONS'],
-      allowHeaders: '*',
-      exposeHeaders: '*',
-    },
     headers: {
       contentSecurityPolicy: false,
       crossOriginEmbedderPolicy: false,
     },
-  },
-
-  devServer: {
-    host: '0.0.0.0',
   },
 
   nitro: {
@@ -149,7 +133,6 @@ export default defineNuxtConfig({
   },
 
   experimental: {
-    inlineSSRStyles: false,
     payloadExtraction: true,
   },
 

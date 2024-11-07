@@ -7,7 +7,13 @@
     "dev": "nuxt dev --port 3001",
     "generate": "nuxt generate",
     "preview": "nuxt preview",
-    "postinstall": "nuxt prepare"
+    "postinstall": "nuxt prepare",
+    "sync-blog": "tsx generation/sync-blog.ts",
+    "sync-changelog": "tsx generation/sync-changelog.ts",
+    "sync-template": "tsx generation/sync-template.ts",
+    "gen-rss": "tsx generation/gen-rss.ts",
+    "gen-sitemap": "tsx generation/gen-sitemap.ts",
+    "gen:all": "yarn sync-blog && yarn sync-changelog && yarn sync-template && yarn gen-rss && yarn gen-sitemap"
   },
   "type": "module",
   "dependencies": {
@@ -33,6 +39,7 @@
     "vue3-marquee-slider": "^1.0.5"
   },
   "devDependencies": {
+    "@aws-sdk/client-s3": "^3.669.0",
     "@element-plus/nuxt": "^1.0.3",
     "@iconify/json": "^2.2.19",
     "@nuxt/content": "^2.13.4",
@@ -41,15 +48,20 @@
     "@nuxtjs/i18n": "^8.0.0-rc.5",
     "@pinia/nuxt": "^0.5.5",
     "@tweakpane/core": "^1.1.6",
+    "@types/fs-extra": "^11.0.4",
     "@types/gulp": "^4.0.13",
+    "@types/json-stable-stringify": "^1.0.36",
     "@types/matter-js": "^0.19.0",
     "@types/node": "^18.13.0",
     "@types/semver": "^7.3.13",
     "@unocss/extractor-pug": "^0.49.4",
     "@unocss/nuxt": "^0.49.4",
     "@zadigetvoltaire/nuxt-gtm": "^0.0.13",
+    "affine-reader": "^3.3.0",
+    "fs-extra": "^11.2.0",
+    "json-stable-stringify": "^1.1.1",
     "lodash": "^4.17.21",
-    "unstorage": "^1.12.0",
+    "mime-types": "^2.1.35",
     "nuxt": "^3.13.2",
     "nuxt-icons": "^3.1.0",
     "nuxt-mixpanel": "^1.0.0",
@@ -62,16 +74,20 @@
     "remark-gfm": "^3.0.1",
     "remark-parse": "^10.0.1",
     "remark-rehype": "^10.1.0",
+    "sitemap": "^8.0.0",
     "stylus": "^0.59.0",
+    "tsx": "^4.19.0",
     "typescript": "^5.1.6",
     "unified": "^10.1.2",
     "unist-util-visit": "^4.1.2",
     "unplugin-auto-import": "^0.14.2",
     "unplugin-icons": "^0.15.2",
-    "unplugin-vue-components": "^0.23.0"
+    "unplugin-vue-components": "^0.23.0",
+    "unstorage": "^1.12.0",
+    "xml-formatter": "^3.6.3"
   },
   "resolutions": {
     "string-width": "4.2.3"
   },
-  "packageManager": "yarn@1.22.19"
+  "packageManager": "yarn@4.5.1"
 }

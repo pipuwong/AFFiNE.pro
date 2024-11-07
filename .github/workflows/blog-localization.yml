@@ -32,22 +32,28 @@ jobs:
           node-version: "20"
           cache: "yarn"
       - run: yarn install
-        working-directory: ./generation
       - name: "Run sync command"
         id: sync-command
-        working-directory: ./generation
         run: yarn gen:all
         continue-on-error: true
       - name: "Run sync command again if failed (#2)"
         id: sync-command-again
         if: steps.sync-command.outcome == 'failure'
-        working-directory: ./generation
         run: yarn gen:all
         continue-on-error: true
       - name: "Run sync command again if failed (#3)"
         id: sync-command-again-2
         if: steps.sync-command-again.outcome == 'failure'
-        working-directory: ./generation
+        run: yarn gen:all
+        continue-on-error: true
+      - name: "Run sync command again if failed (#4)"
+        id: sync-command-again-3
+        if: steps.sync-command-again-2.outcome == 'failure'
+        run: yarn gen:all
+        continue-on-error: true
+      - name: "Run sync command again if failed (#5)"
+        id: sync-command-again-4
+        if: steps.sync-command-again-3.outcome == 'failure'
         run: yarn gen:all
       - name: "Commit sync contents"
         uses: stefanzweifel/git-auto-commit-action@v4

@@ -53,8 +53,12 @@ async function crawlBlogs() {
 }
 
 async function main() {
+  console.log('Sync Blog Start');
+
   await clean();
   await crawlBlogs();
+
+  console.log('Sync Blog Done');
 }
 
 main();

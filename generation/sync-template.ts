@@ -3,6 +3,8 @@ import fs from "fs-extra";
 import stringify from "json-stable-stringify";
 import path from "node:path";
 
+import { createHash } from 'node:crypto';
+
 import { PutObjectCommand, S3Client } from "@aws-sdk/client-s3";
 
 import { rootDir } from "./utils";
@@ -70,9 +72,17 @@ async function crawlTemplates() {
       delete template.parsedBlocks;
       delete template.linkedPages;
 
+      const zip = await reader.getDocSnapshot(template.templateId);
+      if (!zip) {
+        console.log(`no snapshot for ${template.templateId}`);
+        continue;
+      }
+      const buffer = Buffer.from(await zip.arrayBuffer());
+
       const featured = index === 0;
 
-      const snapshotUrl = `https://cdn.affine.pro/${R2_PREFIX}/${template.templateId}.zip`;
+      const hash = createHash('sha256').update(buffer).digest('hex').slice(0, 8);
+      const snapshotUrl = `https://cdn.affine.pro/${R2_PREFIX}/${template.templateId}.${hash}.zip`;
 
       const params = new URLSearchParams({
         workspaceId: reader.workspaceId,
@@ -93,14 +103,10 @@ async function crawlTemplates() {
         useTemplateUrl: `https://app.affine.pro/template/import?${params.toString()}`,
         previewUrl: `https://app.affine.pro/template/preview?${params.toString()}`,
       };
-      const zip = await reader.getDocSnapshot(template.templateId);
-      if (!zip) {
-        console.log(`no snapshot for ${template.templateId}`);
-        continue;
-      }
-      const buffer = Buffer.from(await zip.arrayBuffer());
-      console.log(`uploading ${template.templateId} to ${R2_BUCKET}`);
-      await uploadTemplateSnapshot(template.templateId, buffer);
+
+      console.log(`uploading ${template.templateId}.${hash} to ${R2_BUCKET}`);
+
+      await uploadTemplateSnapshot(`${template.templateId}.${hash}`, buffer);
       await fs.writeFile(
         path.join(rootDir, "content", "templates", `${template.slug}.json`),
         stringify(t, { space: "  " })
@@ -111,9 +117,10 @@ async function crawlTemplates() {
 }
 
 async function main() {
+  console.log('Sync Template Start');
   await clean();
   await crawlTemplates();
-  console.log("done");
+  console.log('Sync Template Done');
   process.exit(0);
 }
 

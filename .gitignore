@@ -11,3 +11,10 @@ node_modules
 .DS_Store
 # Generate
 dist
+.pnp.*
+.yarn/*
+!.yarn/patches
+!.yarn/plugins
+!.yarn/releases
+!.yarn/sdks
+.yarn/versions
