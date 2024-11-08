@@ -188,7 +188,17 @@
         <priority>1.0</priority>
     </url>
     <url>
+        <loc>https://affine.pro/blog/launch-day-4-navigating-canvas-complexity-templates-clarity-free-online-whiteboard</loc>
+        <changefreq>daily</changefreq>
+        <priority>1.0</priority>
+    </url>
+    <url>
         <loc>https://affine.pro/blog/note-taking-ai-from-rough-notes-to-mind-map</loc>
+        <changefreq>daily</changefreq>
+        <priority>1.0</priority>
+    </url>
+    <url>
+        <loc>https://affine.pro/blog/ai-image-generator</loc>
         <changefreq>daily</changefreq>
         <priority>1.0</priority>
     </url>
@@ -353,7 +363,7 @@
         <priority>1.0</priority>
     </url>
     <url>
-        <loc>https://affine.pro/blog/open-source-notion-alternatives</loc>
+        <loc>https://affine.pro/blog/the-open-source-notion-alternatives</loc>
         <changefreq>daily</changefreq>
         <priority>1.0</priority>
     </url>
@@ -399,6 +409,11 @@
     </url>
     <url>
         <loc>https://affine.pro/blog/best-ai-tools-social-media-management</loc>
+        <changefreq>daily</changefreq>
+        <priority>1.0</priority>
+    </url>
+    <url>
+        <loc>https://affine.pro/blog/best-5-free-digital-planner-apps</loc>
         <changefreq>daily</changefreq>
         <priority>1.0</priority>
     </url>
@@ -489,6 +504,11 @@
     </url>
     <url>
         <loc>https://affine.pro/blog/best-evernote-alternatives-and-competitors-for-note-taking</loc>
+        <changefreq>daily</changefreq>
+        <priority>1.0</priority>
+    </url>
+    <url>
+        <loc>https://affine.pro/blog/best-open-source-notion-alternatives</loc>
         <changefreq>daily</changefreq>
         <priority>1.0</priority>
     </url>
@@ -713,11 +733,6 @@
         <priority>1.0</priority>
     </url>
     <url>
-        <loc>https://affine.pro/blog/best-open-source-notion-alternatives</loc>
-        <changefreq>daily</changefreq>
-        <priority>1.0</priority>
-    </url>
-    <url>
         <loc>https://affine.pro/blog/how-to-create-timeline-template-google-docs-step-by-step-guide</loc>
         <changefreq>daily</changefreq>
         <priority>1.0</priority>
@@ -834,6 +849,11 @@
     </url>
     <url>
         <loc>https://affine.pro/blog/best-time-management-tools-techniques-create</loc>
+        <changefreq>daily</changefreq>
+        <priority>1.0</priority>
+    </url>
+    <url>
+        <loc>https://affine.pro/blog/go-to-market-strategy-free-templates</loc>
         <changefreq>daily</changefreq>
         <priority>1.0</priority>
     </url>
@@ -1084,11 +1104,6 @@
     </url>
     <url>
         <loc>https://affine.pro/blog/affine-0-10-0-launch-week-day-1-lightening-up-visual-experience</loc>
-        <changefreq>daily</changefreq>
-        <priority>1.0</priority>
-    </url>
-    <url>
-        <loc>https://affine.pro/blog/best-5-free-digital-planner-apps-2023</loc>
         <changefreq>daily</changefreq>
         <priority>1.0</priority>
     </url>
@@ -1633,6 +1648,11 @@
         <priority>1.0</priority>
     </url>
     <url>
+        <loc>https://affine.pro/blog/assignment-tracker-template</loc>
+        <changefreq>daily</changefreq>
+        <priority>1.0</priority>
+    </url>
+    <url>
         <loc>https://affine.pro/blog/assignment-tracker</loc>
         <changefreq>daily</changefreq>
         <priority>1.0</priority>
@@ -1729,6 +1749,11 @@
     </url>
     <url>
         <loc>https://affine.pro/blog/sample-lesson-plan-math-template</loc>
+        <changefreq>daily</changefreq>
+        <priority>1.0</priority>
+    </url>
+    <url>
+        <loc>https://affine.pro/blog/shared-knowledge-app</loc>
         <changefreq>daily</changefreq>
         <priority>1.0</priority>
     </url>
