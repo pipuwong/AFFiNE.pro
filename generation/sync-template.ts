@@ -83,7 +83,7 @@ async function crawlTemplates() {
       const featured = index === 0;
 
       const hash = createHash("sha256")
-        .update(buffer)
+        .update(template.updated?.toString() || "")
         .digest("hex")
         .slice(0, 8);
       const snapshotUrl = `https://cdn.affine.pro/${R2_PREFIX}/${template.templateId}.${hash}.zip`;
