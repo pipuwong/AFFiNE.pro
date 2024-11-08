@@ -5,8 +5,8 @@
     <description>All In One KnowledgeOS</description>
     <link>https://affine.pro</link>
     <atom:link href="https://affine.pro/rss.xml" rel="self" type="application/rss+xml" />
-    <lastBuildDate>Fri, 08 Nov 2024 05:59:41 GMT</lastBuildDate>
-    <pubDate>Fri, 08 Nov 2024 05:59:41 GMT</pubDate>
+    <lastBuildDate>Fri, 08 Nov 2024 06:08:12 GMT</lastBuildDate>
+    <pubDate>Fri, 08 Nov 2024 06:08:12 GMT</pubDate>
     <ttl>60</ttl>
     
     <item>
@@ -700,6 +700,15 @@
       <guid isPermaLink="true">https://affine.pro/blog/how-to-ask-ai-question-efficiently</guid>
       <pubDate>Fri, 04 Oct 2024 00:00:00 GMT</pubDate>
       <enclosure url="https://app.affine.pro/api/workspaces/qf73AF6vzWphbTJdN7KiX/blobs/OR4Vk9hpktqScCQWtJbn7AUV9jFvniBmsn1bOnUGbsc=" type="image/png" />
+    </item>
+    
+    <item>
+      <title>The 5 Best Open Source Notion Alternatives</title>
+      <description><![CDATA[Notion is a popular note-taking and collaboration tool that has gained a lot of attention in recent years. However, it's not the only option out there.]]></description>
+      <link>https://affine.pro/blog/open-source-notion-alternatives</link>
+      <guid isPermaLink="true">https://affine.pro/blog/open-source-notion-alternatives</guid>
+      <pubDate>Fri, 04 Oct 2024 00:00:00 GMT</pubDate>
+      <enclosure url="https://app.affine.pro/api/workspaces/qf73AF6vzWphbTJdN7KiX/blobs/nTDck1M0zz5E0zJwpxuArUaWAXC7eKBqsJ1AK2HNhAw=" type="image/png" />
     </item>
     
     <item>
@@ -2647,15 +2656,6 @@ Boost your writing productivity with advanced tools offering unique features, fr
       <guid isPermaLink="true">https://affine.pro/blog/local-first-privacy-focussed-affine-offline</guid>
       <pubDate>Fri, 17 Mar 2023 00:00:00 GMT</pubDate>
       <enclosure url="https://app.affine.pro/api/workspaces/qf73AF6vzWphbTJdN7KiX/blobs/yMruwKIzMGZ8EJtZjT4FqO-JqfEdUMyP50AZmgG7hgg=" type="image/png" />
-    </item>
-    
-    <item>
-      <title>The 5 Best Open Source Notion Alternatives</title>
-      <description><![CDATA[Notion is a popular note-taking and collaboration tool that has gained a lot of attention in recent years. However, it's not the only option out there.]]></description>
-      <link>https://affine.pro/blog/5-best-open-source-notion-alternatives</link>
-      <guid isPermaLink="true">https://affine.pro/blog/5-best-open-source-notion-alternatives</guid>
-      <pubDate>Thu, 16 Mar 2023 00:00:00 GMT</pubDate>
-      <enclosure url="https://app.affine.pro/api/workspaces/qf73AF6vzWphbTJdN7KiX/blobs/nTDck1M0zz5E0zJwpxuArUaWAXC7eKBqsJ1AK2HNhAw=" type="image/png" />
     </item>
     
     <item>
