@@ -33,6 +33,11 @@
         <priority>0.8</priority>
     </url>
     <url>
+        <loc>https://affine.pro/blog/top-6-onenote-alternatives</loc>
+        <changefreq>daily</changefreq>
+        <priority>1.0</priority>
+    </url>
+    <url>
         <loc>https://affine.pro/blog/cornell-note-taking-method</loc>
         <changefreq>daily</changefreq>
         <priority>1.0</priority>
@@ -153,6 +158,11 @@
         <priority>1.0</priority>
     </url>
     <url>
+        <loc>https://affine.pro/blog/best-ai-image-generator</loc>
+        <changefreq>daily</changefreq>
+        <priority>1.0</priority>
+    </url>
+    <url>
         <loc>https://affine.pro/blog/10-best-free-storyboard-creator-software</loc>
         <changefreq>daily</changefreq>
         <priority>1.0</priority>
@@ -224,6 +234,11 @@
     </url>
     <url>
         <loc>https://affine.pro/blog/trip-itinerary-templates</loc>
+        <changefreq>daily</changefreq>
+        <priority>1.0</priority>
+    </url>
+    <url>
+        <loc>https://affine.pro/blog/top-6-onenote-alternatives-features-pricing</loc>
         <changefreq>daily</changefreq>
         <priority>1.0</priority>
     </url>
@@ -483,11 +498,6 @@
         <priority>1.0</priority>
     </url>
     <url>
-        <loc>https://affine.pro/blog/top-6-onenote-alternatives-features-pricing</loc>
-        <changefreq>daily</changefreq>
-        <priority>1.0</priority>
-    </url>
-    <url>
         <loc>https://affine.pro/blog/8-free-printable-vision-board-templates-examples-2023</loc>
         <changefreq>daily</changefreq>
         <priority>1.0</priority>
@@ -644,11 +654,6 @@
     </url>
     <url>
         <loc>https://affine.pro/blog/faq</loc>
-        <changefreq>daily</changefreq>
-        <priority>1.0</priority>
-    </url>
-    <url>
-        <loc>https://affine.pro/blog/best-ai-image-generator</loc>
         <changefreq>daily</changefreq>
         <priority>1.0</priority>
     </url>
