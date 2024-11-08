@@ -123,6 +123,11 @@
         <priority>1.0</priority>
     </url>
     <url>
+        <loc>https://affine.pro/blog/10-best-ai-productivity-tools-must-know-upgrade-workflow-improve-business</loc>
+        <changefreq>daily</changefreq>
+        <priority>1.0</priority>
+    </url>
+    <url>
         <loc>https://affine.pro/blog/5-best-free-daily-planner-apps-for-2023</loc>
         <changefreq>daily</changefreq>
         <priority>1.0</priority>
@@ -153,7 +158,17 @@
         <priority>1.0</priority>
     </url>
     <url>
+        <loc>https://affine.pro/blog/how-to-create-a-project-timeline-template-in-excel-step-by-step-guide</loc>
+        <changefreq>daily</changefreq>
+        <priority>1.0</priority>
+    </url>
+    <url>
         <loc>https://affine.pro/blog/how-to-create-social-media-content-calendar-free-templates</loc>
+        <changefreq>daily</changefreq>
+        <priority>1.0</priority>
+    </url>
+    <url>
+        <loc>https://affine.pro/blog/create-a-project-timeline-template</loc>
         <changefreq>daily</changefreq>
         <priority>1.0</priority>
     </url>
@@ -558,11 +573,6 @@
         <priority>1.0</priority>
     </url>
     <url>
-        <loc>https://affine.pro/blog/10-best-ai-productivity-tools-must-know-upgrade-workflow-improve-business</loc>
-        <changefreq>daily</changefreq>
-        <priority>1.0</priority>
-    </url>
-    <url>
         <loc>https://affine.pro/blog/ai-mind-map-generator</loc>
         <changefreq>daily</changefreq>
         <priority>1.0</priority>
@@ -809,11 +819,6 @@
     </url>
     <url>
         <loc>https://affine.pro/blog/gemini-vs-chatgpt-ai-tool-comparison</loc>
-        <changefreq>daily</changefreq>
-        <priority>1.0</priority>
-    </url>
-    <url>
-        <loc>https://affine.pro/blog/how-to-create-a-project-timeline-template-in-excel-step-by-step-guide</loc>
         <changefreq>daily</changefreq>
         <priority>1.0</priority>
     </url>
