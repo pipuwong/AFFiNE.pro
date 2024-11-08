@@ -3,7 +3,7 @@ import fs from "fs-extra";
 import stringify from "json-stable-stringify";
 import path from "node:path";
 
-import { createHash } from 'node:crypto';
+import { createHash } from "node:crypto";
 
 import { PutObjectCommand, S3Client } from "@aws-sdk/client-s3";
 
@@ -43,6 +43,7 @@ const uploadTemplateSnapshot = (() => {
 })();
 
 async function crawlTemplates() {
+  const processed = new Map<string, { slug: string; title: string }>();
   const pages = await reader.getDocPageMetas();
 
   if (!pages) {
@@ -63,7 +64,7 @@ async function crawlTemplates() {
 
   for (const category of categories) {
     for (const [index, template] of category.list.entries()) {
-      if (!template.templateId) {
+      if (!template.templateId || !template.slug) {
         console.log(`no templateId for ${template.id}`);
         continue;
       }
@@ -81,7 +82,10 @@ async function crawlTemplates() {
 
       const featured = index === 0;
 
-      const hash = createHash('sha256').update(buffer).digest('hex').slice(0, 8);
+      const hash = createHash("sha256")
+        .update(buffer)
+        .digest("hex")
+        .slice(0, 8);
       const snapshotUrl = `https://cdn.affine.pro/${R2_PREFIX}/${template.templateId}.${hash}.zip`;
 
       const params = new URLSearchParams({
@@ -91,6 +95,12 @@ async function crawlTemplates() {
         name: template.title || template.id,
         mode: template.templateMode || "page",
         snapshotUrl,
+      });
+
+      template.slug = template.slug.replaceAll("/", "");
+      processed.set(template.templateId, {
+        slug: template.slug,
+        title: template.title || "",
       });
 
       const t = {
@@ -114,13 +124,40 @@ async function crawlTemplates() {
       console.log(`saved ${template.slug}`);
     }
   }
+
+  // check if there are duplicate slugs
+  const reversedProcessed = Array.from(processed.entries()).reduce(
+    (acc, [id, meta]) => {
+      acc[meta.slug] ??= [];
+      acc[meta.slug].push({ title: meta.title, id });
+      return acc;
+    },
+    {} as Record<string, { title: string; id: string }[]>
+  );
+
+  let hasDuplicate = false;
+
+  for (const [slug, metas] of Object.entries(reversedProcessed)) {
+    if (metas.length > 1) {
+      console.log(
+        `Duplicate slug: ${slug} - ${metas
+          .map((m) => `${m.title} (${m.id})`)
+          .join(", ")}`
+      );
+      hasDuplicate = true;
+    }
+  }
+
+  if (hasDuplicate) {
+    throw new Error("Duplicate slugs found");
+  }
 }
 
 async function main() {
-  console.log('Sync Template Start');
+  console.log("Sync Template Start");
   await clean();
   await crawlTemplates();
-  console.log('Sync Template Done');
+  console.log("Sync Template Done");
   process.exit(0);
 }
 
