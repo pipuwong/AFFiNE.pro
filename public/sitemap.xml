@@ -33,6 +33,11 @@
         <priority>0.8</priority>
     </url>
     <url>
+        <loc>https://affine.pro/blog/affine-the-next-gen-knowledge-base-to-notion-and-miro</loc>
+        <changefreq>daily</changefreq>
+        <priority>1.0</priority>
+    </url>
+    <url>
         <loc>https://affine.pro/blog/top-6-onenote-alternatives</loc>
         <changefreq>daily</changefreq>
         <priority>1.0</priority>
@@ -1339,11 +1344,6 @@
     </url>
     <url>
         <loc>https://affine.pro/blog/downhills-recap-product-architecture-affine-joe</loc>
-        <changefreq>daily</changefreq>
-        <priority>1.0</priority>
-    </url>
-    <url>
-        <loc>https://affine.pro/blog/affine-the-next-gen-knowledge-base-to-notion-and-miro</loc>
         <changefreq>daily</changefreq>
         <priority>1.0</priority>
     </url>
