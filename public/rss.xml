@@ -5,9 +5,18 @@
     <description>All In One KnowledgeOS</description>
     <link>https://affine.pro</link>
     <atom:link href="https://affine.pro/rss.xml" rel="self" type="application/rss+xml" />
-    <lastBuildDate>Sat, 09 Nov 2024 14:16:06 GMT</lastBuildDate>
-    <pubDate>Sat, 09 Nov 2024 14:16:06 GMT</pubDate>
+    <lastBuildDate>Sat, 09 Nov 2024 15:19:13 GMT</lastBuildDate>
+    <pubDate>Sat, 09 Nov 2024 15:19:13 GMT</pubDate>
     <ttl>60</ttl>
+    
+    <item>
+      <title>The Best Notion Alternative in 2024 -AFFiNE</title>
+      <description><![CDATA[Looking for the best Notion alternative in 2024? Discover Affine, a powerful tool that offers intuitive design, customizable layouts, and collaborative features ideal for personal productivity, project management, and team workflows. Experience enhanced flexibility and control with Affine as a top choice for organization.]]></description>
+      <link>https://affine.pro/blog/affine-the-next-gen-knowledge-base-to-notion-and-miro</link>
+      <guid isPermaLink="true">https://affine.pro/blog/affine-the-next-gen-knowledge-base-to-notion-and-miro</guid>
+      <pubDate>Fri, 08 Nov 2024 00:00:00 GMT</pubDate>
+      <enclosure url="https://app.affine.pro/api/workspaces/qf73AF6vzWphbTJdN7KiX/blobs/oaG84jFRwPu2fG2dLRqt9D7zOi5o-kZWLBXLA_lZHuI=" type="image/png" />
+    </item>
     
     <item>
       <title>Top 6 OneNote Alternatives &amp; Competitors (Features, Pricing, and Pros and Cons)</title>
@@ -2692,15 +2701,6 @@ Boost your writing productivity with advanced tools offering unique features, fr
       <guid isPermaLink="true">https://affine.pro/blog/downhills-recap-product-architecture-affine-joe</guid>
       <pubDate>Mon, 27 Mar 2023 00:00:00 GMT</pubDate>
       <enclosure url="https://app.affine.pro/api/workspaces/qf73AF6vzWphbTJdN7KiX/blobs/rAncMUOnCn72Gd7MsfEhs74G_PACA1tXrlP-LTJvjQE=" type="image/png" />
-    </item>
-    
-    <item>
-      <title>AFFiNE Next-Gen Knowledge Base to Notion and Miro</title>
-      <description><![CDATA[Discover AFFiNE, the new open-source, privacy-focused, and local-first knowledge base that aims to overcome the limitations of popular tools like Miro and Notion. With AFFiNE, you can seamlessly switch between different views, including whiteboard, Kanban, and page editing modes, and access fully functional blocks anywhere. Plus, with features like data privacy, community-driven extensibility, and native cross-platform support, AFFiNE is a top contender for anyone looking to store, integrate, and manage their workflows in one unified place.]]></description>
-      <link>https://affine.pro/blog/affine-the-next-gen-knowledge-base-to-notion-and-miro</link>
-      <guid isPermaLink="true">https://affine.pro/blog/affine-the-next-gen-knowledge-base-to-notion-and-miro</guid>
-      <pubDate>Fri, 24 Mar 2023 00:00:00 GMT</pubDate>
-      <enclosure url="https://app.affine.pro/api/workspaces/qf73AF6vzWphbTJdN7KiX/blobs/oaG84jFRwPu2fG2dLRqt9D7zOi5o-kZWLBXLA_lZHuI=" type="image/png" />
     </item>
     
     <item>
