@@ -1868,6 +1868,11 @@
         <priority>1.0</priority>
     </url>
     <url>
+        <loc>https://affine.pro/templates/camping-checklist</loc>
+        <changefreq>daily</changefreq>
+        <priority>1.0</priority>
+    </url>
+    <url>
         <loc>https://affine.pro/templates/case-brief-example</loc>
         <changefreq>daily</changefreq>
         <priority>1.0</priority>
