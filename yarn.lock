@@ -5161,9 +5161,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"affine-reader@npm:^3.3.3":
-  version: 3.3.3
-  resolution: "affine-reader@npm:3.3.3"
+"affine-reader@npm:^3.3.4":
+  version: 3.3.4
+  resolution: "affine-reader@npm:3.3.4"
   dependencies:
     "@blocksuite/affine": "npm:^0.17.27"
     "@blocksuite/blocks": "npm:^0.17.27"
@@ -5171,7 +5171,7 @@ __metadata:
     "@blocksuite/store": "npm:^0.17.27"
     fflate: "npm:^0.8.2"
     yjs: "npm:^13.6.18"
-  checksum: 10/2d945f847f51127c286ef6b6b97bf2a33802b448f9fa953a7387527a9399b71ec3c5c4b555c69dffdcd38c5fe9ca500ff15c1be6c682117001f34b161a0f8a8c
+  checksum: 10/ebb51cb62f131037c5c82c82e56c53d34e27fa57c64b2efb82b2967a0f65617f4767eb3b9843d749931f52ee88c1bbe419220917cdbc6d1755e75a02ce8de58c
   languageName: node
   linkType: hard
 
@@ -5199,7 +5199,7 @@ __metadata:
     "@unocss/nuxt": "npm:^0.49.4"
     "@vueuse/core": "npm:^9.12.0"
     "@zadigetvoltaire/nuxt-gtm": "npm:^0.0.13"
-    affine-reader: "npm:^3.3.3"
+    affine-reader: "npm:^3.3.4"
     axios: "npm:^1.3.2"
     cacheables: "npm:^1.2.2"
     element-plus: "npm:^2.2.29"

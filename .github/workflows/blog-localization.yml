@@ -57,8 +57,6 @@ jobs:
         run: yarn gen:all
       - name: "Commit sync contents"
         uses: stefanzweifel/git-auto-commit-action@v4
-        # only commit when branch is production
-        if: github.ref == 'refs/heads/production'
         with:
           commit_message: "[GitHub Action] Sync blog contents from AFFiNE Cloud"
           file_pattern: "content/blog/*.json content/templates/*.json content/changelogs/*.json public/rss.xml public/sitemap.xml"
