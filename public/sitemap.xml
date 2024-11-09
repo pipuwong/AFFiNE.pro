@@ -1798,6 +1798,11 @@
         <priority>1.0</priority>
     </url>
     <url>
+        <loc>https://affine.pro/templates/151-set-checklist</loc>
+        <changefreq>daily</changefreq>
+        <priority>1.0</priority>
+    </url>
+    <url>
         <loc>https://affine.pro/templates/2024-digital-planner</loc>
         <changefreq>daily</changefreq>
         <priority>1.0</priority>
@@ -2059,6 +2064,11 @@
     </url>
     <url>
         <loc>https://affine.pro/templates/planner-for-students</loc>
+        <changefreq>daily</changefreq>
+        <priority>1.0</priority>
+    </url>
+    <url>
+        <loc>https://affine.pro/templates/planning-checklist-for-wedding</loc>
         <changefreq>daily</changefreq>
         <priority>1.0</priority>
     </url>
