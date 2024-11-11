@@ -1,0 +1,55 @@
+{
+  "author": "AFFiNE",
+  "authors": [
+    "AFFiNE"
+  ],
+  "cateName": "Chore Chart",
+  "cateSlug": "chore-chart",
+  "cateTitle": "Chore Chart Template",
+  "cover": "https://app.affine.pro/api/workspaces/qf73AF6vzWphbTJdN7KiX/blobs/-I5lnZpbNJYph-WcS1O-0UJFM5gHZJfO1xGSaYkv4Uc=",
+  "coverAlt": "Daily Chore Chart",
+  "createDate": 1731343595546,
+  "created": 1730160000000,
+  "description": "Stay on top of household tasks with a Daily Chore Chart! Organize and track daily chores for a cleaner, more organized home. Get a customizable template to simplify your routine.",
+  "featured": false,
+  "guid": "EUmadV1Z37oj1upElMGRj",
+  "id": "EUmadV1Z37oj1upElMGRj",
+  "linkedPageIds": [
+    "BH3Hw774hE1ScnpWhXviP",
+    "cXjayQOy_2TqxACc17OqZ",
+    "k6F_hVucXsdDas-RQ9SvU",
+    "curTeOh1Rvy0jBXQVuwHd",
+    "Ut5diNA60muLuSkmSs2Du",
+    "3f-WxD9U73KU-_ilaSyho",
+    "8yoI71clK3"
+  ],
+  "md": "## Daily Chore Chart\n\n\nA daily chore chart is an essential tool for maintaining a clean and organized home by listing out tasks that need to be completed each day. Ideal for families, roommates, or individuals, it helps ensure that daily chores don’t get overlooked. With a clear structure and easy tracking, a daily chore chart keeps everyone accountable and creates a consistent routine, making it easier to manage household responsibilities.\n\n\n## Benefits of Using a Daily Chore Chart\n\n\nUsing a daily chore chart provides several benefits for staying organized:\n\n\n • Consistency: Encourages the habit of daily task completion.\n\n\n • Accountability: Helps each person know and track their responsibilities.\n\n\n • Efficiency: Reduces stress by breaking down larger cleaning tasks into manageable daily actions.\n\n\n • Collaboration: Allows families or roommates to share responsibilities easily.\n\n\n### How to Set Up a Daily Chore Chart\n\n\nA daily chore chart typically includes a list of tasks, assigned family members, and checkboxes to mark completion. You can organize it by individual or by room, making it easy to track progress for specific tasks. Adding rewards for completing daily chores is a great way to encourage kids or motivate the whole family.\n\n\n## Tips for Effective Daily Chore Chart Use\n\n\nTo make the most of your daily chore chart, assign tasks based on age and ability, set a consistent routine for review, and adjust tasks as needed. This keeps everyone engaged and ensures the chart stays relevant to household needs. A well-used daily chore chart supports a clean and harmonious home, without overwhelming anyone.\n\n\n",
+  "previewUrl": "https://app.affine.pro/template/preview?workspaceId=qf73AF6vzWphbTJdN7KiX&docId=BH3Hw774hE1ScnpWhXviP&pageId=EUmadV1Z37oj1upElMGRj&name=Daily+Chore+Chart&mode=page&snapshotUrl=https%3A%2F%2Fcdn.affine.pro%2Ftemplate-snapshots%2FBH3Hw774hE1ScnpWhXviP.e3b0c442.zip",
+  "publish": true,
+  "relatedBlogIds": [
+    "Ut5diNA60muLuSkmSs2Du",
+    "3f-WxD9U73KU-_ilaSyho",
+    "8yoI71clK3"
+  ],
+  "relatedBlogs": [
+    "storyboard-examples",
+    "10-best-free-chore-chart-templates-kids-adults",
+    "best-open-source-notion-alternatives"
+  ],
+  "relatedTemplates": [
+    "chore-chart-roommate-checklist",
+    "chore-chart-for-adults",
+    "weekly-chore-chart"
+  ],
+  "slug": "daily-chore-chart",
+  "tags": [
+    "Chore Chart"
+  ],
+  "template": "LinkedPage:BH3Hw774hE1ScnpWhXviP",
+  "templateId": "BH3Hw774hE1ScnpWhXviP",
+  "templateMode": "page",
+  "title": "Daily Chore Chart",
+  "updatedDate": 1731344725164,
+  "useTemplateUrl": "https://app.affine.pro/template/import?workspaceId=qf73AF6vzWphbTJdN7KiX&docId=BH3Hw774hE1ScnpWhXviP&pageId=EUmadV1Z37oj1upElMGRj&name=Daily+Chore+Chart&mode=page&snapshotUrl=https%3A%2F%2Fcdn.affine.pro%2Ftemplate-snapshots%2FBH3Hw774hE1ScnpWhXviP.e3b0c442.zip",
+  "valid": true
+}

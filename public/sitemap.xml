@@ -1908,6 +1908,11 @@
         <priority>1.0</priority>
     </url>
     <url>
+        <loc>https://affine.pro/templates/chore-chart-printable</loc>
+        <changefreq>daily</changefreq>
+        <priority>1.0</priority>
+    </url>
+    <url>
         <loc>https://affine.pro/templates/chore-chart-roommate-checklist</loc>
         <changefreq>daily</changefreq>
         <priority>1.0</priority>
@@ -1938,6 +1943,11 @@
         <priority>1.0</priority>
     </url>
     <url>
+        <loc>https://affine.pro/templates/daily-chore-chart</loc>
+        <changefreq>daily</changefreq>
+        <priority>1.0</priority>
+    </url>
+    <url>
         <loc>https://affine.pro/templates/day-planner-daily</loc>
         <changefreq>daily</changefreq>
         <priority>1.0</priority>
@@ -1949,6 +1959,11 @@
     </url>
     <url>
         <loc>https://affine.pro/templates/digital-planner-templates</loc>
+        <changefreq>daily</changefreq>
+        <priority>1.0</priority>
+    </url>
+    <url>
+        <loc>https://affine.pro/templates/family-chore-chart</loc>
         <changefreq>daily</changefreq>
         <priority>1.0</priority>
     </url>
@@ -2233,6 +2248,11 @@
         <priority>1.0</priority>
     </url>
     <url>
+        <loc>https://affine.pro/templates/weekly-chore-chart</loc>
+        <changefreq>daily</changefreq>
+        <priority>1.0</priority>
+    </url>
+    <url>
         <loc>https://affine.pro/templates/weekly-deep-cleaning-checklist</loc>
         <changefreq>daily</changefreq>
         <priority>1.0</priority>
@@ -2273,17 +2293,17 @@
         <priority>1.0</priority>
     </url>
     <url>
+        <loc>https://affine.pro/templates/category-chore-chart</loc>
+        <changefreq>daily</changefreq>
+        <priority>1.0</priority>
+    </url>
+    <url>
         <loc>https://affine.pro/templates/category-digital-planner</loc>
         <changefreq>daily</changefreq>
         <priority>1.0</priority>
     </url>
     <url>
         <loc>https://affine.pro/templates/category-checklist-template</loc>
-        <changefreq>daily</changefreq>
-        <priority>1.0</priority>
-    </url>
-    <url>
-        <loc>https://affine.pro/templates/category-chore-chart</loc>
         <changefreq>daily</changefreq>
         <priority>1.0</priority>
     </url>
