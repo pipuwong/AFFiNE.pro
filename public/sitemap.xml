@@ -33,6 +33,11 @@
         <priority>0.8</priority>
     </url>
     <url>
+        <loc>https://affine.pro/blog/everything-you-need-to-know-about-okr</loc>
+        <changefreq>daily</changefreq>
+        <priority>1.0</priority>
+    </url>
+    <url>
         <loc>https://affine.pro/blog/affine-the-next-gen-knowledge-base-to-notion-and-miro</loc>
         <changefreq>daily</changefreq>
         <priority>1.0</priority>
@@ -1299,11 +1304,6 @@
     </url>
     <url>
         <loc>https://affine.pro/blog/affine-client-future-knowledge-management</loc>
-        <changefreq>daily</changefreq>
-        <priority>1.0</priority>
-    </url>
-    <url>
-        <loc>https://affine.pro/blog/everything-you-need-to-know-about-okr</loc>
         <changefreq>daily</changefreq>
         <priority>1.0</priority>
     </url>
