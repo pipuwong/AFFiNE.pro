@@ -2143,6 +2143,11 @@
         <priority>1.0</priority>
     </url>
     <url>
+        <loc>https://affine.pro/templates/study-plan-template</loc>
+        <changefreq>daily</changefreq>
+        <priority>1.0</priority>
+    </url>
+    <url>
         <loc>https://affine.pro/templates/study-planner</loc>
         <changefreq>daily</changefreq>
         <priority>1.0</priority>
@@ -2174,6 +2179,11 @@
     </url>
     <url>
         <loc>https://affine.pro/templates/travel-itinerary-template</loc>
+        <changefreq>daily</changefreq>
+        <priority>1.0</priority>
+    </url>
+    <url>
+        <loc>https://affine.pro/templates/tv-show-watch-planner</loc>
         <changefreq>daily</changefreq>
         <priority>1.0</priority>
     </url>
