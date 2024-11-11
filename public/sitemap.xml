@@ -1088,6 +1088,11 @@
         <priority>1.0</priority>
     </url>
     <url>
+        <loc>https://affine.pro/blog/canvas-artificial-intelligence</loc>
+        <changefreq>daily</changefreq>
+        <priority>1.0</priority>
+    </url>
+    <url>
         <loc>https://affine.pro/blog/affine-0-10-0-launch-week-day-4-5-write-draw-plan-present-collaboratively-anywhere</loc>
         <changefreq>daily</changefreq>
         <priority>1.0</priority>
@@ -1868,6 +1873,11 @@
         <priority>1.0</priority>
     </url>
     <url>
+        <loc>https://affine.pro/templates/camera-check-out-list</loc>
+        <changefreq>daily</changefreq>
+        <priority>1.0</priority>
+    </url>
+    <url>
         <loc>https://affine.pro/templates/camping-checklist</loc>
         <changefreq>daily</changefreq>
         <priority>1.0</priority>
@@ -1979,6 +1989,11 @@
     </url>
     <url>
         <loc>https://affine.pro/templates/habit-tracker-printable</loc>
+        <changefreq>daily</changefreq>
+        <priority>1.0</priority>
+    </url>
+    <url>
+        <loc>https://affine.pro/templates/harvard-one-pager-template</loc>
         <changefreq>daily</changefreq>
         <priority>1.0</priority>
     </url>
