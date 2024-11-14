@@ -1,0 +1,20 @@
+{
+  "cover": "https://affine-reader.vercel.app//api/workspaces/qf73AF6vzWphbTJdN7KiX/blobs/8C_WZ4oNFVZRpPElUf69AiD0CrAmu2qApFs5FIt888A=",
+  "createDate": 1731561326525,
+  "date": "2024-11-14T00:00:00.000Z",
+  "description": "The next update of AFFINE features even more improvements. Including enhanced linked doc and database integration.",
+  "detailLink": "https://affine.pro/blog/whats-new-affine-nov-update",
+  "guid": "_7UMrs1VWDjEKqpeBptR-",
+  "id": "_7UMrs1VWDjEKqpeBptR-",
+  "linkedPageIds": [
+  ],
+  "md": "",
+  "relatedBlogIds": [
+  ],
+  "relatedBlogs": [
+  ],
+  "title": "0.18.0",
+  "updatedDate": 1731561742994,
+  "valid": false,
+  "version": "AFFiNE-0.18.0"
+}

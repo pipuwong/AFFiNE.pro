@@ -1,0 +1,39 @@
+{
+  "author": "AFFiNE",
+  "authors": [
+    "AFFiNE"
+  ],
+  "cover": "https://app.affine.pro/api/workspaces/qf73AF6vzWphbTJdN7KiX/blobs/8C_WZ4oNFVZRpPElUf69AiD0CrAmu2qApFs5FIt888A=",
+  "coverAlt": "",
+  "createDate": 1731556981637,
+  "created": 1731542400000,
+  "description": "AFFiNE is the alternative of Notion, Miro, and Monday, this article introduces what’s new. A collection of updates, improvements, and bug fixes which are available in the latest version.",
+  "guid": "k9qAwT7T2cmcRO-1MXm6b",
+  "id": "k9qAwT7T2cmcRO-1MXm6b",
+  "layout": "blog",
+  "linkedPageIds": [
+    "VfM6gf3RyNfAk6z0MrweS",
+    "3f-WxD9U73KU-_ilaSyho",
+    "3j4JuYLPeL4QoGt3P25qN"
+  ],
+  "md": "## AFFiNE 0.18 Release Notes: Database and  Mode\n\n\n## Database improvements\n\n\n### Database sort\n\n\nThe Sort feature in databases enables you to organize and prioritize entries according to specific fields. It helps surface relevant information first by sorting rows in ascending or descending order based on chosen parameters like dates, tags, or numeric values. This dynamic arrangement offers a tailored and streamlined view of complex data (The full-width feature is in testing. You can enable it under Experimental Features. 😏)\n\n\n<iframe\n  type=\"text/html\"\n  width=\"100%\"\n  height=\"410px\"\n  src=\"https://www.youtube.com/embed/ej3Ylf6Z6jg\"\n  frameborder=\"0\"\n  allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\"\n  allowfullscreen\n  credentialless>\n</iframe>\n\n\n### Enhanced linked doc and database integration\n\n\nWe've introduced powerful enhancements to linked doc and database interactions, providing a seamless and organized data management experience. Key features include:\n\n\n* **Easily link or create docs in database:** Link an existing doc to a database by @recent doc and drag-and drop. Alternatively, create a new linked doc directly within a database, or convert existing text cell into a linked doc with one click for quick setup.\n\n\n* **Database property sync to doc info:** Database properties automatically sync to a linked doc’s `Doc Info` section, keeping relevant attributes accessible within the document while maintaining the original data in the database.\n\n\n* **Backlinks in doc info:** Easily track doc connections with other docs or database in the upgraded \"Backlinks\" section, simplifying navigation and content traceability.\n\n\n<iframe\n  type=\"text/html\"\n  width=\"100%\"\n  height=\"410px\"\n  src=\"https://www.youtube.com/embed/1BPXQ8WK14E\"\n  frameborder=\"0\"\n  allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\"\n  allowfullscreen\n  credentialless>\n</iframe>\n\n\n## Much more properties and new property settings\n\n\n<iframe\n  type=\"text/html\"\n  width=\"100%\"\n  height=\"410px\"\n  src=\"https://www.youtube.com/embed/l-_uXEgypJA\"\n  frameborder=\"0\"\n  allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\"\n  allowfullscreen\n  credentialless>\n</iframe>\n\n\nWe've expanded our documentation to support more **property types,** giving you the flexibility to choose different properties for various workspaces:\n\n\n* Text\n\n\n* Number\n\n\n* Checkbox\n\n\n* Date\n\n\n* Created by\n\n\n* Last edited\n\n\n* Updated at\n\n\n* Created at\n\n\n* Page width (🆕)\n\n\n* Doc mode (🆕)\n\n\n* Journal (🆕)\n\n\n* Edgeless theme (🆕)\n\n\n**Page width** property allow you full control over whether each page is full-width or not.\n\n\n<iframe\n  type=\"text/html\"\n  width=\"100%\"\n  height=\"410px\"\n  src=\"https://www.youtube.com/embed/VP-j7jRvogs\"\n  frameborder=\"0\"\n  allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\"\n  allowfullscreen\n  credentialless>\n</iframe>\n\n\n**Doc mode** property**:** which allows you to specify the mode for a document. When a document's Doc Mode is set to **Edgeless**, all users who open the document will also experience it in Edgeless mode. Unlike mode, Doc View only determines whether you're currently viewing the edgeless or doc version, without affecting the actual document state.\n\n\n**Journal** property allow you to freely decide whether a document belongs to the Journal.\n\n\n**Edgeless theme** property can specify the color mode of the whiteboard, you can choose from light / dark / auto. A determined color mode can better ensure that the content you share is consistent with your creative intent.\n\n\n### \n\n\n## The following bugs have been successfully fixed:\n\n\n### Sorting Attributes\n\n\nWhen sorting attributes, some older attributes might not be directly sortable due to compatibility with legacy data.\n\n\n### Solution\n\n\nTo resolve this, simply add a new attribute and re-upload the old data. After updating the data, the older attributes will gain sorting capabilities.\n\n\n\n\n\n\n\n\n## PDF Preview support\n\n\nYou can now upload, preview, and view your PDF documents in the AFFiNE app.\n\n\n<iframe\n  type=\"text/html\"\n  width=\"100%\"\n  height=\"410px\"\n  src=\"https://www.youtube.com/embed/7Gf8oRBDKNI\"\n  frameborder=\"0\"\n  allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\"\n  allowfullscreen\n  credentialless>\n</iframe>\n\n\n## Import from Notion\n\n\nEnhanced import for your Notion files.\n\n\n<iframe\n  type=\"text/html\"\n  width=\"100%\"\n  height=\"410px\"\n  src=\"https://www.youtube.com/embed/bbG2v5wi4r0\"\n  frameborder=\"0\"\n  allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\"\n  allowfullscreen\n  credentialless>\n</iframe>\n\n\nNow you can import your Notion page and workspace to AFFiNE, your Notion database even import to AFFiNE database silky!\n\n\n\n\n\n\n\n\n## Other  Improvement\n\n\n### New floating sidebar feature\n\n\nMove your cursor to the expand/collapse button in the top-left corner to reveal a floating sidebar menu, providing quick access to essential tools.\n\n\n\n\n\nFloating sidebar delivers a distraction-free doc editing experience: the sidebar only appears when needed, letting you focus on reading and writing.\n\n\n\n\n\n### Edgeless tidy up\n\n\nEnhanced Auto Align and Resize & Align: Elements are now arranged in a visually organized grid layout that aligns with natural reading patterns.\n\n\n\n\n\n\n\n\n### Open Desktop app from deep link\n\n\nYou can now open destinations directly in AFFiNE via links and quickly open the current page in the app from the document menu.\n\n\n<iframe\n  type=\"text/html\"\n  width=\"100%\"\n  height=\"410px\"\n  src=\"https://www.youtube.com/embed/zKPY94cAuaI\"\n  frameborder=\"0\"\n  allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\"\n  allowfullscreen\n  credentialless>\n</iframe>\n\n\nIn the web version of AFFiNE, go to Settings - Appearance - Open AFFiNE Links to set your default behavior for each link.\n\n\n\n\n\n### Spell check\n\n\nSpell check is now available on the client.\n\n\n",
+  "publish": true,
+  "relatedBlogIds": [
+    "VfM6gf3RyNfAk6z0MrweS",
+    "3f-WxD9U73KU-_ilaSyho",
+    "3j4JuYLPeL4QoGt3P25qN"
+  ],
+  "relatedBlogs": [
+    "how-to-ask-ai-question-efficiently",
+    "10-best-free-chore-chart-templates-kids-adults",
+    "15-creative-vision-board-ideas"
+  ],
+  "slug": "whats-new-affine-nov-update",
+  "tags": [
+    "Release Note"
+  ],
+  "title": "What's new in AFFiNE - November 2024 Update",
+  "updated": 1731542400000,
+  "updatedDate": 1731561913223,
+  "valid": true
+}

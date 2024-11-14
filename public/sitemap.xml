@@ -38,6 +38,16 @@
         <priority>1.0</priority>
     </url>
     <url>
+        <loc>https://affine.pro/blog/vision-board-ideas</loc>
+        <changefreq>daily</changefreq>
+        <priority>1.0</priority>
+    </url>
+    <url>
+        <loc>https://affine.pro/blog/whats-new-affine-nov-update</loc>
+        <changefreq>daily</changefreq>
+        <priority>1.0</priority>
+    </url>
+    <url>
         <loc>https://affine.pro/blog/everything-you-need-to-know-about-okr</loc>
         <changefreq>daily</changefreq>
         <priority>1.0</priority>

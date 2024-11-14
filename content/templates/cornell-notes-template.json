@@ -19,6 +19,7 @@
     "rLQBOFWnGP1yMQfln6xk3",
     "mhXkUvwacMxFPXrxlUQEF",
     "_Bpe5IadJPG_MiS7tEJyb",
+    "8YL3XQH4Y2ZW1fzDQ8Jcp",
     "6gOLcAJKsJ",
     "UKFrN2wPYEAlaP_b4_r8m",
     "siVFmLrvI-bKkBlpcemaF"
@@ -38,7 +39,8 @@
   ],
   "relatedTemplates": [
     "coquette-aesthetic-vision-board",
-    "smart-goal-template"
+    "smart-goal-template",
+    "standard-operating-procedure-template"
   ],
   "slug": "cornell-notes-template",
   "tags": [
@@ -50,7 +52,7 @@
   "title": "Cornell Notes Template",
   "trash": false,
   "updated": 1723161600000,
-  "updatedDate": 1724903902143,
+  "updatedDate": 1731560341834,
   "useTemplateUrl": "https://app.affine.pro/template/import?workspaceId=qf73AF6vzWphbTJdN7KiX&docId=rLQBOFWnGP1yMQfln6xk3&pageId=zoujqYuDzIeN93MMkej76&name=Cornell+Notes+Template&mode=edgeless&snapshotUrl=https%3A%2F%2Fcdn.affine.pro%2Ftemplate-snapshots%2FrLQBOFWnGP1yMQfln6xk3.905dfb7a.zip",
   "valid": true
 }
