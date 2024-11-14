@@ -27,11 +27,12 @@
     )
       .flex.list-content
         .left-spacer
-        .ai-card(
+        nuxt-link.ai-card(
           v-for="(cardUrl, i) in aiCards"
           :data-item="i"
           :key="cardUrl"
           :style="{ backgroundImage: `url(${cardUrl})` }"
+          to="/ai"
         )
         .right-spacer
 
