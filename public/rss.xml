@@ -5,9 +5,27 @@
     <description>All In One KnowledgeOS</description>
     <link>https://affine.pro</link>
     <atom:link href="https://affine.pro/rss.xml" rel="self" type="application/rss+xml" />
-    <lastBuildDate>Thu, 14 Nov 2024 05:44:00 GMT</lastBuildDate>
-    <pubDate>Thu, 14 Nov 2024 05:44:00 GMT</pubDate>
+    <lastBuildDate>Thu, 14 Nov 2024 12:25:15 GMT</lastBuildDate>
+    <pubDate>Thu, 14 Nov 2024 12:25:15 GMT</pubDate>
     <ttl>60</ttl>
+    
+    <item>
+      <title>The Ultimate Guide to Chore Charts: Organizing Your Home and Family</title>
+      <description><![CDATA[Streamline your household with chore charts. Discover types, creation tips, and benefits for all ages to improve home management.]]></description>
+      <link>https://affine.pro/blog/guide-to-chore-charts</link>
+      <guid isPermaLink="true">https://affine.pro/blog/guide-to-chore-charts</guid>
+      <pubDate>Thu, 14 Nov 2024 00:00:00 GMT</pubDate>
+      <enclosure url="https://app.affine.pro/api/workspaces/qf73AF6vzWphbTJdN7KiX/blobs/J6zq1Y_OyUf3DvulzCXAmyhUsuAxZfu2OOq7u_xTtmk=" type="image/png" />
+    </item>
+    
+    <item>
+      <title>Mastering Storyboard Examples: A Comprehensive Guide for Creatives</title>
+      <description><![CDATA[Master storyboard examples to enhance storytelling in film, animation, and advertising. Discover tips and techniques for effective storyboarding.]]></description>
+      <link>https://affine.pro/blog/masterting-storyboard-examples</link>
+      <guid isPermaLink="true">https://affine.pro/blog/masterting-storyboard-examples</guid>
+      <pubDate>Thu, 14 Nov 2024 00:00:00 GMT</pubDate>
+      <enclosure url="https://app.affine.pro/api/workspaces/qf73AF6vzWphbTJdN7KiX/blobs/ewcsjtGgv-6ZBcmxJzjuBPsW0YGNtsBO9HDAuNVxz_U=" type="image/png" />
+    </item>
     
     <item>
       <title>Exploring Question AI: Revolutionizing Academic Assistance and Beyond</title>
