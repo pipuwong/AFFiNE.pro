@@ -33,6 +33,11 @@
         <priority>0.8</priority>
     </url>
     <url>
+        <loc>https://affine.pro/blog/sop-template</loc>
+        <changefreq>daily</changefreq>
+        <priority>1.0</priority>
+    </url>
+    <url>
         <loc>https://affine.pro/blog/guide-to-chore-charts</loc>
         <changefreq>daily</changefreq>
         <priority>1.0</priority>
@@ -2009,6 +2014,11 @@
     </url>
     <url>
         <loc>https://affine.pro/templates/free-diy-spring-cleaning-checklist</loc>
+        <changefreq>daily</changefreq>
+        <priority>1.0</priority>
+    </url>
+    <url>
+        <loc>https://affine.pro/templates/free-editable-lesson-plan-template-for-pre-k</loc>
         <changefreq>daily</changefreq>
         <priority>1.0</priority>
     </url>

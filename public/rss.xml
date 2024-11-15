@@ -5,9 +5,18 @@
     <description>All In One KnowledgeOS</description>
     <link>https://affine.pro</link>
     <atom:link href="https://affine.pro/rss.xml" rel="self" type="application/rss+xml" />
-    <lastBuildDate>Fri, 15 Nov 2024 06:42:19 GMT</lastBuildDate>
-    <pubDate>Fri, 15 Nov 2024 06:42:19 GMT</pubDate>
+    <lastBuildDate>Fri, 15 Nov 2024 12:47:23 GMT</lastBuildDate>
+    <pubDate>Fri, 15 Nov 2024 12:47:23 GMT</pubDate>
     <ttl>60</ttl>
+    
+    <item>
+      <title>How to Write an SOP: A Comprehensive Guide with Templates and Examples</title>
+      <description><![CDATA[Master SOP writing with our guide. Learn to create effective procedures for operational excellence using templates and expert tips]]></description>
+      <link>https://affine.pro/blog/sop-template</link>
+      <guid isPermaLink="true">https://affine.pro/blog/sop-template</guid>
+      <pubDate>Fri, 15 Nov 2024 00:00:00 GMT</pubDate>
+      <enclosure url="https://app.affine.pro/api/workspaces/qf73AF6vzWphbTJdN7KiX/blobs/uPvkscAPfV4Xy8pgsYOZwkOkFiW_ljQjU1kwDpZxPNI=" type="image/png" />
+    </item>
     
     <item>
       <title>The Ultimate Guide to Chore Charts: Organizing Your Home and Family</title>
