@@ -90,17 +90,30 @@ definePageMeta({
 });
 
 const pageMeta = computed(() => {
-  const title = template.value?.title
-    ? template.value?.title + ' | AFFiNE'
+  const $template = template.value;
+  if (!$template) return {};
+
+  const title = $template.title
+    ? $template.title + ' | AFFiNE'
     : 'Templates | AFFiNE - All In One KnowledgeOS'; // should always have a title`
   const desc =
-    template.value?.description ||
+    $template.description ||
     'There can be more than Notion and Miro. AFFiNE is a next-gen knowledge base that brings planning, sorting and creating all together.';
-  const url = `${PATH.SHARE_HOST}/templates/${template.value?.slug}`;
-  const image = (template.value?.cover + '.webp') || 'https://affine.pro/og.jpeg';
+  const url = `${PATH.SHARE_HOST}/templates/${$template.slug}`;
+  const image = $template.cover + '.webp' || 'https://affine.pro/og.jpeg';
+
+  const jsonld = {
+    '@context': 'https://schema.org',
+    '@type': 'Product',
+    category: $template.cateName,
+    name: $template.title,
+    description: desc,
+    image: [image],
+    offers: { '@type': 'Offer', priceCurrency: 'USD', price: 0 },
+  };
 
   return {
-    title: template.value?.title,
+    title,
     meta: [
       { name: 'twitter:title', content: title },
       { name: 'twitter:url', content: url },
@@ -113,6 +126,13 @@ const pageMeta = computed(() => {
       { name: 'og:url', content: url },
       { name: 'og:description', content: desc },
       { name: 'og:image', content: image },
+    ],
+    script: [
+      {
+        hid: 'breadcrumbs-json-ld',
+        type: 'application/ld+json',
+        textContent: JSON.stringify(jsonld),
+      },
     ],
   };
 });

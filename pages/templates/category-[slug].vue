@@ -32,7 +32,7 @@
 <script lang="ts" setup>
 import { primaryAPI } from '~/apis';
 import { useTemplateMetas } from '~/services/templates/useTemplateMetas';
-import { getTemplateCateMeta } from '~/utils/template';
+import { getTemplateCateMeta, getTemplateCateSchema } from '~/utils/template';
 
 const store = useStore();
 const url = useRequestURL();
@@ -80,6 +80,13 @@ await loadData();
 const pageMeta = computed(() => ({
   title: templateHero.value?.cateTitle,
   meta: getTemplateCateMeta(templateHero.value),
+  script: [
+    {
+      hid: 'breadcrumbs-json-ld',
+      type: 'application/ld+json',
+      textContent: JSON.stringify(getTemplateCateSchema(templateHero.value)),
+    },
+  ],
 }));
 
 useHead(pageMeta);

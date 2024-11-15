@@ -114,20 +114,43 @@ const publishDate = useDateFormat(
 );
 
 const pageMeta = computed(() => {
-  const title =
-    (article.value?.ogtitle || article.value?.title || 'Blog') + ' | AFFiNE';
+  const $article = article.value;
+  if (!$article) return {};
+
+  const title = ($article.ogtitle || $article.title || 'Blog') + ' | AFFiNE';
   const desc =
-    article.value?.ogdescription ||
-    article.value?.description ||
+    $article.ogdescription ||
+    $article.description ||
     'There can be more than Notion and Miro. AFFiNE is a next-gen knowledge base that brings planning, sorting and creating all together.';
-  const url = `${PATH.SHARE_HOST}/blog/${article.value?.slug}`;
+  const url = `${PATH.SHARE_HOST}/blog/${$article.slug}`;
   const image =
-    article.value?.ogimage ||
-    (article.value?.cover + '.webp') ||
+    $article.ogimage ||
+    $article.cover + '.webp' ||
     'https://affine.pro/og.jpeg';
 
+  const jsonld = {
+    '@context': 'https://schema.org',
+    '@graph': [
+      {
+        '@type': 'WebSite',
+        name: title,
+        description: desc,
+        url,
+      },
+      {
+        '@type': 'Organization',
+        name: 'AFFiNE',
+        url: 'https://affine.pro',
+      },
+      {
+        '@type': 'Person',
+        name: $article.authors && $article.authors[0],
+      },
+    ],
+  };
+
   return {
-    title: article.value?.title,
+    title: $article.title,
     meta: [
       { name: 'twitter:title', content: title },
       { name: 'twitter:url', content: url },
@@ -138,6 +161,13 @@ const pageMeta = computed(() => {
       { name: 'og:url', content: url },
       { name: 'og:description', content: desc },
       { name: 'og:image', content: image },
+    ],
+    script: [
+      {
+        hid: 'breadcrumbs-json-ld',
+        type: 'application/ld+json',
+        textContent: JSON.stringify(jsonld),
+      },
     ],
   };
 });

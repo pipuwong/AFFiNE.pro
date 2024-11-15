@@ -10,7 +10,7 @@ export const getTemplateCateMeta = (meta: TemplateContentFileMeta) => {
     meta.description ||
     'There can be more than Notion and Miro. AFFiNE is a next-gen knowledge base that brings planning, sorting and creating all together.';
   const url = `${PATH.SHARE_HOST}/templates/category-${meta.cateSlug}`;
-  const image = (meta.cover + '.webp') || 'https://affine.pro/og.jpeg';
+  const image = meta.cover + '.webp' || 'https://affine.pro/og.jpeg';
 
   return [
     { name: 'twitter:title', content: title },
@@ -25,4 +25,27 @@ export const getTemplateCateMeta = (meta: TemplateContentFileMeta) => {
     { name: 'og:description', content: desc },
     { name: 'og:image', content: image },
   ];
+};
+
+export const getTemplateCateSchema = (meta: TemplateContentFileMeta) => {
+  if (!meta) return {};
+
+  return {
+    '@context': 'https://schema.org',
+    '@type': 'BreadcrumbList',
+    itemListElement: [
+      {
+        '@type': 'ListItem',
+        position: 1,
+        name: 'Categories',
+        item: 'https://affine.pro/templates/',
+      },
+      {
+        '@type': 'ListItem',
+        position: 2,
+        name: meta.cateName,
+        item: `https://affine.pro/templates/category-${meta.cateSlug}/`,
+      },
+    ],
+  };
 };
