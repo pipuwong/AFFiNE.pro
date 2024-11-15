@@ -106,7 +106,7 @@ const isArm64 = ref(false)
 const isShowOtherVersion = ref(false)
 
 const isWinAsset = (asset: Asset) => asset.name.includes('windows')
-const isWinExeAsset = (asset: Asset) => isWinAsset(asset) && asset.name.endsWith('.exe')
+const isWinExeAsset = (asset: Asset) => isWinAsset(asset) && asset.name.endsWith('-x64.exe')
 const isMacAsset = (asset: Asset) => asset.name.includes('macos')
 const isMacArmAsset = (asset: Asset) => isMacAsset(asset) && asset.name.includes('arm64')
 const isLinuxAsset = (asset: Asset) => asset.name.includes('linux')
