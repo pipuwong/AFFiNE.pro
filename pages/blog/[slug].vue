@@ -144,7 +144,7 @@ const pageMeta = computed(() => {
       },
       {
         '@type': 'Person',
-        name: $article.authors && $article.authors[0],
+        name: $article.authors ? $article.authors[0] : 'AFFiNE',
       },
     ],
   };
