@@ -123,6 +123,7 @@ const Platform = {
   Mac: 'macOS',
   MacArm: 'Apple Silicon (Arm64)',
   Win: 'Windows',
+  WinArm: 'Windows Arm64',
   Linux: 'Linux',
 };
 
@@ -144,6 +145,8 @@ const isShowOtherVersion = ref(false);
 const isWinAsset = (asset: Asset) => asset.name.includes('windows');
 const isWinExeAsset = (asset: Asset) =>
   isWinAsset(asset) && asset.name.endsWith('-x64.exe');
+const isWinArmAsset = (asset: Asset) =>
+  isWinAsset(asset) && asset.name.endsWith('-arm64.exe');
 const isMacAsset = (asset: Asset) => asset.name.includes('macos');
 const isMacArmAsset = (asset: Asset) =>
   isMacAsset(asset) && asset.name.includes('arm64');
@@ -155,6 +158,7 @@ const defaultAssetPlatformName = computed(() => {
 
   if (isMacArmAsset(asset)) return Platform.MacArm;
   if (isMacAsset(asset)) return Platform.Mac;
+  if (isWinArmAsset(asset)) return Platform.WinArm;
   if (isWinAsset(asset)) return Platform.Win;
   if (isLinuxAsset(asset)) return Platform.Linux;
 });
@@ -170,7 +174,9 @@ const defaultAsset = computed(() => {
       ? assets.find((el) => isMacArmAsset(el))
       : assets.find((el) => !isMacArmAsset(el) && isMacAsset(el));
   } else if ($device.isWindows) {
-    asset = assets.find((el) => isWinExeAsset(el));
+    asset = isArm64.value
+      ? assets.find((el) => isWinArmAsset(el))
+      : assets.find((el) => isWinExeAsset(el));
   }
 
   if (!asset) {
@@ -238,11 +244,16 @@ onBeforeMount(async () => {
       isArm64.value = true;
     }
     return;
+  } else if ($device.isWindows) {
+    if (/ARM64/i.test(navigator.userAgent)) {
+      isArm64.value = true;
+    }
   }
 
   const { architecture } = await navigator.userAgentData?.getHighEntropyValues([
     'architecture',
   ]);
+
   if (architecture?.includes('arm')) {
     isArm64.value = true;
   }
