@@ -5,8 +5,8 @@
     <description>All In One KnowledgeOS</description>
     <link>https://affine.pro</link>
     <atom:link href="https://affine.pro/rss.xml" rel="self" type="application/rss+xml" />
-    <lastBuildDate>Fri, 15 Nov 2024 12:59:15 GMT</lastBuildDate>
-    <pubDate>Fri, 15 Nov 2024 12:59:15 GMT</pubDate>
+    <lastBuildDate>Sun, 17 Nov 2024 07:08:16 GMT</lastBuildDate>
+    <pubDate>Sun, 17 Nov 2024 07:08:16 GMT</pubDate>
     <ttl>60</ttl>
     
     <item>
@@ -16,6 +16,15 @@
       <guid isPermaLink="true">https://affine.pro/blog/sop-template</guid>
       <pubDate>Fri, 15 Nov 2024 00:00:00 GMT</pubDate>
       <enclosure url="https://app.affine.pro/api/workspaces/qf73AF6vzWphbTJdN7KiX/blobs/uPvkscAPfV4Xy8pgsYOZwkOkFiW_ljQjU1kwDpZxPNI=" type="image/png" />
+    </item>
+    
+    <item>
+      <title>The Ultimate Guide to Movie Storyboards: From Concept to Screen</title>
+      <description><![CDATA[Explore movie storyboards, their evolution, and tools to create them, enhancing your film's visual storytelling from concept to screen.]]></description>
+      <link>https://affine.pro/blog/storyboard-template</link>
+      <guid isPermaLink="true">https://affine.pro/blog/storyboard-template</guid>
+      <pubDate>Fri, 15 Nov 2024 00:00:00 GMT</pubDate>
+      <enclosure url="https://app.affine.pro/api/workspaces/qf73AF6vzWphbTJdN7KiX/blobs/kZ83Y3OrM6LLOdTYi-XrjtQgj_N18vuX_udCB381xDw=" type="image/png" />
     </item>
     
     <item>

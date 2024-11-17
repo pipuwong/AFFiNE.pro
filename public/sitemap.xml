@@ -38,6 +38,11 @@
         <priority>1.0</priority>
     </url>
     <url>
+        <loc>https://affine.pro/blog/storyboard-template</loc>
+        <changefreq>daily</changefreq>
+        <priority>1.0</priority>
+    </url>
+    <url>
         <loc>https://affine.pro/blog/guide-to-chore-charts</loc>
         <changefreq>daily</changefreq>
         <priority>1.0</priority>
