@@ -33,6 +33,11 @@
         <priority>0.8</priority>
     </url>
     <url>
+        <loc>https://affine.pro/blog/dream-board-ideas</loc>
+        <changefreq>daily</changefreq>
+        <priority>1.0</priority>
+    </url>
+    <url>
         <loc>https://affine.pro/blog/sop-template</loc>
         <changefreq>daily</changefreq>
         <priority>1.0</priority>
