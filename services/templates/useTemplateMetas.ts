@@ -20,7 +20,7 @@ function getCates(templateMetas: TemplateContentFileMeta[]) {
       catesMap.set(tag, { slug: meta.cateSlug, index: meta.cateIndex });
     }
   });
-  return Array.from(catesMap, ([title, { slug, index }]) => ({ title, slug, index })).toSorted((a, b) => a.index - b.index);
+  return Array.from(catesMap, ([title, { slug, index }]) => ({ title, slug, index })).sort((a, b) => a.index - b.index);
 }
 
 export const useTemplateMetas = (
@@ -36,8 +36,8 @@ export const useTemplateMetas = (
         meta.md &&
         meta.slug
     )
-    .toSorted((a, b) => a.cateIndex - b.cateIndex)
-    .toSorted((a, b) => a.index - b.index);
+    .sort((a, b) => a.cateIndex - b.cateIndex)
+    .sort((a, b) => a.index - b.index);
 
   const tags = getTags(publishedMetas);
   const cates = getCates(publishedMetas);
