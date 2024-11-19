@@ -13,14 +13,14 @@ function getTags(templateMetas: TemplateContentFileMeta[]) {
 }
 
 function getCates(templateMetas: TemplateContentFileMeta[]) {
-  const catesMap = new Map<string, string>();
+  const catesMap = new Map<string, { slug: string, index: number }>();
   templateMetas.forEach((meta) => {
     const tag = meta.cateName || meta?.tags?.[0]
     if (tag) {
-      catesMap.set(tag, meta.cateSlug);
+      catesMap.set(tag, { slug: meta.cateSlug, index: meta.cateIndex });
     }
   });
-  return Array.from(catesMap, ([title, slug]) => ({ title, slug }));
+  return Array.from(catesMap, ([title, { slug, index }]) => ({ title, slug, index })).toSorted((a, b) => a.index - b.index);
 }
 
 export const useTemplateMetas = (
@@ -36,9 +36,8 @@ export const useTemplateMetas = (
         meta.md &&
         meta.slug
     )
-    .sort(({ created: a }, { created: b }) => {
-      return (b || 0) - (a || 0);
-    });
+    .toSorted((a, b) => a.cateIndex - b.cateIndex)
+    .toSorted((a, b) => a.index - b.index);
 
   const tags = getTags(publishedMetas);
   const cates = getCates(publishedMetas);

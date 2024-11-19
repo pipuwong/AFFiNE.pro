@@ -62,7 +62,7 @@ async function crawlTemplates() {
 
   const { categories } = templateList;
 
-  for (const category of categories) {
+  for (const [categoryIndex, category] of categories.entries()) {
     for (const [index, template] of category.list.entries()) {
       if (!template.templateId || !template.slug) {
         console.log(`no templateId for ${template.id}`);
@@ -109,6 +109,8 @@ async function crawlTemplates() {
         cateTitle: category.title,
         cateName: category.category,
         cateSlug: category.slug,
+        cateIndex: categoryIndex,
+        index,
         intro: featured ? category.description : undefined,
         useTemplateUrl: `https://app.affine.pro/template/import?${params.toString()}`,
         previewUrl: `https://app.affine.pro/template/preview?${params.toString()}`,

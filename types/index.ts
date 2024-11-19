@@ -67,9 +67,11 @@ declare global {
     cateTitle: string;
     cateName: string;
     cateSlug: string;
+    cateIndex: number;
     relatedTemplates: string[];
     relatedBlogs: string[];
     useTemplateUrl: string;
     previewUrl: string;
+    index: number;
   }
 }
