@@ -6,8 +6,8 @@
   "cateName": "Chore Chart",
   "cateSlug": "chore-chart",
   "cateTitle": "Chore Chart Template",
-  "cover": "https://app.affine.pro/api/workspaces/qf73AF6vzWphbTJdN7KiX/blobs/L77FELGGZbtmLiOvK_yCayJo-kEGuCZFdffIFmrN0V8=",
-  "coverAlt": "Weekly Chore Chart",
+  "cover": "https://app.affine.pro/api/workspaces/qf73AF6vzWphbTJdN7KiX/blobs/dZ6Q3xMMyfb-WgwR7lOnSyHA2yAExrprzKmoCNXGVnQ=",
+  "coverAlt": "Weekly Chore Chart Template",
   "createDate": 1731343586306,
   "created": 1731283200000,
   "description": "Organize household tasks with a Weekly Chore Chart! Assign and track chores for kids and adults to keep the home clean and running smoothly. Download a template to streamline your weekly routine.",
@@ -15,7 +15,7 @@
   "guid": "curTeOh1Rvy0jBXQVuwHd",
   "id": "curTeOh1Rvy0jBXQVuwHd",
   "linkedPageIds": [
-    "VEwKkuFPJfw21Cjx_IpHp",
+    "fjflKVEkRGCDADShtxgy2",
     "EUmadV1Z37oj1upElMGRj",
     "cXjayQOy_2TqxACc17OqZ",
     "G0uT_m7WBeZPXuXB9RO4P",
@@ -24,7 +24,7 @@
     "8yoI71clK3"
   ],
   "md": "## Weekly Chore Chart\n\n\nA weekly chore chart is a valuable tool for organizing household responsibilities, helping families or roommates distribute tasks evenly. By outlining chores for each day of the week, everyone knows what they need to do and when, which reduces misunderstandings and keeps the household on track. A chore chart also promotes accountability, encouraging each person to take ownership of their tasks.\n\n\n## Benefits of Using a Weekly Chore Chart\n\n\nA weekly chore chart offers numerous benefits that make managing household tasks easier and more effective:\n\n\n • Clarity: Lists specific tasks for each family member.\n\n\n • Routine Building: Encourages consistency and routine in daily tasks.\n\n\n • Teamwork: Fosters cooperation among family members or roommates.\n\n\n • Accountability: Reduces overlooked tasks by tracking completion.\n\n\n###  Ideal Chore Chart Structure\n\n\nAn effective weekly chore chart includes columns for names, assigned tasks, and checkboxes to mark completion. Depending on family preferences, it can be organized by day of the week or by individual family members, ensuring that each person knows their responsibilities. Many people also find that including a rewards section for kids motivates them to complete their chores.\n\n\n## How to Use a Weekly Chore Chart Effectively\n\n\nTo get the most out of your weekly chore chart, update it regularly, communicate with family members, and assign tasks based on age and ability. For families with young children, make chores fun by using stickers or rewards, which helps kids stay engaged and motivated.\n\n\nThis chore chart structure keeps households running smoothly, reduces stress, and ensures that everyone is contributing to a clean, organized space.\n\n\n",
-  "previewUrl": "https://app.affine.pro/template/preview?workspaceId=qf73AF6vzWphbTJdN7KiX&docId=VEwKkuFPJfw21Cjx_IpHp&pageId=curTeOh1Rvy0jBXQVuwHd&name=Weekly+Chore+Chart&mode=page&snapshotUrl=https%3A%2F%2Fcdn.affine.pro%2Ftemplate-snapshots%2FVEwKkuFPJfw21Cjx_IpHp.e3b0c442.zip",
+  "previewUrl": "https://app.affine.pro/template/preview?workspaceId=qf73AF6vzWphbTJdN7KiX&docId=fjflKVEkRGCDADShtxgy2&pageId=curTeOh1Rvy0jBXQVuwHd&name=Weekly+Chore+Chart&mode=page&snapshotUrl=https%3A%2F%2Fcdn.affine.pro%2Ftemplate-snapshots%2FfjflKVEkRGCDADShtxgy2.e3b0c442.zip",
   "publish": true,
   "relatedBlogIds": [
     "Ut5diNA60muLuSkmSs2Du",
@@ -45,11 +45,11 @@
   "tags": [
     "Chore Chart"
   ],
-  "template": "LinkedPage:VEwKkuFPJfw21Cjx_IpHp",
-  "templateId": "VEwKkuFPJfw21Cjx_IpHp",
+  "template": "LinkedPage:fjflKVEkRGCDADShtxgy2",
+  "templateId": "fjflKVEkRGCDADShtxgy2",
   "templateMode": "page",
   "title": "Weekly Chore Chart",
-  "updatedDate": 1731344843862,
-  "useTemplateUrl": "https://app.affine.pro/template/import?workspaceId=qf73AF6vzWphbTJdN7KiX&docId=VEwKkuFPJfw21Cjx_IpHp&pageId=curTeOh1Rvy0jBXQVuwHd&name=Weekly+Chore+Chart&mode=page&snapshotUrl=https%3A%2F%2Fcdn.affine.pro%2Ftemplate-snapshots%2FVEwKkuFPJfw21Cjx_IpHp.e3b0c442.zip",
+  "updatedDate": 1731988979093,
+  "useTemplateUrl": "https://app.affine.pro/template/import?workspaceId=qf73AF6vzWphbTJdN7KiX&docId=fjflKVEkRGCDADShtxgy2&pageId=curTeOh1Rvy0jBXQVuwHd&name=Weekly+Chore+Chart&mode=page&snapshotUrl=https%3A%2F%2Fcdn.affine.pro%2Ftemplate-snapshots%2FfjflKVEkRGCDADShtxgy2.e3b0c442.zip",
   "valid": true
 }
