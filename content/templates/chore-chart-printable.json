@@ -3,6 +3,7 @@
   "authors": [
     "AFFiNE"
   ],
+  "cateIndex": 14,
   "cateName": "Chore Chart",
   "cateSlug": "chore-chart",
   "cateTitle": "Chore Chart Template",
@@ -11,9 +12,11 @@
   "createDate": 1731345583381,
   "created": 1731888000000,
   "description": "Get organized with a Chore Chart Printable! Perfect for kids and adults, these templates help manage household tasks easily. Download and print your chart to streamline daily or weekly chores.",
-  "featured": false,
+  "featured": true,
   "guid": "qLGrvS4whRNYaJenV69IX",
   "id": "qLGrvS4whRNYaJenV69IX",
+  "index": 0,
+  "intro": "A chore chart is a practical tool that helps families and individuals manage household tasks effectively. It serves as a visual guide to assign and track chores, making it easier to organize daily, weekly, and even monthly responsibilities. Whether you’re aiming to teach children about responsibility or streamline tasks among family members, a well-structured chore chart can reduce stress, increase accountability, and keep your household running smoothly.\n\n\n## What is a Chore Chart?\n\n\nA chore chart is a simple yet powerful chart or template that lists household tasks and assigns them to specific individuals. By clearly laying out who is responsible for each task, a chore chart helps keep everyone on the same page and reduces the need for reminders. It’s an ideal solution for managing shared spaces and tasks efficiently.\n\n\n## Benefits of Using a Chore Chart\n\n\n• Clarity: A chore chart gives everyone a clear understanding of their responsibilities.\n\n\n• Accountability: It makes it easy to track whether tasks have been completed, promoting responsibility.\n\n\n• Routine: By structuring household chores, you can create a routine that is easy to follow.\n\n\n## What Should Be on a Chore Chart?\n\n\nA good chore chart includes specific tasks, names of individuals responsible, and due dates. Here are some key elements to consider:\n\n\n• Chore List: Each task, from taking out the trash to folding laundry, should be listed individually for clarity.\n\n\n• Assigned Person: Name or indicate who is responsible for each task.\n\n\n• Frequency: Specify how often each task should be done (e.g., daily, weekly).\n\n\n• Completion Tracking: Include checkboxes or columns for marking tasks as completed, which helps maintain accountability.\n\n\nA digital chore chart template, like those available on Affine, can make it easy to customize these fields and even automate reminders.\n\n\n## What Types of Tasks Go on a Chore List\n\n\nChore lists can vary depending on your household’s needs. Common examples include:\n\n\n• Daily Chores: Tasks that need to be done daily, such as washing dishes or feeding pets.\n\n\n• Weekly Chores: Tasks like laundry, vacuuming, and taking out the trash, which only need to be done once a week.\n\n\n• Monthly Chores: More infrequent tasks, such as cleaning the fridge or washing windows.\n\n\n### What is an Example of a Chore?\n\n\nHere are a few examples of common chores that might appear on a family chore chart:\n\n\n• Feeding the Pets: A simple daily task that children can help with, fostering responsibility.\n\n\n• Taking Out the Trash: A weekly chore that keeps the house clean and prevents clutter.\n\n\n• Vacuuming the Living Room: An easy task for teens, typically done once a week to maintain cleanliness.\n\n\n\n\n\n",
   "linkedPageIds": [
     "_AKvgerZuymzeVgdnmfyU",
     "EUmadV1Z37oj1upElMGRj",
@@ -49,7 +52,7 @@
   "templateId": "_AKvgerZuymzeVgdnmfyU",
   "templateMode": "page",
   "title": "Chore Chart Printable",
-  "updatedDate": 1731989062327,
+  "updatedDate": 1731994954376,
   "useTemplateUrl": "https://app.affine.pro/template/import?workspaceId=qf73AF6vzWphbTJdN7KiX&docId=_AKvgerZuymzeVgdnmfyU&pageId=qLGrvS4whRNYaJenV69IX&name=Chore+Chart+Printable&mode=page&snapshotUrl=https%3A%2F%2Fcdn.affine.pro%2Ftemplate-snapshots%2F_AKvgerZuymzeVgdnmfyU.e3b0c442.zip",
   "valid": true
 }

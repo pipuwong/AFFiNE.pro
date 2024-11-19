@@ -2333,17 +2333,42 @@
         <priority>1.0</priority>
     </url>
     <url>
-        <loc>https://affine.pro/templates/category-chore-chart</loc>
+        <loc>https://affine.pro/templates/category-cornell-notes-template</loc>
         <changefreq>daily</changefreq>
         <priority>1.0</priority>
     </url>
     <url>
-        <loc>https://affine.pro/templates/category-digital-planner</loc>
+        <loc>https://affine.pro/templates/category-standard-operating-procedure-template</loc>
+        <changefreq>daily</changefreq>
+        <priority>1.0</priority>
+    </url>
+    <url>
+        <loc>https://affine.pro/templates/category-vision-board-template</loc>
+        <changefreq>daily</changefreq>
+        <priority>1.0</priority>
+    </url>
+    <url>
+        <loc>https://affine.pro/templates/category-smart-goal-template</loc>
+        <changefreq>daily</changefreq>
+        <priority>1.0</priority>
+    </url>
+    <url>
+        <loc>https://affine.pro/templates/category-meal-plan-template</loc>
         <changefreq>daily</changefreq>
         <priority>1.0</priority>
     </url>
     <url>
         <loc>https://affine.pro/templates/category-checklist-template</loc>
+        <changefreq>daily</changefreq>
+        <priority>1.0</priority>
+    </url>
+    <url>
+        <loc>https://affine.pro/templates/category-storyboard-template</loc>
+        <changefreq>daily</changefreq>
+        <priority>1.0</priority>
+    </url>
+    <url>
+        <loc>https://affine.pro/templates/category-lesson-plan-template</loc>
         <changefreq>daily</changefreq>
         <priority>1.0</priority>
     </url>
@@ -2358,42 +2383,17 @@
         <priority>1.0</priority>
     </url>
     <url>
+        <loc>https://affine.pro/templates/category-digital-planner</loc>
+        <changefreq>daily</changefreq>
+        <priority>1.0</priority>
+    </url>
+    <url>
         <loc>https://affine.pro/templates/category-academic-cv-template</loc>
         <changefreq>daily</changefreq>
         <priority>1.0</priority>
     </url>
     <url>
-        <loc>https://affine.pro/templates/category-lesson-plan-template</loc>
-        <changefreq>daily</changefreq>
-        <priority>1.0</priority>
-    </url>
-    <url>
-        <loc>https://affine.pro/templates/category-storyboard-template</loc>
-        <changefreq>daily</changefreq>
-        <priority>1.0</priority>
-    </url>
-    <url>
-        <loc>https://affine.pro/templates/category-vision-board-template</loc>
-        <changefreq>daily</changefreq>
-        <priority>1.0</priority>
-    </url>
-    <url>
-        <loc>https://affine.pro/templates/category-cornell-notes-template</loc>
-        <changefreq>daily</changefreq>
-        <priority>1.0</priority>
-    </url>
-    <url>
-        <loc>https://affine.pro/templates/category-meal-plan-template</loc>
-        <changefreq>daily</changefreq>
-        <priority>1.0</priority>
-    </url>
-    <url>
-        <loc>https://affine.pro/templates/category-smart-goal-template</loc>
-        <changefreq>daily</changefreq>
-        <priority>1.0</priority>
-    </url>
-    <url>
-        <loc>https://affine.pro/templates/category-standard-operating-procedure-template</loc>
+        <loc>https://affine.pro/templates/category-chore-chart</loc>
         <changefreq>daily</changefreq>
         <priority>1.0</priority>
     </url>

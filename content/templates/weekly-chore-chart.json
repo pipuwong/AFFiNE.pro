@@ -3,6 +3,7 @@
   "authors": [
     "AFFiNE"
   ],
+  "cateIndex": 14,
   "cateName": "Chore Chart",
   "cateSlug": "chore-chart",
   "cateTitle": "Chore Chart Template",
@@ -14,6 +15,7 @@
   "featured": false,
   "guid": "curTeOh1Rvy0jBXQVuwHd",
   "id": "curTeOh1Rvy0jBXQVuwHd",
+  "index": 1,
   "linkedPageIds": [
     "fjflKVEkRGCDADShtxgy2",
     "EUmadV1Z37oj1upElMGRj",
@@ -49,7 +51,7 @@
   "templateId": "fjflKVEkRGCDADShtxgy2",
   "templateMode": "page",
   "title": "Weekly Chore Chart",
-  "updatedDate": 1731988979093,
+  "updatedDate": 1731994961753,
   "useTemplateUrl": "https://app.affine.pro/template/import?workspaceId=qf73AF6vzWphbTJdN7KiX&docId=fjflKVEkRGCDADShtxgy2&pageId=curTeOh1Rvy0jBXQVuwHd&name=Weekly+Chore+Chart&mode=page&snapshotUrl=https%3A%2F%2Fcdn.affine.pro%2Ftemplate-snapshots%2FfjflKVEkRGCDADShtxgy2.e3b0c442.zip",
   "valid": true
 }

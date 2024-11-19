@@ -3,6 +3,7 @@
   "authors": [
     "AFFiNE"
   ],
+  "cateIndex": 14,
   "cateName": "Chore Chart",
   "cateSlug": "chore-chart",
   "cateTitle": "Chore Chart Template",
@@ -14,8 +15,9 @@
   "featured": false,
   "guid": "w3XeuCRet-Tae50X8RcKI",
   "id": "w3XeuCRet-Tae50X8RcKI",
+  "index": 2,
   "linkedPageIds": [
-    "VBWqGmW_AZjGJYHwsisbD",
+    "Dg4aLL0EJ7yR7ZBDy_ICG",
     "EUmadV1Z37oj1upElMGRj",
     "curTeOh1Rvy0jBXQVuwHd",
     "cXjayQOy_2TqxACc17OqZ",
@@ -24,7 +26,7 @@
     "8yoI71clK3"
   ],
   "md": "## Family Chore Chart\n\n\nA family chore chart is an invaluable tool for organizing and managing household tasks among all family members. By designating responsibilities for each person, this chart fosters teamwork, encourages accountability, and promotes a cleaner, more organized home. Family chore charts help everyone understand their roles and ensure that no tasks go overlooked, making it easier to balance chores in a busy household.\n\n\n## Benefits of Using a Family Chore Chart\n\n\nA family chore chart provides multiple benefits, including:\n\n\n • Shared Responsibility: Assigns clear tasks to each family member, helping distribute the workload evenly.\n\n\n • Routine Building: Encourages consistency and routine in daily and weekly household chores.\n\n\n • Skill Building for Kids: Teaches children important life skills and the value of contributing to family responsibilities.\n\n\n • Reduced Stress: Keeps the household running smoothly, so there’s less stress about overlooked tasks.\n\n\n### Components of an Effective Family Chore Chart\n\n\nAn effective family chore chart typically includes columns for family member names, specific chores, and a checkbox to mark task completion. Many families find it helpful to organize the chart by daily, weekly, and monthly tasks, so everyone knows exactly what’s expected.\n\n\n## How to Use a Family Chore Chart Effectively\n\n\nTo make the most out of your family chore chart, tailor tasks to each family member’s age and capabilities. Update the chart regularly, involve family members in assigning tasks, and celebrate completed chores. A well-used family chore chart helps create a sense of accomplishment and keeps your home clean and organized.\n\n\n",
-  "previewUrl": "https://app.affine.pro/template/preview?workspaceId=qf73AF6vzWphbTJdN7KiX&docId=VBWqGmW_AZjGJYHwsisbD&pageId=w3XeuCRet-Tae50X8RcKI&name=Family+Chore+Chart&mode=page&snapshotUrl=https%3A%2F%2Fcdn.affine.pro%2Ftemplate-snapshots%2FVBWqGmW_AZjGJYHwsisbD.e3b0c442.zip",
+  "previewUrl": "https://app.affine.pro/template/preview?workspaceId=qf73AF6vzWphbTJdN7KiX&docId=Dg4aLL0EJ7yR7ZBDy_ICG&pageId=w3XeuCRet-Tae50X8RcKI&name=Family+Chore+Chart&mode=page&snapshotUrl=https%3A%2F%2Fcdn.affine.pro%2Ftemplate-snapshots%2FDg4aLL0EJ7yR7ZBDy_ICG.e3b0c442.zip",
   "publish": true,
   "relatedBlogIds": [
     "Ut5diNA60muLuSkmSs2Du",
@@ -45,11 +47,11 @@
   "tags": [
     "Chore Chart"
   ],
-  "template": "LinkedPage:VBWqGmW_AZjGJYHwsisbD",
-  "templateId": "VBWqGmW_AZjGJYHwsisbD",
+  "template": "LinkedPage:Dg4aLL0EJ7yR7ZBDy_ICG",
+  "templateId": "Dg4aLL0EJ7yR7ZBDy_ICG",
   "templateMode": "page",
   "title": "Family Chore Chart",
-  "updatedDate": 1731345335079,
-  "useTemplateUrl": "https://app.affine.pro/template/import?workspaceId=qf73AF6vzWphbTJdN7KiX&docId=VBWqGmW_AZjGJYHwsisbD&pageId=w3XeuCRet-Tae50X8RcKI&name=Family+Chore+Chart&mode=page&snapshotUrl=https%3A%2F%2Fcdn.affine.pro%2Ftemplate-snapshots%2FVBWqGmW_AZjGJYHwsisbD.e3b0c442.zip",
+  "updatedDate": 1732001785239,
+  "useTemplateUrl": "https://app.affine.pro/template/import?workspaceId=qf73AF6vzWphbTJdN7KiX&docId=Dg4aLL0EJ7yR7ZBDy_ICG&pageId=w3XeuCRet-Tae50X8RcKI&name=Family+Chore+Chart&mode=page&snapshotUrl=https%3A%2F%2Fcdn.affine.pro%2Ftemplate-snapshots%2FDg4aLL0EJ7yR7ZBDy_ICG.e3b0c442.zip",
   "valid": true
 }
