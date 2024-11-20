@@ -80,15 +80,15 @@ const theme = computed<HeroTheme>(() => {
       align-items: center
 
   .content-part
-    flex: 421
+    flex: 1
 
     @media $mediaColDir
       flex: auto
 
   .card-cover
-    flex: 402
+    flex: 1
     border-radius: 8px 8px 0px 0px
-    aspect-ratio: 402/333
+    aspect-ratio: 4/3
     background-color: white
     background-position: top center
     border: 1px solid #F3F3F3;
