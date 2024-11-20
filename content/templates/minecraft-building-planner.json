@@ -7,7 +7,7 @@
   "cateName": "Digital Planner",
   "cateSlug": "digital-planner",
   "cateTitle": "Digital Planner",
-  "cover": "https://app.affine.pro/api/workspaces/qf73AF6vzWphbTJdN7KiX/blobs/NYOpxhKDu69XPPqRKZmFtKT-TuuIz2DBidYaIKGc0f8=",
+  "cover": "https://app.affine.pro/api/workspaces/qf73AF6vzWphbTJdN7KiX/blobs/zUA_hKVQDNua2gFUQwrqI5x-fcIOyV_5tMVOo7Lipak=",
   "coverAlt": "Minecraft Building Planner",
   "createDate": 1727201794106,
   "created": 1727136000000,
@@ -15,9 +15,9 @@
   "featured": false,
   "guid": "ah0Xe9WK_soKncqKwIXdX",
   "id": "ah0Xe9WK_soKncqKwIXdX",
-  "index": 15,
+  "index": 1,
   "linkedPageIds": [
-    "ctEcafPBkAd2IYBGStBD5",
+    "CWAEhyFMMQQDy2fXWzldS",
     "4SBqQ6lf4oJjmlRejOhyH",
     "s85lVg-wJX_XLU72OAjXi",
     "F89MHSLmVqv-2d9nOTsJd",
@@ -26,7 +26,7 @@
     "9uPXhb1qDF0ksuBrq3dNl"
   ],
   "md": "A Minecraft Building Planner is an essential tool for players who want to organize their building projects within the game. Whether you’re constructing a simple house or an intricate cityscape, planning your builds ahead of time can save you resources, time, and effort. This planner helps you track materials, set project timelines, and manage different aspects of your builds, ensuring that your Minecraft creations are as efficient and impressive as possible.\n\n\n## Key Features of the Minecraft Building Planner\n\n\n### 1. Project Planning\n\n\nThe project planning section allows you to outline the type of build, its dimensions, and the location in your Minecraft world. This helps you visualize and prepare for your build before placing the first block.\n\n\n### 2. Resource Management\n\n\nThe resource management section is perfect for listing all the materials you’ll need, making sure you have the right amount of blocks, tools, and items to complete your project without unnecessary trips back and forth.\n\n\n### 3. Step-by-Step Build Timeline\n\n\nBreak down your project into step-by-step building phases to stay organized and ensure that each stage of your project is completed before moving on to the next.\n\n\n## How to plan a building in Minecraft?\n\n\nTo plan a building in Minecraft, start by deciding on the style, size, and materials you’ll use. Sketch out a rough outline or blueprint, either on paper or in-game with temporary blocks. Consider the location carefully; terrain features like hills, rivers, or cliffs can add character to your build. Plan for functional spaces (e.g., rooms, storage, or crafting areas) based on your needs, and ensure there’s a logical flow between them.\n\n\nNext, gather all the necessary resources in advance, like wood, stone, or decorative blocks, to streamline construction. Use reference images or inspiration builds if you need ideas for details. Breaking the project into phases (foundation, walls, roof, and decoration) will make it more manageable. Planning lighting and defensive elements can also enhance both safety and aesthetics, especially for survival mode builds.\n\n\n",
-  "previewUrl": "https://app.affine.pro/template/preview?workspaceId=qf73AF6vzWphbTJdN7KiX&docId=ctEcafPBkAd2IYBGStBD5&pageId=ah0Xe9WK_soKncqKwIXdX&name=Minecraft+Building+Planner&mode=page&snapshotUrl=https%3A%2F%2Fcdn.affine.pro%2Ftemplate-snapshots%2FctEcafPBkAd2IYBGStBD5.e3b0c442.zip",
+  "previewUrl": "https://app.affine.pro/template/preview?workspaceId=qf73AF6vzWphbTJdN7KiX&docId=CWAEhyFMMQQDy2fXWzldS&pageId=ah0Xe9WK_soKncqKwIXdX&name=Minecraft+Building+Planner&mode=edgeless&snapshotUrl=https%3A%2F%2Fcdn.affine.pro%2Ftemplate-snapshots%2FCWAEhyFMMQQDy2fXWzldS.e3b0c442.zip",
   "publish": true,
   "relatedBlogIds": [
     "oapgNIuMNG",
@@ -47,11 +47,11 @@
   "tags": [
     "Digital Planner"
   ],
-  "template": "LinkedPage:ctEcafPBkAd2IYBGStBD5:page",
-  "templateId": "ctEcafPBkAd2IYBGStBD5",
-  "templateMode": "page",
+  "template": "LinkedPage:CWAEhyFMMQQDy2fXWzldS:edgeless",
+  "templateId": "CWAEhyFMMQQDy2fXWzldS",
+  "templateMode": "edgeless",
   "title": "Minecraft Building Planner",
-  "updatedDate": 1731310521658,
-  "useTemplateUrl": "https://app.affine.pro/template/import?workspaceId=qf73AF6vzWphbTJdN7KiX&docId=ctEcafPBkAd2IYBGStBD5&pageId=ah0Xe9WK_soKncqKwIXdX&name=Minecraft+Building+Planner&mode=page&snapshotUrl=https%3A%2F%2Fcdn.affine.pro%2Ftemplate-snapshots%2FctEcafPBkAd2IYBGStBD5.e3b0c442.zip",
+  "updatedDate": 1732092678640,
+  "useTemplateUrl": "https://app.affine.pro/template/import?workspaceId=qf73AF6vzWphbTJdN7KiX&docId=CWAEhyFMMQQDy2fXWzldS&pageId=ah0Xe9WK_soKncqKwIXdX&name=Minecraft+Building+Planner&mode=edgeless&snapshotUrl=https%3A%2F%2Fcdn.affine.pro%2Ftemplate-snapshots%2FCWAEhyFMMQQDy2fXWzldS.e3b0c442.zip",
   "valid": true
 }
