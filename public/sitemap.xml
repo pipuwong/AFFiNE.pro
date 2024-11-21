@@ -43,6 +43,16 @@
         <priority>1.0</priority>
     </url>
     <url>
+        <loc>https://affine.pro/blog/minecraft-building-planner</loc>
+        <changefreq>daily</changefreq>
+        <priority>1.0</priority>
+    </url>
+    <url>
+        <loc>https://affine.pro/blog/notion-alternative</loc>
+        <changefreq>daily</changefreq>
+        <priority>1.0</priority>
+    </url>
+    <url>
         <loc>https://affine.pro/blog/digital-planner</loc>
         <changefreq>daily</changefreq>
         <priority>1.0</priority>
