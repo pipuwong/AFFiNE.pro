@@ -7,7 +7,7 @@
   "cateName": "Chore Chart",
   "cateSlug": "chore-chart",
   "cateTitle": "Chore Chart Template",
-  "cover": "https://app.affine.pro/api/workspaces/qf73AF6vzWphbTJdN7KiX/blobs/4JoydqDRwykE1wAaEgfR46u614BCYiIMVpBUMtRgIPE=",
+  "cover": "https://app.affine.pro/api/workspaces/qf73AF6vzWphbTJdN7KiX/blobs/oHQ209UpmZsbd-75FAlef7TbkZhl7UWZI8-PDmwdrVM=",
   "coverAlt": "Printable Chore Chart for Kids",
   "createDate": 1730450057630,
   "created": 1730160000000,
@@ -17,7 +17,7 @@
   "id": "G0uT_m7WBeZPXuXB9RO4P",
   "index": 5,
   "linkedPageIds": [
-    "mo-Nmiy0_OejXkPxfoyKE",
+    "Qa6r0g2Vh7WVDDCUEs-qU",
     "4SBqQ6lf4oJjmlRejOhyH",
     "WRme1N6eOQIyZPBXVbXc8",
     "EzCZzdu56cBrqqDab4RtK",
@@ -26,7 +26,7 @@
     "8yoI71clK3"
   ],
   "md": "## Printable Chore Chart for Kids\n\n\nGetting kids involved in household chores can be both fun and rewarding. A printable chore chart helps organize responsibilities, fosters accountability, and gives kids a sense of accomplishment. This template provides a clear structure that’s easy for kids to understand, making it an effective tool for managing chores in a family-friendly way.\n\n\n### Benefits of a Printable Chore Chart for Kids\n\n\n • **Builds Responsibility**: Helps kids understand and take ownership of their daily or weekly chores.\n\n\n • **Organized Layout**: Simplifies tasks with a straightforward format, making it easy for children to see what needs to be done.\n\n\n • **Positive Reinforcement**: Completed tasks can be rewarded, encouraging kids to stay engaged.\n\n\n",
-  "previewUrl": "https://app.affine.pro/template/preview?workspaceId=qf73AF6vzWphbTJdN7KiX&docId=mo-Nmiy0_OejXkPxfoyKE&pageId=G0uT_m7WBeZPXuXB9RO4P&name=Printable+Chore+Chart+for+Kids&mode=page&snapshotUrl=https%3A%2F%2Fcdn.affine.pro%2Ftemplate-snapshots%2Fmo-Nmiy0_OejXkPxfoyKE.e3b0c442.zip",
+  "previewUrl": "https://app.affine.pro/template/preview?workspaceId=qf73AF6vzWphbTJdN7KiX&docId=Qa6r0g2Vh7WVDDCUEs-qU&pageId=G0uT_m7WBeZPXuXB9RO4P&name=Printable+Chore+Chart+for+Kids&mode=edgeless&snapshotUrl=https%3A%2F%2Fcdn.affine.pro%2Ftemplate-snapshots%2FQa6r0g2Vh7WVDDCUEs-qU.e3b0c442.zip",
   "publish": true,
   "relatedBlogIds": [
     "Ut5diNA60muLuSkmSs2Du",
@@ -47,11 +47,11 @@
   "tags": [
     "Chore Chart"
   ],
-  "template": "LinkedPage:mo-Nmiy0_OejXkPxfoyKE",
-  "templateId": "mo-Nmiy0_OejXkPxfoyKE",
-  "templateMode": "page",
+  "template": "LinkedPage:Qa6r0g2Vh7WVDDCUEs-qU:edgeless",
+  "templateId": "Qa6r0g2Vh7WVDDCUEs-qU",
+  "templateMode": "edgeless",
   "title": "Printable Chore Chart for Kids",
-  "updatedDate": 1730451158385,
-  "useTemplateUrl": "https://app.affine.pro/template/import?workspaceId=qf73AF6vzWphbTJdN7KiX&docId=mo-Nmiy0_OejXkPxfoyKE&pageId=G0uT_m7WBeZPXuXB9RO4P&name=Printable+Chore+Chart+for+Kids&mode=page&snapshotUrl=https%3A%2F%2Fcdn.affine.pro%2Ftemplate-snapshots%2Fmo-Nmiy0_OejXkPxfoyKE.e3b0c442.zip",
+  "updatedDate": 1732245226726,
+  "useTemplateUrl": "https://app.affine.pro/template/import?workspaceId=qf73AF6vzWphbTJdN7KiX&docId=Qa6r0g2Vh7WVDDCUEs-qU&pageId=G0uT_m7WBeZPXuXB9RO4P&name=Printable+Chore+Chart+for+Kids&mode=edgeless&snapshotUrl=https%3A%2F%2Fcdn.affine.pro%2Ftemplate-snapshots%2FQa6r0g2Vh7WVDDCUEs-qU.e3b0c442.zip",
   "valid": true
 }
