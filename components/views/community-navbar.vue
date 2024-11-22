@@ -22,7 +22,7 @@ import { PATH } from '~/utils/constants'
 const navItems = [
   {
     name: 'Discord',
-    desc: 'Get tips and support from 2000+ users',
+    desc: 'Get tips and support from 4000+ users',
     icon: 'discord',
     link: PATH.SNS_DISCORD
   },
