@@ -57,42 +57,42 @@
 </template>
 
 <script setup lang="ts">
-import { gsap } from 'gsap'
-import { CONFIG } from '~/utils/constants'
-import { useEventListener } from '@vueuse/core'
-import type { Application } from '@splinetool/runtime'
-const { isMobile } = useDevice()
+import { gsap } from 'gsap';
+import { CONFIG } from '~/utils/constants';
+import { useEventListener } from '@vueuse/core';
+import type { Application } from '@splinetool/runtime';
+const { isMobile } = useDevice();
 
-const isInited = ref(false)
-const el = ref()
-const canvasRef = ref()
-const planCheckboxValue = ref(true)
-const isPlayVideo = ref(isMobile)
-const scrollProgress = ref(0)
+const isInited = ref(false);
+const el = ref();
+const canvasRef = ref();
+const planCheckboxValue = ref(true);
+const isPlayVideo = ref(isMobile);
+const scrollProgress = ref(0);
 
-let app: Application
-let cleanup: () => void
+let app: Application;
+let cleanup: () => void;
 
 const setupSpline = async () => {
-  const { Application } = await import('@splinetool/runtime')
-  app = new Application(canvasRef.value)
-  await app.load('/overview/hero.splinecode')
+  const { Application } = await import('@splinetool/runtime');
+  app = new Application(canvasRef.value);
+  await app.load('/overview/hero.splinecode');
   // Disable scroll block
-  app.eventManager.preventScroll = false
+  app.eventManager.preventScroll = false;
   // Disable resize for perf
   setTimeout(() => {
-    app._resizeObserver.unobserve(canvasRef.value.parentElement)
-    app._resize()
-  }, 400)
+    app._resizeObserver.unobserve(canvasRef.value.parentElement);
+    app._resize();
+  }, 400);
   // window.app = app
 
   // Emit mouse event
   cleanup = useEventListener(el.value, 'mousemove', (e) => {
-    app._controls.orbitControls.handleMouseMoveRotate(e, 0.005)
-  })
+    app._controls.orbitControls.handleMouseMoveRotate(e, 0.005);
+  });
 
-  isInited.value = true
-}
+  isInited.value = true;
+};
 
 const setupScrollTrigger = async () => {
   gsap.to(scrollProgress, {
@@ -101,33 +101,33 @@ const setupScrollTrigger = async () => {
       markers: false,
       scrub: 0.5,
       trigger: '.overview-hero-v3 .pin-wrapper-placeholder',
-      start: "top top",
-      end: "bottom 20%",
-      onUpdate (self) {
-        if (isMobile) return
-        isPlayVideo.value = self.progress > 0.5
-      }
+      start: 'top top',
+      end: 'bottom 20%',
+      onUpdate(self) {
+        if (isMobile) return;
+        isPlayVideo.value = self.progress > 0.5;
+      },
     },
-    value: 1
-  })
-}
+    value: 1,
+  });
+};
 
 onActivated(() => {
-  const config = useRuntimeConfig()
+  const config = useRuntimeConfig();
   if (!isMobile) {
     if (config.public.ENV !== 'development') {
-      setupSpline()
+      // setupSpline()
     }
-    isInited.value = true
+    isInited.value = true;
   }
-  setupScrollTrigger()
-})
+  setupScrollTrigger();
+});
 
 onDeactivated(() => {
-  app?.dispose()
-  cleanup && cleanup()
-  isInited.value = false
-})
+  app?.dispose();
+  cleanup && cleanup();
+  isInited.value = false;
+});
 </script>
 
 <style lang="stylus">
@@ -357,5 +357,4 @@ onDeactivated(() => {
       display: flex
       width: 100%
       aspect-ratio: 721.15/500.8
-
 </style>
