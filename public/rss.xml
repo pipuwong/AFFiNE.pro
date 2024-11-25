@@ -5,9 +5,27 @@
     <description>All In One KnowledgeOS</description>
     <link>https://affine.pro</link>
     <atom:link href="https://affine.pro/rss.xml" rel="self" type="application/rss+xml" />
-    <lastBuildDate>Mon, 25 Nov 2024 10:18:57 GMT</lastBuildDate>
-    <pubDate>Mon, 25 Nov 2024 10:18:57 GMT</pubDate>
+    <lastBuildDate>Mon, 25 Nov 2024 11:29:34 GMT</lastBuildDate>
+    <pubDate>Mon, 25 Nov 2024 11:29:34 GMT</pubDate>
     <ttl>60</ttl>
+    
+    <item>
+      <title>Free Employee Review Templates: Boost Performance Evaluations with Ease</title>
+      <description><![CDATA[“Optimize performance evaluations with tailored employee review templates, enhancing communication, fairness, and goal alignment.”]]></description>
+      <link>https://affine.pro/blog/employee-review-template</link>
+      <guid isPermaLink="true">https://affine.pro/blog/employee-review-template</guid>
+      <pubDate>Sun, 24 Nov 2024 00:00:00 GMT</pubDate>
+      
+    </item>
+    
+    <item>
+      <title>Exploring Notion Alternatives: A Deep Dive into Personal Knowledge Management Systems</title>
+      <description><![CDATA[Explore top Notion alternatives for effective personal knowledge management, focusing on privacy, customization, and collaboration.]]></description>
+      <link>https://affine.pro/blog/best-notion-alternatives</link>
+      <guid isPermaLink="true">https://affine.pro/blog/best-notion-alternatives</guid>
+      <pubDate>Sat, 23 Nov 2024 00:00:00 GMT</pubDate>
+      <enclosure url="https://app.affine.pro/api/workspaces/qf73AF6vzWphbTJdN7KiX/blobs/rHtOCORTmp3ut2JduuBJ-8lxwFL7eVtmkVO-6L0wVKc=" type="image/png" />
+    </item>
     
     <item>
       <title>Can Whiteboard Apps Write Text on Mac? A Comprehensive Guide</title>
