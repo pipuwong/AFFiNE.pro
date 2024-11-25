@@ -352,6 +352,7 @@ onDeactivated(() => {
 
     @media (min-width: 1024px) and (min-height: 800px)
       transform: scale(calc(1 + 0.1 * var(--scroll-progress)))
+      will-change: transform
 
     video
       display: flex
