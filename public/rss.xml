@@ -5,8 +5,8 @@
     <description>All In One KnowledgeOS</description>
     <link>https://affine.pro</link>
     <atom:link href="https://affine.pro/rss.xml" rel="self" type="application/rss+xml" />
-    <lastBuildDate>Tue, 26 Nov 2024 06:46:25 GMT</lastBuildDate>
-    <pubDate>Tue, 26 Nov 2024 06:46:25 GMT</pubDate>
+    <lastBuildDate>Tue, 26 Nov 2024 06:55:26 GMT</lastBuildDate>
+    <pubDate>Tue, 26 Nov 2024 06:55:26 GMT</pubDate>
     <ttl>60</ttl>
     
     <item>
@@ -15,7 +15,7 @@
       <link>https://affine.pro/blog/employee-review-template</link>
       <guid isPermaLink="true">https://affine.pro/blog/employee-review-template</guid>
       <pubDate>Sun, 24 Nov 2024 00:00:00 GMT</pubDate>
-      
+      <enclosure url="https://app.affine.pro/api/workspaces/qf73AF6vzWphbTJdN7KiX/blobs/nT-A_WXYEAzs3Nke8WTFleEyv212FBqrWBDr2WD7D00=" type="image/png" />
     </item>
     
     <item>
