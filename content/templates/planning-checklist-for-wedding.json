@@ -7,8 +7,8 @@
   "cateName": "Checklist Template",
   "cateSlug": "checklist-template",
   "cateTitle": "Checklist Template",
-  "cover": "https://app.affine.pro/api/workspaces/qf73AF6vzWphbTJdN7KiX/blobs/D6ItVkcuOt3DuczmkU8zIl03Uwpc4n6KMc_o_YRT0lw=",
-  "coverAlt": "Planning Checklist For A Wedding",
+  "cover": "https://app.affine.pro/api/workspaces/qf73AF6vzWphbTJdN7KiX/blobs/Lazf0PHgsd_xbqyDDj99ClKlfuEff1lzVs2XymAEszU=",
+  "coverAlt": "Planning checklist for wedding",
   "createDate": 1731140365074,
   "created": 1730678400000,
   "description": "Plan your perfect wedding with our comprehensive planning checklist for weddings. From selecting a venue to finalizing guest lists and timelines, this guide ensures every detail is covered for your big day!",
@@ -17,7 +17,7 @@
   "id": "J5SbWG097xupBJsnvjT7s",
   "index": 22,
   "linkedPageIds": [
-    "SaMWRN2kIGZsh68WdnmMJ",
+    "lnIJON5g_fcpuzChUlnjX",
     "pjvRYee73VRaWsV4GFJPM",
     "F89MHSLmVqv-2d9nOTsJd",
     "F-iIk03tG_3Q8AN-mqZrV",
@@ -26,7 +26,7 @@
     "8yoI71clK3"
   ],
   "md": "A planning checklist for a wedding is a crucial tool to help couples organize all the important tasks and deadlines involved in wedding preparation. This checklist breaks down the planning process into manageable steps, covering everything from budgeting and venue selection to guest lists and final timelines. Using a well-structured wedding planning checklist enables couples to stay organized and enjoy a stress-free journey toward their special day.\n\n\n## Benefits of Using a Planning Checklist for Wedding\n\n\nOrganizing a wedding involves countless details and tasks, and a checklist can simplify the process. With a checklist, couples can ensure every element of their day is carefully planned, keeping stress levels low and excitement high.\n\n\n### Streamlined Organization\n\n\nA checklist ensures every element of the wedding is planned in advance, helping couples structure tasks, stay organized, and adhere to deadlines. This level of organization makes the entire planning process more manageable and minimizes the risk of missed tasks.\n\n\n### Budget Management\n\n\nA comprehensive checklist includes a budget section, which helps couples track expenses, prioritize essential items, and avoid overspending. By listing all necessary expenses, couples can allocate funds effectively to ensure their dream wedding fits within their financial plans.\n\n\n### Reduces Last-Minute Stress\n\n\nWith clear deadlines for each task, a planning checklist allows couples to complete important tasks well in advance of the wedding. This preparation reduces last-minute stress and ensures that the days leading up to the wedding are smooth and enjoyable.\n\n\n",
-  "previewUrl": "https://app.affine.pro/template/preview?workspaceId=qf73AF6vzWphbTJdN7KiX&docId=SaMWRN2kIGZsh68WdnmMJ&pageId=J5SbWG097xupBJsnvjT7s&name=Planning+Checklist+For+Wedding&mode=page&snapshotUrl=https%3A%2F%2Fcdn.affine.pro%2Ftemplate-snapshots%2FSaMWRN2kIGZsh68WdnmMJ.e3b0c442.zip",
+  "previewUrl": "https://app.affine.pro/template/preview?workspaceId=qf73AF6vzWphbTJdN7KiX&docId=lnIJON5g_fcpuzChUlnjX&pageId=J5SbWG097xupBJsnvjT7s&name=Planning+Checklist+For+Wedding&mode=edgeless&snapshotUrl=https%3A%2F%2Fcdn.affine.pro%2Ftemplate-snapshots%2FlnIJON5g_fcpuzChUlnjX.e3b0c442.zip",
   "publish": true,
   "relatedBlogIds": [
     "zbiWWxhn3ToqvUcrY4wCE",
@@ -47,11 +47,11 @@
   "tags": [
     "Checklist Template"
   ],
-  "template": "LinkedPage:SaMWRN2kIGZsh68WdnmMJ",
-  "templateId": "SaMWRN2kIGZsh68WdnmMJ",
-  "templateMode": "page",
+  "template": "LinkedPage:lnIJON5g_fcpuzChUlnjX:edgeless",
+  "templateId": "lnIJON5g_fcpuzChUlnjX",
+  "templateMode": "edgeless",
   "title": "Planning Checklist For Wedding",
-  "updatedDate": 1731142431590,
-  "useTemplateUrl": "https://app.affine.pro/template/import?workspaceId=qf73AF6vzWphbTJdN7KiX&docId=SaMWRN2kIGZsh68WdnmMJ&pageId=J5SbWG097xupBJsnvjT7s&name=Planning+Checklist+For+Wedding&mode=page&snapshotUrl=https%3A%2F%2Fcdn.affine.pro%2Ftemplate-snapshots%2FSaMWRN2kIGZsh68WdnmMJ.e3b0c442.zip",
+  "updatedDate": 1732680673542,
+  "useTemplateUrl": "https://app.affine.pro/template/import?workspaceId=qf73AF6vzWphbTJdN7KiX&docId=lnIJON5g_fcpuzChUlnjX&pageId=J5SbWG097xupBJsnvjT7s&name=Planning+Checklist+For+Wedding&mode=edgeless&snapshotUrl=https%3A%2F%2Fcdn.affine.pro%2Ftemplate-snapshots%2FlnIJON5g_fcpuzChUlnjX.e3b0c442.zip",
   "valid": true
 }
