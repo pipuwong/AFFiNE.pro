@@ -5,9 +5,18 @@
     <description>All In One KnowledgeOS</description>
     <link>https://affine.pro</link>
     <atom:link href="https://affine.pro/rss.xml" rel="self" type="application/rss+xml" />
-    <lastBuildDate>Wed, 27 Nov 2024 09:36:20 GMT</lastBuildDate>
-    <pubDate>Wed, 27 Nov 2024 09:36:20 GMT</pubDate>
+    <lastBuildDate>Wed, 27 Nov 2024 10:18:50 GMT</lastBuildDate>
+    <pubDate>Wed, 27 Nov 2024 10:18:50 GMT</pubDate>
     <ttl>60</ttl>
+    
+    <item>
+      <title>Create Your Dream Board: A Practical Guide with Free Vision Board Templates</title>
+      <description><![CDATA[“Learn how to create a dream board with free templates, enhancing your goal-setting journey for personal and professional success. ”]]></description>
+      <link>https://affine.pro/blog/dream-board-sample</link>
+      <guid isPermaLink="true">https://affine.pro/blog/dream-board-sample</guid>
+      <pubDate>Wed, 27 Nov 2024 00:00:00 GMT</pubDate>
+      <enclosure url="https://app.affine.pro/api/workspaces/qf73AF6vzWphbTJdN7KiX/blobs/6L8i2N2_NaBgiu2m9wes8UvnHLsunhzVEXUUzdZ7KXg=" type="image/png" />
+    </item>
     
     <item>
       <title>Top Evernote Alternatives in 2024: Find the Perfect Note-Taking App for You</title>
