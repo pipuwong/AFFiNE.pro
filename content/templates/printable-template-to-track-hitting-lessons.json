@@ -7,8 +7,8 @@
   "cateName": "Checklist Template",
   "cateSlug": "checklist-template",
   "cateTitle": "Checklist Template",
-  "cover": "https://app.affine.pro/api/workspaces/qf73AF6vzWphbTJdN7KiX/blobs/OBxKaKTwzeeGEVN2B29CJPUIELOTFkNeCuhQKE1nyPQ=",
-  "coverAlt": "printable template to track hitting lessons​",
+  "cover": "https://app.affine.pro/api/workspaces/qf73AF6vzWphbTJdN7KiX/blobs/DLnp2M-Fo88abxxspbGW5fY805kM_uP33D0vEoXftqs=",
+  "coverAlt": "Template to tracking hitting Lesson",
   "createDate": 1730782209391,
   "created": 1730678400000,
   "description": "Stay on top of your monthly finances with this Free Editable Printable Bill Tracker Template. Track due dates, amounts, and payment status with ease—ideal for budgeting and avoiding late fees.",
@@ -17,7 +17,7 @@
   "id": "F-iIk03tG_3Q8AN-mqZrV",
   "index": 6,
   "linkedPageIds": [
-    "BGnc7W0yHX7QTrcx6T1Yb",
+    "GUPNHvsdpKKK3SsEuckKA",
     "pjvRYee73VRaWsV4GFJPM",
     "F89MHSLmVqv-2d9nOTsJd",
     "EzCZzdu56cBrqqDab4RtK",
@@ -26,7 +26,7 @@
     "8yoI71clK3"
   ],
   "md": "Tracking your hitting lessons is essential for monitoring progress, setting goals, and identifying areas for improvement. Whether you’re an athlete, coach, or parent, a Printable Template to Track Hitting Lessons can help you record valuable insights, maintain consistency, and focus on key techniques during practice.\n\n\nThis page introduces a fully customizable, easy-to-print template designed for tracking each hitting session. With sections for lesson dates, skills covered, progress notes, and next steps, this template provides a structured approach to improve your performance over time.\n\n\n## Why Use a Hitting Lesson Tracker?\n\n\nKeeping a record of hitting lessons helps athletes and coaches see improvements, understand what works, and tailor future lessons for maximum results. A hitting lesson tracker can guide training, reveal trends, and keep goals on track.\n\n\n### Key Benefits of a Hitting Lesson Tracker\n\n\n • Track Progress: Monitor performance and identify improvements or areas needing attention.\n\n\n • Goal Setting: Set goals for each lesson to maximize practice efficiency.\n\n\n • Coach Feedback: Record tips, feedback, and drills provided by the coach.\n\n\n • Consistency: Ensure each session builds on the last by having a clear record of past training.\n\n\n## How to Use the Printable Hitting Lesson Tracker Template\n\n\nUsing the hitting lesson tracker is simple. Just fill in the sections after each lesson to capture important details like date, skills focused on, techniques practiced, and any feedback. Refer to this record regularly to stay aligned with your goals and make adjustments as needed.\n\n\n### Sections Included in the Hitting Lesson Tracker Template\n\n\n • Date of Lesson: Keep a timeline of your training sessions.\n\n\n • Skills Focused: Note the specific techniques and skills worked on (e.g., batting stance, swing mechanics).\n\n\n • Coach Feedback: Record any feedback received for ongoing improvement.\n\n\n • Self-Reflection: Reflect on strengths and areas to improve.\n\n\n • Next Steps: Set goals or drills for the next session to stay focused and consistent.\n\n\n\n\n\n",
-  "previewUrl": "https://app.affine.pro/template/preview?workspaceId=qf73AF6vzWphbTJdN7KiX&docId=BGnc7W0yHX7QTrcx6T1Yb&pageId=F-iIk03tG_3Q8AN-mqZrV&name=Printable+Template+to+Track+Hitting+Lessons%E2%80%8B&mode=page&snapshotUrl=https%3A%2F%2Fcdn.affine.pro%2Ftemplate-snapshots%2FBGnc7W0yHX7QTrcx6T1Yb.e3b0c442.zip",
+  "previewUrl": "https://app.affine.pro/template/preview?workspaceId=qf73AF6vzWphbTJdN7KiX&docId=GUPNHvsdpKKK3SsEuckKA&pageId=F-iIk03tG_3Q8AN-mqZrV&name=Printable+Template+to+Track+Hitting+Lessons%E2%80%8B&mode=edgeless&snapshotUrl=https%3A%2F%2Fcdn.affine.pro%2Ftemplate-snapshots%2FGUPNHvsdpKKK3SsEuckKA.e3b0c442.zip",
   "publish": true,
   "relatedBlogIds": [
     "zbiWWxhn3ToqvUcrY4wCE",
@@ -47,11 +47,11 @@
   "tags": [
     "Checklist Template"
   ],
-  "template": "LinkedPage:BGnc7W0yHX7QTrcx6T1Yb",
-  "templateId": "BGnc7W0yHX7QTrcx6T1Yb",
-  "templateMode": "page",
+  "template": "LinkedPage:GUPNHvsdpKKK3SsEuckKA:edgeless",
+  "templateId": "GUPNHvsdpKKK3SsEuckKA",
+  "templateMode": "edgeless",
   "title": "Printable Template to Track Hitting Lessons​",
-  "updatedDate": 1730782214433,
-  "useTemplateUrl": "https://app.affine.pro/template/import?workspaceId=qf73AF6vzWphbTJdN7KiX&docId=BGnc7W0yHX7QTrcx6T1Yb&pageId=F-iIk03tG_3Q8AN-mqZrV&name=Printable+Template+to+Track+Hitting+Lessons%E2%80%8B&mode=page&snapshotUrl=https%3A%2F%2Fcdn.affine.pro%2Ftemplate-snapshots%2FBGnc7W0yHX7QTrcx6T1Yb.e3b0c442.zip",
+  "updatedDate": 1732725793285,
+  "useTemplateUrl": "https://app.affine.pro/template/import?workspaceId=qf73AF6vzWphbTJdN7KiX&docId=GUPNHvsdpKKK3SsEuckKA&pageId=F-iIk03tG_3Q8AN-mqZrV&name=Printable+Template+to+Track+Hitting+Lessons%E2%80%8B&mode=edgeless&snapshotUrl=https%3A%2F%2Fcdn.affine.pro%2Ftemplate-snapshots%2FGUPNHvsdpKKK3SsEuckKA.e3b0c442.zip",
   "valid": true
 }

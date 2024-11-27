@@ -7,8 +7,8 @@
   "cateName": "Checklist Template",
   "cateSlug": "checklist-template",
   "cateTitle": "Checklist Template",
-  "cover": "https://app.affine.pro/api/workspaces/qf73AF6vzWphbTJdN7KiX/blobs/GgjduLThWYaHRA_yE6WiVbw9_8E53VXN5CIfpTU-5fs=",
-  "coverAlt": "The Simpsons Episode Checklist",
+  "cover": "https://app.affine.pro/api/workspaces/qf73AF6vzWphbTJdN7KiX/blobs/Q5Cu9kNpo_aymO7BebQWLcrWJQLCHRbXT3cBIDnWpcc=",
+  "coverAlt": "Simpsons Checklist",
   "createDate": 1730791442568,
   "created": 1730678400000,
   "description": "Track each episode you’ve watched from all seasons of The Simpsons with this handy checklist. Mark your favorites, note any memorable quotes, and ensure you don’t miss an iconic moment!",
@@ -17,7 +17,7 @@
   "id": "wjr0P2SSeKiyVfVInAdkR",
   "index": 17,
   "linkedPageIds": [
-    "Tazi3_F4huD2ttv_xqQ4G",
+    "66-dDRnwiTgzoSb-OpYBr",
     "pjvRYee73VRaWsV4GFJPM",
     "F89MHSLmVqv-2d9nOTsJd",
     "F-iIk03tG_3Q8AN-mqZrV",
@@ -26,7 +26,7 @@
     "8yoI71clK3"
   ],
   "md": "## This checklist includes:\n\n\n • Episode List by Season – Organized by season, with checkboxes for each episode.\n\n\n • Favorite Moments – Space to jot down notable quotes or favorite scenes.\n\n\n • Rating Option – Personal rating for each episode (optional)\n\n\n🟨 Season 1 - Episode Checklist\n\n\n • [ ] Episode 1: Simpsons Roasting on an Open Fire\n\n\n • [ ] Episode 2: Bart the Genius\n\n\n • [ ] Episode 3: Homer’s Odyssey\n\n\n • [ ] Episode 4: There’s No Disgrace Like Home\n\n\n • [ ] Episode 5: Bart the General\n\n\n • [ ] Episode 6: Moaning Lisa\n\n\n • [ ] Episode 7: The Call of the Simpsons\n\n\n • [ ] Episode 8: The Telltale Head\n\n\n • [ ] Episode 9: Life on the Fast Lane\n\n\n • [ ] Episode 10: Homer’s Night Out\n\n\n • [ ] Episode 11: The Crepes of Wrath\n\n\n • [ ] Episode 12: Krusty Gets Busted\n\n\n • [ ] Episode 13: Some Enchanted Evening\n\n\n🟨 Season 2 - Episode Checklist\n\n\n(Repeat the structure above for each season)\n\n\n### 🌟 Optional Features\n\n\nFavorite Moments\n\n\n • Use this space to capture memorable lines or favorite scenes from each season!\n\n\n### Rating (Optional)\n\n\n • Add a 1-5 star rating next to each episode, if desired.\n\n\n",
-  "previewUrl": "https://app.affine.pro/template/preview?workspaceId=qf73AF6vzWphbTJdN7KiX&docId=Tazi3_F4huD2ttv_xqQ4G&pageId=wjr0P2SSeKiyVfVInAdkR&name=The+Simpsons+Episode+Checklist&mode=page&snapshotUrl=https%3A%2F%2Fcdn.affine.pro%2Ftemplate-snapshots%2FTazi3_F4huD2ttv_xqQ4G.e3b0c442.zip",
+  "previewUrl": "https://app.affine.pro/template/preview?workspaceId=qf73AF6vzWphbTJdN7KiX&docId=66-dDRnwiTgzoSb-OpYBr&pageId=wjr0P2SSeKiyVfVInAdkR&name=The+Simpsons+Episode+Checklist&mode=edgeless&snapshotUrl=https%3A%2F%2Fcdn.affine.pro%2Ftemplate-snapshots%2F66-dDRnwiTgzoSb-OpYBr.e3b0c442.zip",
   "publish": true,
   "relatedBlogIds": [
     "zbiWWxhn3ToqvUcrY4wCE",
@@ -47,11 +47,11 @@
   "tags": [
     "Checklist Template"
   ],
-  "template": "LinkedPage:Tazi3_F4huD2ttv_xqQ4G",
-  "templateId": "Tazi3_F4huD2ttv_xqQ4G",
-  "templateMode": "page",
+  "template": "LinkedPage:66-dDRnwiTgzoSb-OpYBr:edgeless",
+  "templateId": "66-dDRnwiTgzoSb-OpYBr",
+  "templateMode": "edgeless",
   "title": "The Simpsons Episode Checklist",
-  "updatedDate": 1730791654416,
-  "useTemplateUrl": "https://app.affine.pro/template/import?workspaceId=qf73AF6vzWphbTJdN7KiX&docId=Tazi3_F4huD2ttv_xqQ4G&pageId=wjr0P2SSeKiyVfVInAdkR&name=The+Simpsons+Episode+Checklist&mode=page&snapshotUrl=https%3A%2F%2Fcdn.affine.pro%2Ftemplate-snapshots%2FTazi3_F4huD2ttv_xqQ4G.e3b0c442.zip",
+  "updatedDate": 1732724281649,
+  "useTemplateUrl": "https://app.affine.pro/template/import?workspaceId=qf73AF6vzWphbTJdN7KiX&docId=66-dDRnwiTgzoSb-OpYBr&pageId=wjr0P2SSeKiyVfVInAdkR&name=The+Simpsons+Episode+Checklist&mode=edgeless&snapshotUrl=https%3A%2F%2Fcdn.affine.pro%2Ftemplate-snapshots%2F66-dDRnwiTgzoSb-OpYBr.e3b0c442.zip",
   "valid": true
 }
