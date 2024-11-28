@@ -68,6 +68,16 @@
         <priority>1.0</priority>
     </url>
     <url>
+        <loc>https://affine.pro/blog/quick-sample-table-of-contents</loc>
+        <changefreq>daily</changefreq>
+        <priority>1.0</priority>
+    </url>
+    <url>
+        <loc>https://affine.pro/blog/table-of-contents-sample</loc>
+        <changefreq>daily</changefreq>
+        <priority>1.0</priority>
+    </url>
+    <url>
         <loc>https://affine.pro/blog/best-notion-alternatives</loc>
         <changefreq>daily</changefreq>
         <priority>1.0</priority>
