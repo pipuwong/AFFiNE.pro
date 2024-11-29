@@ -33,6 +33,11 @@
         <priority>0.8</priority>
     </url>
     <url>
+        <loc>https://affine.pro/blog/academic-reading-list-template</loc>
+        <changefreq>daily</changefreq>
+        <priority>1.0</priority>
+    </url>
+    <url>
         <loc>https://affine.pro/blog/dream-board-sample</loc>
         <changefreq>daily</changefreq>
         <priority>1.0</priority>
@@ -43,7 +48,22 @@
         <priority>1.0</priority>
     </url>
     <url>
+        <loc>https://affine.pro/blog/letter-of-interest-template</loc>
+        <changefreq>daily</changefreq>
+        <priority>1.0</priority>
+    </url>
+    <url>
         <loc>https://affine.pro/blog/shopping-list-template</loc>
+        <changefreq>daily</changefreq>
+        <priority>1.0</priority>
+    </url>
+    <url>
+        <loc>https://affine.pro/blog/study-guide-template</loc>
+        <changefreq>daily</changefreq>
+        <priority>1.0</priority>
+    </url>
+    <url>
+        <loc>https://affine.pro/blog/weekly-dashboard-digital-download</loc>
         <changefreq>daily</changefreq>
         <priority>1.0</priority>
     </url>
