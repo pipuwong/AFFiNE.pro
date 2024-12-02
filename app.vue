@@ -17,12 +17,19 @@ import '~/styles/main.styl';
 const locale = ref(en);
 
 const i18n = useI18n();
+const route = useRoute();
 
-useHead({
+useHead(() => ({
   htmlAttrs: {
     lang: i18n.locale.value || 'en',
   },
-});
+  link: [
+    {
+      rel: 'canonical',
+      href: 'https://affint.pro' + route.path,
+    },
+  ],
+}));
 </script>
 
 <style lang="stylus">
