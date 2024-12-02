@@ -8,14 +8,14 @@
   "cateSlug": "checklist-template",
   "cateTitle": "Checklist Template",
   "cover": "https://app.affine.pro/api/workspaces/qf73AF6vzWphbTJdN7KiX/blobs/zriSZIqA-XW24ZQA22S_Dkhk9sBG1PApYTi5WfuptKQ=",
-  "coverAlt": "Grocery List",
+  "coverAlt": "Grocery List Template",
   "createDate": 1730778504379,
   "created": 1729728000000,
   "description": "Streamline your grocery shopping with this organized, easy-to-use grocery list template. Plan and categorize items for faster, more efficient trips and never forget an essential item again!",
   "featured": false,
   "guid": "F89MHSLmVqv-2d9nOTsJd",
   "id": "F89MHSLmVqv-2d9nOTsJd",
-  "index": 5,
+  "index": 7,
   "linkedPageIds": [
     "CqpI0EyWDeYz5DYG725Kt",
     "4SBqQ6lf4oJjmlRejOhyH",
@@ -51,7 +51,7 @@
   "templateId": "CqpI0EyWDeYz5DYG725Kt",
   "templateMode": "edgeless",
   "title": "Grocery List Template",
-  "updatedDate": 1732731934483,
+  "updatedDate": 1733109430984,
   "useTemplateUrl": "https://app.affine.pro/template/import?workspaceId=qf73AF6vzWphbTJdN7KiX&docId=CqpI0EyWDeYz5DYG725Kt&pageId=F89MHSLmVqv-2d9nOTsJd&name=Grocery+List+Template&mode=edgeless&snapshotUrl=https%3A%2F%2Fcdn.affine.pro%2Ftemplate-snapshots%2FCqpI0EyWDeYz5DYG725Kt.e3b0c442.zip",
   "valid": true
 }
