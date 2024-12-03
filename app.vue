@@ -26,7 +26,7 @@ useHead(() => ({
   link: [
     {
       rel: 'canonical',
-      href: 'https://affint.pro' + route.path,
+      href: 'https://affine.pro' + route.path,
     },
   ],
 }));
