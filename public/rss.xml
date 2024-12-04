@@ -5,9 +5,18 @@
     <description>All In One KnowledgeOS</description>
     <link>https://affine.pro</link>
     <atom:link href="https://affine.pro/rss.xml" rel="self" type="application/rss+xml" />
-    <lastBuildDate>Wed, 04 Dec 2024 15:32:56 GMT</lastBuildDate>
-    <pubDate>Wed, 04 Dec 2024 15:32:56 GMT</pubDate>
+    <lastBuildDate>Wed, 04 Dec 2024 15:49:35 GMT</lastBuildDate>
+    <pubDate>Wed, 04 Dec 2024 15:49:35 GMT</pubDate>
     <ttl>60</ttl>
+    
+    <item>
+      <title>The Ultimate Guide to ADHD Planners: How to Stay Focused and Organized</title>
+      <description><![CDATA[Stay organized and boost productivity with ADHD planners designed for effective time management. Explore top tools, tips, and strategies to improve focus, streamline daily tasks, and achieve your goals—perfect for students and adults alike.]]></description>
+      <link>https://affine.pro/blog/adhd-planner</link>
+      <guid isPermaLink="true">https://affine.pro/blog/adhd-planner</guid>
+      <pubDate>Wed, 04 Dec 2024 00:00:00 GMT</pubDate>
+      <enclosure url="https://app.affine.pro/api/workspaces/qf73AF6vzWphbTJdN7KiX/blobs/QXHpyYUj_0Z7uRx9TIXI9n2ABqF1pM6MV-M7eOI4rhc=" type="image/png" />
+    </item>
     
     <item>
       <title>Top 7 Note-Taking Apps in 2024: Enhance Your Productivity and Organization</title>
@@ -934,15 +943,6 @@
       <guid isPermaLink="true">https://affine.pro/blog/top-6-onenote-alternatives-features-pricing</guid>
       <pubDate>Wed, 16 Oct 2024 00:00:00 GMT</pubDate>
       <enclosure url="https://app.affine.pro/api/workspaces/qf73AF6vzWphbTJdN7KiX/blobs/b5Otq03G9LkJ0N_NMVhvSwcWSoRXspwHhyUE9NpuWC0=" type="image/png" />
-    </item>
-    
-    <item>
-      <title>The Ultimate Guide to ADHD Planners: How to Stay Focused and Organized</title>
-      <description><![CDATA[Discover how ADHD planners can help you stay organized and manage daily tasks more efficiently. From understanding why specialized planners are essential for ADHD management to comparing the best tools available, this comprehensive guide covers everything you need to know about improving your focus, productivity, and daily routine. Whether you're a student or adult, learn how an ADHD planner can transform your time management and goal setting.]]></description>
-      <link>https://affine.pro/blog/adhd-planner</link>
-      <guid isPermaLink="true">https://affine.pro/blog/adhd-planner</guid>
-      <pubDate>Tue, 15 Oct 2024 00:00:00 GMT</pubDate>
-      <enclosure url="https://app.affine.pro/api/workspaces/qf73AF6vzWphbTJdN7KiX/blobs/QXHpyYUj_0Z7uRx9TIXI9n2ABqF1pM6MV-M7eOI4rhc=" type="image/png" />
     </item>
     
     <item>

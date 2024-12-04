@@ -33,6 +33,11 @@
         <priority>0.8</priority>
     </url>
     <url>
+        <loc>https://affine.pro/blog/adhd-planner</loc>
+        <changefreq>daily</changefreq>
+        <priority>1.0</priority>
+    </url>
+    <url>
         <loc>https://affine.pro/blog/best-note-taking-app</loc>
         <changefreq>daily</changefreq>
         <priority>1.0</priority>
@@ -449,11 +454,6 @@
     </url>
     <url>
         <loc>https://affine.pro/blog/top-6-onenote-alternatives-features-pricing</loc>
-        <changefreq>daily</changefreq>
-        <priority>1.0</priority>
-    </url>
-    <url>
-        <loc>https://affine.pro/blog/adhd-planner</loc>
         <changefreq>daily</changefreq>
         <priority>1.0</priority>
     </url>
