@@ -7,7 +7,7 @@
   "cateName": "Digital Planner",
   "cateSlug": "digital-planner",
   "cateTitle": "Digital Planner",
-  "cover": "https://app.affine.pro/api/workspaces/qf73AF6vzWphbTJdN7KiX/blobs/YDwNWji4yum1aKdkRvdnBRQpOxeaaaU8vVbGKqIQqr4=",
+  "cover": "https://app.affine.pro/api/workspaces/qf73AF6vzWphbTJdN7KiX/blobs/0QhrmSoCGPJiNrrZ4T2IkFkpYBcaxKyLfRZ-4ZYRgWY=",
   "coverAlt": "Teacher Planner",
   "createDate": 1727199968983,
   "created": 1727136000000,
@@ -17,7 +17,7 @@
   "id": "1V09r56vVCUycIg7qLmLh",
   "index": 7,
   "linkedPageIds": [
-    "lWXG5Ov21Xa7EcYG1552F",
+    "IDe1V7-DbjKB9FQRmkdi7",
     "4SBqQ6lf4oJjmlRejOhyH",
     "y3GwFuCD7PCzfmAihbd5m",
     "_IilUogF-fcBCqr39WtAq",
@@ -25,8 +25,8 @@
     "3kri-Cio_6qhMGIPMb79_",
     "T7vkc2O0yGm1BbKYm3Iin"
   ],
-  "md": "A Teacher Planner is a vital tool for educators, crafted to simplify lesson planning, track student progress, and handle daily classroom management tasks. This structured planner keeps teachers organized and focused, helping them plan lessons for a day, week, month, or semester with efficiency. With a Teacher Planner, educators can maintain clear objectives for each class, optimize their workflow, and concentrate more on student development rather than just administrative tasks.\n\n\n## Key Features of the Teacher Planner\n\n\n### 1. Lesson Planning\n\n\nThe lesson planning section of the Teacher Planner enables educators to organize their lessons across subjects, ensuring that essential concepts are covered in a systematic way. This section provides space for defining learning objectives, listing activities, and outlining materials, helping teachers stay on track.\n\n\n### 2. Class Schedule\n\n\nA class schedule section helps you manage your daily and weekly timetable, providing a clear view of when and where each class takes place. This section makes it easy to organize subjects and classroom activities.\n\n\n### 3. Student Progress Tracker\n\n\nA student progress tracker allows teachers to monitor academic progress, identify areas where students need additional support, and record important assessment information.\n\n\n### 4. Grading and Assignment Logs\n\n\nThe grading and assignment logs enable teachers to track homework, projects, and exams for each student. This section ensures timely feedback and helps in assessing individual performance.\n\n\n\n\n\n",
-  "previewUrl": "https://app.affine.pro/template/preview?workspaceId=qf73AF6vzWphbTJdN7KiX&docId=lWXG5Ov21Xa7EcYG1552F&pageId=1V09r56vVCUycIg7qLmLh&name=Teacher+Planner&mode=page&snapshotUrl=https%3A%2F%2Fcdn.affine.pro%2Ftemplate-snapshots%2FlWXG5Ov21Xa7EcYG1552F.e3b0c442.zip",
+  "md": "A Teacher Planner is a vital tool for educators, crafted to simplify lesson planning, track student progress, and handle daily classroom management tasks. This structured planner keeps teachers organized and focused, helping them plan lessons for a day, week, month, or semester with efficiency. With a Teacher Planner, educators can maintain clear objectives for each class, optimize their workflow, and concentrate more on student development rather than just administrative tasks.\n\n\n## Key Features of the Teacher Planner\n\n\n### 1. Lesson Planning\n\n\nThe lesson planning section of the Teacher Planner enables educators to organize their lessons across subjects, ensuring that essential concepts are covered in a systematic way. This section provides space for defining learning objectives, listing activities, and outlining materials, helping teachers stay on track.\n\n\n### 2. Class Schedule\n\n\nA class schedule section helps you manage your daily and weekly timetable, providing a clear view of when and where each class takes place. This section makes it easy to organize subjects and classroom activities.\n\n\n### 3. Student Progress Tracker\n\n\nA student progress tracker allows teachers to monitor academic progress, identify areas where students need additional support, and record important assessment information.\n\n\n### 4. Grading and Assignment Logs\n\n\nThe grading and assignment logs enable teachers to track homework, projects, and exams for each student. This section ensures timely feedback and helps in assessing individual performance.\n\n\n",
+  "previewUrl": "https://app.affine.pro/template/preview?workspaceId=qf73AF6vzWphbTJdN7KiX&docId=IDe1V7-DbjKB9FQRmkdi7&pageId=1V09r56vVCUycIg7qLmLh&name=Teacher+Planner&mode=edgeless&snapshotUrl=https%3A%2F%2Fcdn.affine.pro%2Ftemplate-snapshots%2FIDe1V7-DbjKB9FQRmkdi7.e3b0c442.zip",
   "publish": true,
   "relatedBlogIds": [
     "oapgNIuMNG",
@@ -47,11 +47,11 @@
   "tags": [
     "Digital Planner"
   ],
-  "template": "LinkedPage:lWXG5Ov21Xa7EcYG1552F:page",
-  "templateId": "lWXG5Ov21Xa7EcYG1552F",
-  "templateMode": "page",
+  "template": "LinkedPage:IDe1V7-DbjKB9FQRmkdi7:edgeless",
+  "templateId": "IDe1V7-DbjKB9FQRmkdi7",
+  "templateMode": "edgeless",
   "title": "Teacher Planner",
-  "updatedDate": 1731059772290,
-  "useTemplateUrl": "https://app.affine.pro/template/import?workspaceId=qf73AF6vzWphbTJdN7KiX&docId=lWXG5Ov21Xa7EcYG1552F&pageId=1V09r56vVCUycIg7qLmLh&name=Teacher+Planner&mode=page&snapshotUrl=https%3A%2F%2Fcdn.affine.pro%2Ftemplate-snapshots%2FlWXG5Ov21Xa7EcYG1552F.e3b0c442.zip",
+  "updatedDate": 1733307392553,
+  "useTemplateUrl": "https://app.affine.pro/template/import?workspaceId=qf73AF6vzWphbTJdN7KiX&docId=IDe1V7-DbjKB9FQRmkdi7&pageId=1V09r56vVCUycIg7qLmLh&name=Teacher+Planner&mode=edgeless&snapshotUrl=https%3A%2F%2Fcdn.affine.pro%2Ftemplate-snapshots%2FIDe1V7-DbjKB9FQRmkdi7.e3b0c442.zip",
   "valid": true
 }
