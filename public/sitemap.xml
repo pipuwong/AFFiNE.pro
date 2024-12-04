@@ -253,6 +253,21 @@
         <priority>1.0</priority>
     </url>
     <url>
+        <loc>https://affine.pro/blog/assignment-tracker-app</loc>
+        <changefreq>daily</changefreq>
+        <priority>1.0</priority>
+    </url>
+    <url>
+        <loc>https://affine.pro/blog/best-daily-planner-app</loc>
+        <changefreq>daily</changefreq>
+        <priority>1.0</priority>
+    </url>
+    <url>
+        <loc>https://affine.pro/blog/planner-app</loc>
+        <changefreq>daily</changefreq>
+        <priority>1.0</priority>
+    </url>
+    <url>
         <loc>https://affine.pro/blog/10-best-free-performance-review-templates-examples-2023</loc>
         <changefreq>daily</changefreq>
         <priority>1.0</priority>
@@ -304,6 +319,11 @@
     </url>
     <url>
         <loc>https://affine.pro/blog/best-free-employee-performance-review-templates-examples-2023</loc>
+        <changefreq>daily</changefreq>
+        <priority>1.0</priority>
+    </url>
+    <url>
+        <loc>https://affine.pro/blog/top-10-free-editable-swot-analysis-template-examples</loc>
         <changefreq>daily</changefreq>
         <priority>1.0</priority>
     </url>
@@ -999,11 +1019,6 @@
     </url>
     <url>
         <loc>https://affine.pro/blog/top-8-microsoft-visio-alternatives-competitors-2023</loc>
-        <changefreq>daily</changefreq>
-        <priority>1.0</priority>
-    </url>
-    <url>
-        <loc>https://affine.pro/blog/top-10-free-editable-swot-analysis-template-examples</loc>
         <changefreq>daily</changefreq>
         <priority>1.0</priority>
     </url>
