@@ -21,6 +21,7 @@
     "_LWdV83aveVtDXzFKP1wK",
     "mhXkUvwacMxFPXrxlUQEF",
     "WCiKoC9_FensTgC9Dw_GY",
+    "554k9DzMDrcwMjmq3I64p",
     "6gOLcAJKsJ",
     "UKFrN2wPYEAlaP_b4_r8m",
     "siVFmLrvI-bKkBlpcemaF"
@@ -40,7 +41,8 @@
   ],
   "relatedTemplates": [
     "coquette-aesthetic-vision-board",
-    "cornell-note-template"
+    "cornell-note-template",
+    "assignment-tracker"
   ],
   "slug": "smart-goal-template",
   "tags": [
@@ -51,7 +53,7 @@
   "templateMode": "edgeless",
   "title": "Smart Goal Template",
   "updated": 1732492800000,
-  "updatedDate": 1732551440503,
+  "updatedDate": 1733301912412,
   "useTemplateUrl": "https://app.affine.pro/template/import?workspaceId=qf73AF6vzWphbTJdN7KiX&docId=_LWdV83aveVtDXzFKP1wK&pageId=_Bpe5IadJPG_MiS7tEJyb&name=Smart+Goal+Template&mode=edgeless&snapshotUrl=https%3A%2F%2Fcdn.affine.pro%2Ftemplate-snapshots%2F_LWdV83aveVtDXzFKP1wK.ec656ab9.zip",
   "valid": true
 }
