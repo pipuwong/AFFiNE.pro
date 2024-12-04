@@ -87,9 +87,17 @@ export default defineNuxtConfig({
       link: [
         { rel: 'icon', type: 'image/x-icon', href: '/favicon-96.png' },
         {
+          href: 'https://fonts.googleapis.com',
+          rel: 'preconnect',
+        },
+        {
+          href: 'https://fonts.gstatic.com',
+          rel: 'preconnect',
+          crossorigin: 'anonymous',
+        },
+        {
           href: 'https://fonts.googleapis.com/css2?family=Kalam:wght@400;700&display=swap',
-          as: 'style',
-          rel: 'preload',
+          rel: 'stylesheet',
         },
       ],
       script: [
