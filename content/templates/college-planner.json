@@ -7,17 +7,17 @@
   "cateName": "Digital Planner",
   "cateSlug": "digital-planner",
   "cateTitle": "Digital Planner",
-  "cover": "https://app.affine.pro/api/workspaces/qf73AF6vzWphbTJdN7KiX/blobs/G2ekZQXLPbwuFKo6fGkE-8DjR5caiVLsNrQt00Y8uM0=",
-  "coverAlt": "",
+  "cover": "https://app.affine.pro/api/workspaces/qf73AF6vzWphbTJdN7KiX/blobs/lF9EzXhJL3mo3B9tC1t-j8upYs0S0MQqb_GWrh1I3JE=",
+  "coverAlt": "College Planner",
   "createDate": 1727200538124,
   "created": 1727136000000,
   "description": "The college planneris designed specifically for students to manage their academic workload and stay organized throughout the semester. This planner offers a structured approach to track important deadlines, schedule study sessions, and manage assignments and exams. By staying organized, students can avoid last-minute stress and confidently achieve their academic goals while also balancing extracurricular and personal activities.",
   "featured": false,
   "guid": "vBq2ChW4snlPLFMA2RIgE",
   "id": "vBq2ChW4snlPLFMA2RIgE",
-  "index": 10,
+  "index": 11,
   "linkedPageIds": [
-    "OaJKRp2TvN5ivPvgjntgA",
+    "POLmsgtA1RY2wh9wgl8oZ",
     "4SBqQ6lf4oJjmlRejOhyH",
     "y3GwFuCD7PCzfmAihbd5m",
     "EzCZzdu56cBrqqDab4RtK",
@@ -25,8 +25,8 @@
     "sCGzzgL7ehx7YswYLAozx",
     "8yoI71clK3"
   ],
-  "md": "A **college planner** is an essential tool for students pursuing higher education to keep track of assignments, exams, projects, and extracurricular activities. College life can get overwhelming with multiple courses, clubs, and personal commitments, but this planner provides the structure needed to stay organized and focused on achieving academic and personal goals. By managing daily, weekly, and semester-long tasks, students can balance their education and personal life while staying on top of their workload.\n\n\n### **Key Features of the College Planner**\n\n\n### **1. Semester Overview**\n\n\nThe **semester overview** section allows students to outline major deadlines, exam dates, and key projects for all their courses. This section helps students see the bigger picture and manage long-term deadlines efficiently.\n\n\n### **2. Weekly Study and Class Schedule**\n\n\nThe **weekly study and class schedule** helps students allocate time for lectures, study sessions, and other activities. With a clear overview of your weekly commitments, you can balance coursework and free time more effectively.\n\n\n### **3. Assignment and Exam Tracking**\n\n\nA dedicated **assignment and exam tracking** section ensures that all academic responsibilities are documented with clear due dates and priorities. No more missed deadlines!\n\n\n### **4. Personal and Academic Goals**\n\n\nThe **personal and academic goals** section allows students to set goals for each semester, whether they are related to GPA, specific courses, or personal development. It keeps students motivated and goal-oriented throughout their college journey.\n\n\n",
-  "previewUrl": "https://app.affine.pro/template/preview?workspaceId=qf73AF6vzWphbTJdN7KiX&docId=OaJKRp2TvN5ivPvgjntgA&pageId=vBq2ChW4snlPLFMA2RIgE&name=College+Planner&mode=page&snapshotUrl=https%3A%2F%2Fcdn.affine.pro%2Ftemplate-snapshots%2FOaJKRp2TvN5ivPvgjntgA.e3b0c442.zip",
+  "md": "A college planneris an essential tool for students pursuing higher education to keep track of assignments, exams, projects, and extracurricular activities. College life can get overwhelming with multiple courses, clubs, and personal commitments, but this planner provides the structure needed to stay organized and focused on achieving academic and personal goals. By managing daily, weekly, and semester-long tasks, students can balance their education and personal life while staying on top of their workload.\n\n\n### Key Features of the College Planner\n\n\n### 1. Semester Overview\n\n\nThe **semester overview** section allows students to outline major deadlines, exam dates, and key projects for all their courses. This section helps students see the bigger picture and manage long-term deadlines efficiently.\n\n\n### 2. Weekly Study and Class Schedule\n\n\nThe **weekly study and class schedule** helps students allocate time for lectures, study sessions, and other activities. With a clear overview of your weekly commitments, you can balance coursework and free time more effectively.\n\n\n### 3. Assignment and Exam Tracking\n\n\nA dedicated **assignment and exam tracking** section ensures that all academic responsibilities are documented with clear due dates and priorities. No more missed deadlines!\n\n\n### 4. Personal and Academic Goals\n\n\nThe personal and academic goalssection allows students to set goals for each semester, whether they are related to GPA, specific courses, or personal development. It keeps students motivated and goal-oriented throughout their college journey.\n\n\n",
+  "previewUrl": "https://app.affine.pro/template/preview?workspaceId=qf73AF6vzWphbTJdN7KiX&docId=POLmsgtA1RY2wh9wgl8oZ&pageId=vBq2ChW4snlPLFMA2RIgE&name=College+Planner&mode=edgeless&snapshotUrl=https%3A%2F%2Fcdn.affine.pro%2Ftemplate-snapshots%2FPOLmsgtA1RY2wh9wgl8oZ.e3b0c442.zip",
   "publish": true,
   "relatedBlogIds": [
     "oapgNIuMNG",
@@ -47,11 +47,11 @@
   "tags": [
     "Digital Planner"
   ],
-  "template": "LinkedPage:OaJKRp2TvN5ivPvgjntgA:page",
-  "templateId": "OaJKRp2TvN5ivPvgjntgA",
-  "templateMode": "page",
+  "template": "LinkedPage:POLmsgtA1RY2wh9wgl8oZ:edgeless",
+  "templateId": "POLmsgtA1RY2wh9wgl8oZ",
+  "templateMode": "edgeless",
   "title": "College Planner",
-  "updatedDate": 1727272226250,
-  "useTemplateUrl": "https://app.affine.pro/template/import?workspaceId=qf73AF6vzWphbTJdN7KiX&docId=OaJKRp2TvN5ivPvgjntgA&pageId=vBq2ChW4snlPLFMA2RIgE&name=College+Planner&mode=page&snapshotUrl=https%3A%2F%2Fcdn.affine.pro%2Ftemplate-snapshots%2FOaJKRp2TvN5ivPvgjntgA.e3b0c442.zip",
+  "updatedDate": 1733403602405,
+  "useTemplateUrl": "https://app.affine.pro/template/import?workspaceId=qf73AF6vzWphbTJdN7KiX&docId=POLmsgtA1RY2wh9wgl8oZ&pageId=vBq2ChW4snlPLFMA2RIgE&name=College+Planner&mode=edgeless&snapshotUrl=https%3A%2F%2Fcdn.affine.pro%2Ftemplate-snapshots%2FPOLmsgtA1RY2wh9wgl8oZ.e3b0c442.zip",
   "valid": true
 }
