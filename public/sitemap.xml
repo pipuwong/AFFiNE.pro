@@ -1813,6 +1813,11 @@
         <priority>1.0</priority>
     </url>
     <url>
+        <loc>https://affine.pro/blog/ai-paragrapher-generator</loc>
+        <changefreq>daily</changefreq>
+        <priority>1.0</priority>
+    </url>
+    <url>
         <loc>https://affine.pro/blog/apps-like-luna-task</loc>
         <changefreq>daily</changefreq>
         <priority>1.0</priority>

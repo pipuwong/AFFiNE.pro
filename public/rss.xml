@@ -5,9 +5,18 @@
     <description>All In One KnowledgeOS</description>
     <link>https://affine.pro</link>
     <atom:link href="https://affine.pro/rss.xml" rel="self" type="application/rss+xml" />
-    <lastBuildDate>Thu, 05 Dec 2024 13:41:59 GMT</lastBuildDate>
-    <pubDate>Thu, 05 Dec 2024 13:41:59 GMT</pubDate>
+    <lastBuildDate>Fri, 06 Dec 2024 11:32:05 GMT</lastBuildDate>
+    <pubDate>Fri, 06 Dec 2024 11:32:05 GMT</pubDate>
     <ttl>60</ttl>
+    
+    <item>
+      <title>How AI Paragraph Generators Can Help You Create Content?</title>
+      <description><![CDATA[Discover how AI paragraph generators can streamline your content creation process. From saving time to improving creativity, learn how these tools generate engaging, well-structured paragraphs for blogs, social media, and more. Perfect for writers, marketers, and students looking to enhance productivity and efficiency!]]></description>
+      <link>https://affine.pro/blog/ai-paragrapher-generator</link>
+      <guid isPermaLink="true">https://affine.pro/blog/ai-paragrapher-generator</guid>
+      <pubDate>Fri, 06 Dec 2024 00:00:00 GMT</pubDate>
+      <enclosure url="https://app.affine.pro/api/workspaces/qf73AF6vzWphbTJdN7KiX/blobs/Q2uT2B0ssJQlxg8UbOozQ0krnT3qbd3hHMErqyNrBpw=" type="image/png" />
+    </item>
     
     <item>
       <title>How to Create a Timeline Template in Google Docs - Step-by-Step Guide</title>
