@@ -1,6 +1,6 @@
 import { PATH } from '~/utils/constants';
 
-export const getTemplateCateMeta = (meta: TemplateContentFileMeta) => {
+export const getTemplateCateMeta = (meta: Omit<TemplateContentFileMeta, 'md'>) => {
   if (!meta) return;
 
   const title = meta.cateTitle
@@ -27,7 +27,7 @@ export const getTemplateCateMeta = (meta: TemplateContentFileMeta) => {
   ];
 };
 
-export const getTemplateCateSchema = (meta: TemplateContentFileMeta) => {
+export const getTemplateCateSchema = (meta: Omit<TemplateContentFileMeta, 'md'>) => {
   if (!meta) return {};
 
   return {

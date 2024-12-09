@@ -11,6 +11,7 @@ class PrimaryAPI {
     }
     try {
       const res = await queryContent<ContentFileMeta>('blog')
+        .without('md')
         .find()
 
       if (res?.length) {
@@ -51,6 +52,7 @@ class PrimaryAPI {
     }
     try {
       const res = await queryContent<TemplateContentFileMeta>('templates')
+        .without('md')
         .find()
       store.templates = res
       return res

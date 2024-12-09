@@ -11,8 +11,8 @@ const userInitial = {
 
 type MainState = {
   user: RemovableRef<typeof userInitial>
-  blog: ContentFileMeta[],
-  templates: TemplateContentFileMeta[],
+  blog: Omit<ContentFileMeta, 'md'>[],
+  templates: Omit<TemplateContentFileMeta, 'md'>[],
   changelogs: Changelog[],
   github: {
     starAmount: boolean | undefined

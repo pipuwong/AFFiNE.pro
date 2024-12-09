@@ -1,4 +1,4 @@
-function getTags(blogMetas: ContentFileMeta[]) {
+function getTags(blogMetas: Omit<ContentFileMeta, 'md'>[]) {
   const tagsMap = new Map<string, number>()
   blogMetas.forEach((meta) => {
     meta.tags?.forEach((tag) => {
@@ -13,7 +13,7 @@ function getTags(blogMetas: ContentFileMeta[]) {
 }
 
 export const useBlogMetas = (
-  blogMetas: ContentFileMeta[],
+  blogMetas: Omit<ContentFileMeta, 'md'>[],
   query?: { tag: string }
 ) => {
   const publishedMetas = blogMetas
@@ -21,7 +21,6 @@ export const useBlogMetas = (
       meta.publish &&
       meta.cover &&
       meta.title &&
-      meta.md &&
       meta.slug
     ))
     .sort(({ updated: u0, created: c0 }, { updated: u1, created: c1 }) => {

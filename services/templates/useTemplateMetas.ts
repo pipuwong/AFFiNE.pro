@@ -1,4 +1,4 @@
-function getTags(templateMetas: TemplateContentFileMeta[]) {
+function getTags(templateMetas: Omit<TemplateContentFileMeta, 'md'>[]) {
   const tagsMap = new Map<string, number>();
   templateMetas.forEach((meta) => {
     meta.tags?.forEach((tag) => {
@@ -12,7 +12,7 @@ function getTags(templateMetas: TemplateContentFileMeta[]) {
   return Array.from(tagsMap);
 }
 
-function getCates(templateMetas: TemplateContentFileMeta[]) {
+function getCates(templateMetas: Omit<TemplateContentFileMeta, 'md'>[]) {
   const catesMap = new Map<string, { slug: string, index: number }>();
   templateMetas.forEach((meta) => {
     const tag = meta.cateName || meta?.tags?.[0]
@@ -24,7 +24,7 @@ function getCates(templateMetas: TemplateContentFileMeta[]) {
 }
 
 export const useTemplateMetas = (
-  templateMetas: TemplateContentFileMeta[],
+  templateMetas: Omit<TemplateContentFileMeta, 'md'>[],
   query?: { tag: string }
 ) => {
   const publishedMetas = templateMetas
@@ -33,7 +33,6 @@ export const useTemplateMetas = (
         meta.publish &&
         // meta.cover &&
         meta.title &&
-        meta.md &&
         meta.slug
     )
     .sort((a, b) => a.cateIndex - b.cateIndex)
