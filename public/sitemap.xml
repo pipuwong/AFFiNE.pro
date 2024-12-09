@@ -33,6 +33,11 @@
         <priority>0.8</priority>
     </url>
     <url>
+        <loc>https://affine.pro/blog/morning-affirmations-with-vision-board</loc>
+        <changefreq>daily</changefreq>
+        <priority>1.0</priority>
+    </url>
+    <url>
         <loc>https://affine.pro/blog/how-to-create-timeline-template-google-docs-step-by-step-guide</loc>
         <changefreq>daily</changefreq>
         <priority>1.0</priority>

@@ -6,7 +6,7 @@
     "Shiwen Shen"
   ],
   "cover": "https://app.affine.pro/api/workspaces/qf73AF6vzWphbTJdN7KiX/blobs/x_3tfRYpFzZ3ra7-cHyZEAjLBvvuTN8Kk3wCbYHpDNU=",
-  "coverAlt": "",
+  "coverAlt": "AFFiNE Roadmap",
   "createDate": 1680147991871,
   "created": 1660867200000,
   "description": "Since the release of our live demo, we’ve received lots of suggestions and there are lots of ideas of improvements we can make",
@@ -27,5 +27,6 @@
   ],
   "title": "AFFiNE Feature Roadmap 2022.08-2022.09",
   "updated": 1660867200000,
+  "updatedDate": 1733710831104,
   "valid": true
 }
