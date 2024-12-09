@@ -34,6 +34,15 @@ class PrimaryAPI {
     }
   }
 
+  async getBlogBySlug(slug: string) {
+    const res = await queryContent<ContentFileMeta>('blog').where({
+      slug: {
+        $eq: slug
+      }
+    }).findOne();
+    return res
+  }
+
   async getTemplates() {
     const store = useStore()
 
@@ -48,6 +57,15 @@ class PrimaryAPI {
     } catch (error) {
       console.log('getTemplates error', error)
     }
+  }
+
+  async getTemplateBySlug(slug: string) {
+    const res = await queryContent<TemplateContentFileMeta>(`templates`).where({
+      slug: {
+        $eq: slug
+      }
+    }).findOne();
+    return res
   }
 
   async getReleaseTabs() {

@@ -61,10 +61,7 @@ const loadData = async () => {
   try {
     asyncOptions.isError = false;
     asyncOptions.isLoading = true;
-    await primaryAPI.getTemplates();
-    template.value = store.templates.find(
-      (item) => item.slug === route.params.slug
-    );
+    template.value = await primaryAPI.getTemplateBySlug(route.params.slug as string);
 
     html.value = await renderHTML(template.value?.md as string);
   } catch (error) {

@@ -86,12 +86,12 @@ const asyncOptions = reactive({
   isError: false,
 });
 
+
 const loadData = async () => {
   try {
     asyncOptions.isError = false;
     asyncOptions.isLoading = true;
-    await primaryAPI.getBlog();
-    article.value = store.blog.find((item) => item.slug === route.params.slug);
+    article.value = await primaryAPI.getBlogBySlug(route.params.slug as string);
     html.value = await renderHTML(article.value?.md as string);
   } catch (error) {
     console.log('Load blog articles error', error);
