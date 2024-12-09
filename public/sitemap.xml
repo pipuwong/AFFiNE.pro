@@ -1988,6 +1988,11 @@
         <priority>1.0</priority>
     </url>
     <url>
+        <loc>https://affine.pro/templates/2025-planner</loc>
+        <changefreq>daily</changefreq>
+        <priority>1.0</priority>
+    </url>
+    <url>
         <loc>https://affine.pro/templates/academic-cv-template</loc>
         <changefreq>daily</changefreq>
         <priority>1.0</priority>
@@ -1999,6 +2004,11 @@
     </url>
     <url>
         <loc>https://affine.pro/templates/academic-planner</loc>
+        <changefreq>daily</changefreq>
+        <priority>1.0</priority>
+    </url>
+    <url>
+        <loc>https://affine.pro/templates/academic-reading-list-template</loc>
         <changefreq>daily</changefreq>
         <priority>1.0</priority>
     </url>
