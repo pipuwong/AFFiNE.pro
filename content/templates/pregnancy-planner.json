@@ -7,7 +7,7 @@
   "cateName": "Digital Planner",
   "cateSlug": "digital-planner",
   "cateTitle": "Digital Planner",
-  "cover": "https://app.affine.pro/api/workspaces/qf73AF6vzWphbTJdN7KiX/blobs/t2YsWeqkUbkGBmCdzz9n1ZrKJwhJOqyRnPOYcDbZmSE=",
+  "cover": "https://app.affine.pro/api/workspaces/qf73AF6vzWphbTJdN7KiX/blobs/aTzQGtZBQ4YvxlNanr4ct5TCCblZ6W3AQpJ5oCcKtXM=",
   "coverAlt": "Pregnancy Planner",
   "createDate": 1727204398755,
   "created": 1727136000000,
@@ -17,7 +17,7 @@
   "id": "7UePkDeXT1duAu4Vl2iHm",
   "index": 21,
   "linkedPageIds": [
-    "yyvcx1EOC4HHYB8LidLOO",
+    "j-EXwG5qPEszFZ3TrYBFr",
     "mhXkUvwacMxFPXrxlUQEF",
     "y3GwFuCD7PCzfmAihbd5m",
     "EzCZzdu56cBrqqDab4RtK",
@@ -25,8 +25,8 @@
     "sCGzzgL7ehx7YswYLAozx",
     "8yoI71clK3"
   ],
-  "md": "A **Pregnancy Planner** is a comprehensive tool designed to guide expectant parents through every stage of their pregnancy journey. From tracking appointments and baby milestones to managing your health and preparing for the baby’s arrival, this planner offers a well-structured approach to stay organized during this exciting but sometimes overwhelming time. With sections for trimester-specific tasks, baby prep checklists, and personal health tracking, this planner ensures you have everything you need at your fingertips to manage your pregnancy with confidence and peace of mind.\n\n\n## **Key Features of the Pregnancy Planner**\n\n\n### **1. Trimester Checklists**\n\n\nThe **trimester checklists** help break down essential tasks, appointments, and milestones for each trimester, ensuring nothing important is overlooked.\n\n\n### **2. Health and Wellness Tracking**\n\n\nTrack important health metrics such as weight, doctor’s appointments, and prenatal vitamins with the **health and wellness tracking** section to stay on top of your health and your baby’s development.\n\n\n### **3. Baby Preparation**\n\n\nThe **baby preparation** section provides space for baby names, nursery plans, and a hospital bag checklist to ensure everything is ready for your little one’s arrival.\n\n\n\n\n\n",
-  "previewUrl": "https://app.affine.pro/template/preview?workspaceId=qf73AF6vzWphbTJdN7KiX&docId=yyvcx1EOC4HHYB8LidLOO&pageId=7UePkDeXT1duAu4Vl2iHm&name=Pregnancy+Planner&mode=page&snapshotUrl=https%3A%2F%2Fcdn.affine.pro%2Ftemplate-snapshots%2Fyyvcx1EOC4HHYB8LidLOO.e3b0c442.zip",
+  "md": "A Pregnancy Planneris a comprehensive tool designed to guide expectant parents through every stage of their pregnancy journey. From tracking appointments and baby milestones to managing your health and preparing for the baby’s arrival, this planner offers a well-structured approach to stay organized during this exciting but sometimes overwhelming time. With sections for trimester-specific tasks, baby prep checklists, and personal health tracking, this planner ensures you have everything you need at your fingertips to manage your pregnancy with confidence and peace of mind.\n\n\n## Why Use a Pregnancy Planner?\n\n\n### Stay Organized and Stress-Free\n\n\nThe Affine Pregnancy Planner is tailored to help you manage every aspect of pregnancy. From trimester goals to baby essentials checklists, it ensures you never miss a beat. Use it to jot down questions for your doctor, track your baby’s growth, or organize your birth plan—all in one place.\n\n\n### Plan for Every Stage\n\n\nPregnancy comes with many changes, both physical and emotional. The planner divides tasks and tips by trimester, giving you a clear roadmap to prepare for each stage. It includes sections for prenatal appointments, dietary recommendations, and self-care practices, ensuring you stay healthy and happy.\n\n\n## Key Features of the Pregnancy Planner\n\n\n## 1. Comprehensive Tracking Tools\n\n\nKeep track of critical information like weight gain, baby movements, and prenatal vitamins. The planner also includes weekly overviews to document your feelings, cravings, and highlights of your journey.\n\n\n## 2. Customized Checklists\n\n\nFrom hospital bag essentials to baby registry must-haves, the planner provides ready-to-use checklists to simplify planning and preparation.\n\n\n### 3. Birth Plan Templates\n\n\nCrafting your ideal birth plan is effortless with pre-designed templates. Outline your preferences for labor, delivery, and postpartum care with ease.\n\n\n### 4. Journaling Space\n\n\nDocument your thoughts, emotions, and milestones with dedicated journaling sections. These make for wonderful memories to look back on after your baby arrives.\n\n\n",
+  "previewUrl": "https://app.affine.pro/template/preview?workspaceId=qf73AF6vzWphbTJdN7KiX&docId=j-EXwG5qPEszFZ3TrYBFr&pageId=7UePkDeXT1duAu4Vl2iHm&name=Pregnancy+Planner&mode=edgeless&snapshotUrl=https%3A%2F%2Fcdn.affine.pro%2Ftemplate-snapshots%2Fj-EXwG5qPEszFZ3TrYBFr.e3b0c442.zip",
   "publish": true,
   "relatedBlogIds": [
     "oapgNIuMNG",
@@ -47,11 +47,11 @@
   "tags": [
     "Digital Planner"
   ],
-  "template": "LinkedPage:yyvcx1EOC4HHYB8LidLOO:page",
-  "templateId": "yyvcx1EOC4HHYB8LidLOO",
-  "templateMode": "page",
+  "template": "LinkedPage:j-EXwG5qPEszFZ3TrYBFr:edgeless",
+  "templateId": "j-EXwG5qPEszFZ3TrYBFr",
+  "templateMode": "edgeless",
   "title": "Pregnancy Planner",
-  "updatedDate": 1727352982229,
-  "useTemplateUrl": "https://app.affine.pro/template/import?workspaceId=qf73AF6vzWphbTJdN7KiX&docId=yyvcx1EOC4HHYB8LidLOO&pageId=7UePkDeXT1duAu4Vl2iHm&name=Pregnancy+Planner&mode=page&snapshotUrl=https%3A%2F%2Fcdn.affine.pro%2Ftemplate-snapshots%2Fyyvcx1EOC4HHYB8LidLOO.e3b0c442.zip",
+  "updatedDate": 1733756358988,
+  "useTemplateUrl": "https://app.affine.pro/template/import?workspaceId=qf73AF6vzWphbTJdN7KiX&docId=j-EXwG5qPEszFZ3TrYBFr&pageId=7UePkDeXT1duAu4Vl2iHm&name=Pregnancy+Planner&mode=edgeless&snapshotUrl=https%3A%2F%2Fcdn.affine.pro%2Ftemplate-snapshots%2Fj-EXwG5qPEszFZ3TrYBFr.e3b0c442.zip",
   "valid": true
 }
