@@ -1803,11 +1803,6 @@
         <priority>1.0</priority>
     </url>
     <url>
-        <loc>https://affine.pro/blog/Best-PKM-Tool-Review</loc>
-        <changefreq>daily</changefreq>
-        <priority>1.0</priority>
-    </url>
-    <url>
         <loc>https://affine.pro/blog/academic-planners</loc>
         <changefreq>daily</changefreq>
         <priority>1.0</priority>
@@ -1863,6 +1858,11 @@
         <priority>1.0</priority>
     </url>
     <url>
+        <loc>https://affine.pro/blog/best-knowledge-management-software</loc>
+        <changefreq>daily</changefreq>
+        <priority>1.0</priority>
+    </url>
+    <url>
         <loc>https://affine.pro/blog/best-pkm-app-for-sharing-a-digital-garden</loc>
         <changefreq>daily</changefreq>
         <priority>1.0</priority>
@@ -1898,6 +1898,11 @@
         <priority>1.0</priority>
     </url>
     <url>
+        <loc>https://affine.pro/blog/make-a-vision-board-online</loc>
+        <changefreq>daily</changefreq>
+        <priority>1.0</priority>
+    </url>
+    <url>
         <loc>https://affine.pro/blog/mymind-vs-notion</loc>
         <changefreq>daily</changefreq>
         <priority>1.0</priority>
@@ -1919,6 +1924,11 @@
     </url>
     <url>
         <loc>https://affine.pro/blog/pages-linking-to-pages</loc>
+        <changefreq>daily</changefreq>
+        <priority>1.0</priority>
+    </url>
+    <url>
+        <loc>https://affine.pro/blog/printable-vision-board-quotes</loc>
         <changefreq>daily</changefreq>
         <priority>1.0</priority>
     </url>
