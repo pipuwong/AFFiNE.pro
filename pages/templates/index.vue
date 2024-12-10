@@ -86,7 +86,7 @@ const pageMeta = computed(() => ({
     {
       hid: 'breadcrumbs-json-ld',
       type: 'application/ld+json',
-      textContent: JSON.stringify(getTemplateCateSchema(templateHero.value)),
+      children: JSON.stringify(getTemplateCateSchema(templateHero.value)),
     },
   ],
 }));

@@ -86,7 +86,6 @@ const asyncOptions = reactive({
   isError: false,
 });
 
-
 const loadData = async () => {
   try {
     asyncOptions.isError = false;
@@ -166,7 +165,7 @@ const pageMeta = computed(() => {
       {
         hid: 'breadcrumbs-json-ld',
         type: 'application/ld+json',
-        textContent: JSON.stringify(jsonld),
+        children: JSON.stringify(jsonld),
       },
     ],
   };

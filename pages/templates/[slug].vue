@@ -61,7 +61,9 @@ const loadData = async () => {
   try {
     asyncOptions.isError = false;
     asyncOptions.isLoading = true;
-    template.value = await primaryAPI.getTemplateBySlug(route.params.slug as string);
+    template.value = await primaryAPI.getTemplateBySlug(
+      route.params.slug as string
+    );
 
     html.value = await renderHTML(template.value?.md as string);
   } catch (error) {
@@ -128,7 +130,7 @@ const pageMeta = computed(() => {
       {
         hid: 'breadcrumbs-json-ld',
         type: 'application/ld+json',
-        textContent: JSON.stringify(jsonld),
+        children: JSON.stringify(jsonld),
       },
     ],
   };
