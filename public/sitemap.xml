@@ -1873,6 +1873,16 @@
         <priority>1.0</priority>
     </url>
     <url>
+        <loc>https://affine.pro/blog/cornell-note-taking-notebook</loc>
+        <changefreq>daily</changefreq>
+        <priority>1.0</priority>
+    </url>
+    <url>
+        <loc>https://affine.pro/blog/cornell-notes-notebook</loc>
+        <changefreq>daily</changefreq>
+        <priority>1.0</priority>
+    </url>
+    <url>
         <loc>https://affine.pro/blog/digital-calendar-planner-templates</loc>
         <changefreq>daily</changefreq>
         <priority>1.0</priority>
@@ -1954,6 +1964,11 @@
     </url>
     <url>
         <loc>https://affine.pro/blog/smart-goal-template</loc>
+        <changefreq>daily</changefreq>
+        <priority>1.0</priority>
+    </url>
+    <url>
+        <loc>https://affine.pro/blog/standard-operating-procedure-template</loc>
         <changefreq>daily</changefreq>
         <priority>1.0</priority>
     </url>
