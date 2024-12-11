@@ -15,7 +15,7 @@ permissions:
 # Add concurrency group to queue builds
 concurrency:
   group: blog-sync
-  cancel-in-progress: false  # Queue instead of canceling
+  cancel-in-progress: true
 
 env:
   R2_ACCOUNT_ID: ${{ secrets.R2_ACCOUNT_ID }}
