@@ -33,7 +33,22 @@
         <priority>0.8</priority>
     </url>
     <url>
+        <loc>https://affine.pro/blog/2025-planner</loc>
+        <changefreq>daily</changefreq>
+        <priority>1.0</priority>
+    </url>
+    <url>
         <loc>https://affine.pro/blog/best-app-to-help-plan-day-for-adhdh</loc>
+        <changefreq>daily</changefreq>
+        <priority>1.0</priority>
+    </url>
+    <url>
+        <loc>https://affine.pro/blog/pokemon-team-planner</loc>
+        <changefreq>daily</changefreq>
+        <priority>1.0</priority>
+    </url>
+    <url>
+        <loc>https://affine.pro/blog/social-media-planner</loc>
         <changefreq>daily</changefreq>
         <priority>1.0</priority>
     </url>
@@ -1889,6 +1904,11 @@
     </url>
     <url>
         <loc>https://affine.pro/blog/digital-calendar-planner-templates</loc>
+        <changefreq>daily</changefreq>
+        <priority>1.0</priority>
+    </url>
+    <url>
+        <loc>https://affine.pro/blog/digital-dnd-character</loc>
         <changefreq>daily</changefreq>
         <priority>1.0</priority>
     </url>
