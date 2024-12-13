@@ -33,6 +33,11 @@
         <priority>0.8</priority>
     </url>
     <url>
+        <loc>https://affine.pro/blog/ai-pdf-summarizer</loc>
+        <changefreq>daily</changefreq>
+        <priority>1.0</priority>
+    </url>
+    <url>
         <loc>https://affine.pro/blog/2025-planner</loc>
         <changefreq>daily</changefreq>
         <priority>1.0</priority>
@@ -1828,12 +1833,27 @@
         <priority>1.0</priority>
     </url>
     <url>
+        <loc>https://affine.pro/blog/ai-answer-generator</loc>
+        <changefreq>daily</changefreq>
+        <priority>1.0</priority>
+    </url>
+    <url>
+        <loc>https://affine.pro/blog/ai-note-taker-free-for-students</loc>
+        <changefreq>daily</changefreq>
+        <priority>1.0</priority>
+    </url>
+    <url>
         <loc>https://affine.pro/blog/ai-notes-visual</loc>
         <changefreq>daily</changefreq>
         <priority>1.0</priority>
     </url>
     <url>
         <loc>https://affine.pro/blog/ai-paragrapher-generator</loc>
+        <changefreq>daily</changefreq>
+        <priority>1.0</priority>
+    </url>
+    <url>
+        <loc>https://affine.pro/blog/ai-summarizer</loc>
         <changefreq>daily</changefreq>
         <priority>1.0</priority>
     </url>
@@ -1969,6 +1989,11 @@
     </url>
     <url>
         <loc>https://affine.pro/blog/reading-log-review</loc>
+        <changefreq>daily</changefreq>
+        <priority>1.0</priority>
+    </url>
+    <url>
+        <loc>https://affine.pro/blog/research-assistant</loc>
         <changefreq>daily</changefreq>
         <priority>1.0</priority>
     </url>
