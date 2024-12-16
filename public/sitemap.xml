@@ -33,6 +33,21 @@
         <priority>0.8</priority>
     </url>
     <url>
+        <loc>https://affine.pro/blog/ai-email-generator</loc>
+        <changefreq>daily</changefreq>
+        <priority>1.0</priority>
+    </url>
+    <url>
+        <loc>https://affine.pro/blog/best-ai-humanizer</loc>
+        <changefreq>daily</changefreq>
+        <priority>1.0</priority>
+    </url>
+    <url>
+        <loc>https://affine.pro/blog/create-captivating-travel-brochure--guide</loc>
+        <changefreq>daily</changefreq>
+        <priority>1.0</priority>
+    </url>
+    <url>
         <loc>https://affine.pro/blog/ai-pdf-summarizer</loc>
         <changefreq>daily</changefreq>
         <priority>1.0</priority>
@@ -774,11 +789,6 @@
     </url>
     <url>
         <loc>https://affine.pro/blog/whats-new-affine-2024-08</loc>
-        <changefreq>daily</changefreq>
-        <priority>1.0</priority>
-    </url>
-    <url>
-        <loc>https://affine.pro/blog/create-captivating-travel-brochure--guide</loc>
         <changefreq>daily</changefreq>
         <priority>1.0</priority>
     </url>
