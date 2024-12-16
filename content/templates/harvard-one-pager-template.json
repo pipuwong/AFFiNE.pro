@@ -7,8 +7,8 @@
   "cateName": "Digital Planner",
   "cateSlug": "digital-planner",
   "cateTitle": "Digital Planner",
-  "cover": "https://app.affine.pro/api/workspaces/qf73AF6vzWphbTJdN7KiX/blobs/N8320Q8NMaB7pF-X5SBoIE2OmW7vQ8CnvKkZEfl_2tg=",
-  "coverAlt": "One Pager Template",
+  "cover": "https://app.affine.pro/api/workspaces/qf73AF6vzWphbTJdN7KiX/blobs/kBZoeFFCMBjY6kOEOqYWJAeUfL4bIENvnSXYFZVbLC0=",
+  "coverAlt": "Harvard One Pager",
   "createDate": 1731312675589,
   "created": 1727136000000,
   "description": "Create a concise and effective one pager with our template. Perfect for Harvard students, this template helps you summarize key information for presentations, projects, or assignments.",
@@ -17,7 +17,7 @@
   "id": "UIaFt2K7GFtpDcO11cLqp",
   "index": 48,
   "linkedPageIds": [
-    "U0vIisxruVuCSQEjYz9j6",
+    "VzfL_pyrpklHc_K36pA0B",
     "2c1TLEdEIfcLPBd5wHCE8",
     "y3GwFuCD7PCzfmAihbd5m",
     "WCiKoC9_FensTgC9Dw_GY",
@@ -26,7 +26,7 @@
     "siVFmLrvI-bKkBlpcemaF"
   ],
   "md": "## Harvard One Pager Template\n\n\nA one pager is a powerful tool for summarizing key information on a single, organized page. It’s commonly used in academic and professional settings to quickly convey important information at a glance. Designed with Harvard students in mind, this template is ideal for condensing complex topics, presenting ideas concisely, and sharing key points in a polished, easy-to-read format.\n\n\n## Key Features of the  Harvard One Pager Template\n\n\nThis one pager template includes sections to organize main ideas, objectives, supporting data, and essential details. Its structure allows for an impactful and visually engaging summary without overwhelming the reader.\n\n\n### Project or Topic Overview\n\n\nThis section provides a space for a brief introduction to the project, topic, or idea. Here, you can summarize the purpose, main question, or hypothesis of the one pager. This opening paragraph is intended to quickly orient readers to the subject.\n\n\n### Key Points & Highlights\n\n\nIn the key points section, outline the most essential details of the topic. Use bullet points or short sentences to ensure brevity and clarity. This area can also include subheadings for organizing different aspects of the topic, such as background information, main arguments, or summary of findings.\n\n\n### Data and Supporting Details\n\n\nHere, you can include any relevant data, statistics, or visuals that help to illustrate your points. Visual elements like charts or graphs (optional if creating this on paper) make this section easy to scan and understand at a glance.\n\n\n### Conclusion or Recommendations\n\n\nThis section allows for a final summary or takeaway from the information provided. In academic settings, this may be a conclusion, set of recommendations, or final insights relevant to the topic.\n\n\n",
-  "previewUrl": "https://app.affine.pro/template/preview?workspaceId=qf73AF6vzWphbTJdN7KiX&docId=U0vIisxruVuCSQEjYz9j6&pageId=UIaFt2K7GFtpDcO11cLqp&name=Harvard+One+Pager+Template&mode=page&snapshotUrl=https%3A%2F%2Fcdn.affine.pro%2Ftemplate-snapshots%2FU0vIisxruVuCSQEjYz9j6.e3b0c442.zip",
+  "previewUrl": "https://app.affine.pro/template/preview?workspaceId=qf73AF6vzWphbTJdN7KiX&docId=VzfL_pyrpklHc_K36pA0B&pageId=UIaFt2K7GFtpDcO11cLqp&name=Harvard+One+Pager+Template&mode=edgeless&snapshotUrl=https%3A%2F%2Fcdn.affine.pro%2Ftemplate-snapshots%2FVzfL_pyrpklHc_K36pA0B.e3b0c442.zip",
   "publish": true,
   "relatedBlogIds": [
     "1BncsglG1B78S9HUjsWk6",
@@ -47,11 +47,11 @@
   "tags": [
     "One Pager Template"
   ],
-  "template": "LinkedPage:U0vIisxruVuCSQEjYz9j6",
-  "templateId": "U0vIisxruVuCSQEjYz9j6",
-  "templateMode": "page",
+  "template": "LinkedPage:VzfL_pyrpklHc_K36pA0B:edgeless",
+  "templateId": "VzfL_pyrpklHc_K36pA0B",
+  "templateMode": "edgeless",
   "title": "Harvard One Pager Template",
-  "updatedDate": 1731313733386,
-  "useTemplateUrl": "https://app.affine.pro/template/import?workspaceId=qf73AF6vzWphbTJdN7KiX&docId=U0vIisxruVuCSQEjYz9j6&pageId=UIaFt2K7GFtpDcO11cLqp&name=Harvard+One+Pager+Template&mode=page&snapshotUrl=https%3A%2F%2Fcdn.affine.pro%2Ftemplate-snapshots%2FU0vIisxruVuCSQEjYz9j6.e3b0c442.zip",
+  "updatedDate": 1734317687965,
+  "useTemplateUrl": "https://app.affine.pro/template/import?workspaceId=qf73AF6vzWphbTJdN7KiX&docId=VzfL_pyrpklHc_K36pA0B&pageId=UIaFt2K7GFtpDcO11cLqp&name=Harvard+One+Pager+Template&mode=edgeless&snapshotUrl=https%3A%2F%2Fcdn.affine.pro%2Ftemplate-snapshots%2FVzfL_pyrpklHc_K36pA0B.e3b0c442.zip",
   "valid": true
 }
