@@ -156,6 +156,7 @@ export default defineNuxtConfig({
     '@unocss/nuxt',
     '@pinia/nuxt',
     'nuxt-security',
+    'nuxt-vitalizer',
   ],
 
   gtm: {
@@ -204,5 +205,10 @@ export default defineNuxtConfig({
     cloudflare: {
       baseURL: 'https://affine.pro',
     },
+  },
+
+  vitalizer: {
+    disablePrefetchLinks: true,
+    disablePreloadLinks: true,
   },
 });
