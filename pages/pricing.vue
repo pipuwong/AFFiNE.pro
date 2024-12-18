@@ -284,7 +284,7 @@
                   | &nbsp;per seat/month
 
             .planning-list
-              .list-section Include in Team Workspace
+              .list-section Include in Team Workspace:
               .item
                 .item-icon
                   nuxt-icon( name="Done" filled)
@@ -305,7 +305,11 @@
                 .item-icon
                   nuxt-icon( name="Done" filled)
                 .item-body Multiple admin roles
-
+              .item
+                .item-icon
+                  nuxt-icon( name="Done" filled)
+                .item-body Priority customer support
+  
             .card-footer
               nuxt-link( :href="teamActionLink" target="_blank" rel="nofollow" )
                 el-button(
