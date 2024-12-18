@@ -33,6 +33,11 @@
         <priority>0.8</priority>
     </url>
     <url>
+        <loc>https://affine.pro/blog/affine-vs-appflowy-vs-anytype</loc>
+        <changefreq>daily</changefreq>
+        <priority>1.0</priority>
+    </url>
+    <url>
         <loc>https://affine.pro/blog/ai-email-generator</loc>
         <changefreq>daily</changefreq>
         <priority>1.0</priority>
@@ -59,6 +64,11 @@
     </url>
     <url>
         <loc>https://affine.pro/blog/homework-helper</loc>
+        <changefreq>daily</changefreq>
+        <priority>1.0</priority>
+    </url>
+    <url>
+        <loc>https://affine.pro/blog/project-planner</loc>
         <changefreq>daily</changefreq>
         <priority>1.0</priority>
     </url>

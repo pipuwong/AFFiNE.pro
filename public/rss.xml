@@ -5,9 +5,18 @@
     <description>All In One KnowledgeOS</description>
     <link>https://affine.pro</link>
     <atom:link href="https://affine.pro/rss.xml" rel="self" type="application/rss+xml" />
-    <lastBuildDate>Tue, 17 Dec 2024 10:17:30 GMT</lastBuildDate>
-    <pubDate>Tue, 17 Dec 2024 10:17:30 GMT</pubDate>
+    <lastBuildDate>Wed, 18 Dec 2024 12:39:13 GMT</lastBuildDate>
+    <pubDate>Wed, 18 Dec 2024 12:39:13 GMT</pubDate>
     <ttl>60</ttl>
+    
+    <item>
+      <title>Comparing AFFiNE, AppFlowy, and Anytype: Choosing the Best Open-Source Productivity Tool</title>
+      <description><![CDATA[“Compare AFFiNE, AppFlowy, and Anytype to find the best open-source productivity tool for your workflow needs in 2025.”]]></description>
+      <link>https://affine.pro/blog/affine-vs-appflowy-vs-anytype</link>
+      <guid isPermaLink="true">https://affine.pro/blog/affine-vs-appflowy-vs-anytype</guid>
+      <pubDate>Wed, 18 Dec 2024 00:00:00 GMT</pubDate>
+      <enclosure url="https://app.affine.pro/api/workspaces/qf73AF6vzWphbTJdN7KiX/blobs/keR--GRnySCNDYQF0XD6F1UsO2xeGPzlqEK5NZrU_lw=" type="image/png" />
+    </item>
     
     <item>
       <title>Top Free AI Email Generators to Transform Your Email Communication</title>
@@ -61,6 +70,15 @@
       <guid isPermaLink="true">https://affine.pro/blog/homework-helper</guid>
       <pubDate>Mon, 16 Dec 2024 00:00:00 GMT</pubDate>
       <enclosure url="https://app.affine.pro/api/workspaces/qf73AF6vzWphbTJdN7KiX/blobs/jlG7HJDkYoB-O9R8Ra9HlWNVQ8dDryVWMyd_I2FJiXM=" type="image/png" />
+    </item>
+    
+    <item>
+      <title>Top Project Planners: Templates, Tools, and Tips for Success</title>
+      <description><![CDATA[“Master project planning with top tools, templates, and tips to boost productivity and ensure success.”]]></description>
+      <link>https://affine.pro/blog/project-planner</link>
+      <guid isPermaLink="true">https://affine.pro/blog/project-planner</guid>
+      <pubDate>Mon, 16 Dec 2024 00:00:00 GMT</pubDate>
+      <enclosure url="https://app.affine.pro/api/workspaces/qf73AF6vzWphbTJdN7KiX/blobs/7WeYgVddFZUT5blPFtHO24odulWYlwVzT15Y_KgG86k=" type="image/png" />
     </item>
     
     <item>
