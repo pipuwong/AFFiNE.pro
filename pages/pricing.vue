@@ -276,7 +276,7 @@
 
           .price-card.type-enterprise
             .card-header
-              .planning-name Teams / Enterprise
+              .planning-name Team
               .planning-desc Best for scalable teams.
               .price-row.flex.items-end.gap-2
                 .price-amount
@@ -309,7 +309,12 @@
                 .item-icon
                   nuxt-icon( name="Done" filled)
                 .item-body Priority customer support
-  
+              .item
+                .item-icon
+                .item-body
+                  | The solution you need is more complex?&nbsp;
+                  a( :href="PATH.PRICING_CONTACT_FORM_TEAM" target="_blank" rel="nofollow" ) Tell us your use case.
+
             .card-footer
               nuxt-link( :href="teamActionLink" target="_blank" rel="nofollow" )
                 el-button(
@@ -811,6 +816,10 @@ useHead({
 
       .nuxt-icon
         font-size: 16px
+
+    .item-body
+      a
+        color: var(--brand)
 
   .contact-us-button
     text-align: center
