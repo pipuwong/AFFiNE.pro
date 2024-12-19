@@ -280,7 +280,7 @@
               .planning-desc Best for scalable teams.
               .price-row.flex.items-end.gap-2
                 .price-amount
-                  span.number {{ isYearly ? '$12' : '$15' }}
+                  span.number {{ isYearly ? '$10' : '$12' }}
                   | &nbsp;per seat/month
 
             .planning-list
