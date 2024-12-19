@@ -38,7 +38,27 @@
         <priority>1.0</priority>
     </url>
     <url>
+        <loc>https://affine.pro/blog/course-schedule-planner</loc>
+        <changefreq>daily</changefreq>
+        <priority>1.0</priority>
+    </url>
+    <url>
+        <loc>https://affine.pro/blog/how-to-become-a-wedding-planner</loc>
+        <changefreq>daily</changefreq>
+        <priority>1.0</priority>
+    </url>
+    <url>
+        <loc>https://affine.pro/blog/tesla-trip-planner</loc>
+        <changefreq>daily</changefreq>
+        <priority>1.0</priority>
+    </url>
+    <url>
         <loc>https://affine.pro/blog/wedding-planner-checklist</loc>
+        <changefreq>daily</changefreq>
+        <priority>1.0</priority>
+    </url>
+    <url>
+        <loc>https://affine.pro/blog/wedding-planner</loc>
         <changefreq>daily</changefreq>
         <priority>1.0</priority>
     </url>
