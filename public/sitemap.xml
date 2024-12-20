@@ -33,6 +33,21 @@
         <priority>0.8</priority>
     </url>
     <url>
+        <loc>https://affine.pro/blog/2025-planner</loc>
+        <changefreq>daily</changefreq>
+        <priority>1.0</priority>
+    </url>
+    <url>
+        <loc>https://affine.pro/blog/employee-review-template-printable</loc>
+        <changefreq>daily</changefreq>
+        <priority>1.0</priority>
+    </url>
+    <url>
+        <loc>https://affine.pro/blog/vision-board-maker</loc>
+        <changefreq>daily</changefreq>
+        <priority>1.0</priority>
+    </url>
+    <url>
         <loc>https://affine.pro/blog/affine-vs-appflowy-vs-anytype</loc>
         <changefreq>daily</changefreq>
         <priority>1.0</priority>
@@ -104,11 +119,6 @@
     </url>
     <url>
         <loc>https://affine.pro/blog/ai-pdf-summarizer</loc>
-        <changefreq>daily</changefreq>
-        <priority>1.0</priority>
-    </url>
-    <url>
-        <loc>https://affine.pro/blog/2025-planner</loc>
         <changefreq>daily</changefreq>
         <priority>1.0</priority>
     </url>
