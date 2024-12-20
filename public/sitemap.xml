@@ -43,6 +43,11 @@
         <priority>1.0</priority>
     </url>
     <url>
+        <loc>https://affine.pro/blog/team-name-generator</loc>
+        <changefreq>daily</changefreq>
+        <priority>1.0</priority>
+    </url>
+    <url>
         <loc>https://affine.pro/blog/vision-board-maker</loc>
         <changefreq>daily</changefreq>
         <priority>1.0</priority>
