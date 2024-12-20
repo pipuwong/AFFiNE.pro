@@ -53,6 +53,11 @@
         <priority>1.0</priority>
     </url>
     <url>
+        <loc>https://affine.pro/blog/weekly-schedule-template</loc>
+        <changefreq>daily</changefreq>
+        <priority>1.0</priority>
+    </url>
+    <url>
         <loc>https://affine.pro/blog/affine-vs-appflowy-vs-anytype</loc>
         <changefreq>daily</changefreq>
         <priority>1.0</priority>
