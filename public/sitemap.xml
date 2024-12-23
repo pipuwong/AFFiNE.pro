@@ -33,6 +33,11 @@
         <priority>0.8</priority>
     </url>
     <url>
+        <loc>https://affine.pro/blog/planner-best</loc>
+        <changefreq>daily</changefreq>
+        <priority>1.0</priority>
+    </url>
+    <url>
         <loc>https://affine.pro/blog/8-free-printable-vision-board-templates-examples-2023</loc>
         <changefreq>daily</changefreq>
         <priority>1.0</priority>
