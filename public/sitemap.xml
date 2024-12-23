@@ -38,6 +38,11 @@
         <priority>1.0</priority>
     </url>
     <url>
+        <loc>https://affine.pro/blog/free-ai-paragraph-generators</loc>
+        <changefreq>daily</changefreq>
+        <priority>1.0</priority>
+    </url>
+    <url>
         <loc>https://affine.pro/blog/2025-planner</loc>
         <changefreq>daily</changefreq>
         <priority>1.0</priority>
@@ -519,11 +524,6 @@
     </url>
     <url>
         <loc>https://affine.pro/blog/create-a-project-timeline-template</loc>
-        <changefreq>daily</changefreq>
-        <priority>1.0</priority>
-    </url>
-    <url>
-        <loc>https://affine.pro/blog/free-ai-paragraph-generators</loc>
         <changefreq>daily</changefreq>
         <priority>1.0</priority>
     </url>
@@ -1129,6 +1129,11 @@
     </url>
     <url>
         <loc>https://affine.pro/blog/free-kanban-board-templates-examples-boost-work-efficiency</loc>
+        <changefreq>daily</changefreq>
+        <priority>1.0</priority>
+    </url>
+    <url>
+        <loc>https://affine.pro/blog/top-8-microsoft-visio-alternatives-competitors-2023</loc>
         <changefreq>daily</changefreq>
         <priority>1.0</priority>
     </url>
