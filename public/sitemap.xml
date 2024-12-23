@@ -178,6 +178,11 @@
         <priority>1.0</priority>
     </url>
     <url>
+        <loc>https://affine.pro/blog/15-types-events-event-management-categories-examples</loc>
+        <changefreq>daily</changefreq>
+        <priority>1.0</priority>
+    </url>
+    <url>
         <loc>https://affine.pro/blog/adhd-planner</loc>
         <changefreq>daily</changefreq>
         <priority>1.0</priority>
@@ -1039,11 +1044,6 @@
     </url>
     <url>
         <loc>https://affine.pro/blog/10-best-free-excel-spreadsheet-inventory-templates-2023</loc>
-        <changefreq>daily</changefreq>
-        <priority>1.0</priority>
-    </url>
-    <url>
-        <loc>https://affine.pro/blog/15-types-events-event-management-categories-examples</loc>
         <changefreq>daily</changefreq>
         <priority>1.0</priority>
     </url>
