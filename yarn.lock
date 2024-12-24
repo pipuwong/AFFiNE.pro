@@ -2815,7 +2815,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@nuxt/kit@npm:^3.12.2":
+"@nuxt/kit@npm:^3.12.2, @nuxt/kit@npm:^3.14.1592":
   version: 3.14.1592
   resolution: "@nuxt/kit@npm:3.14.1592"
   dependencies:
@@ -2952,6 +2952,18 @@ __metadata:
   peerDependencies:
     vue: ^3.3.4
   checksum: 10/52e48f707f55e8446d8ff2b9e36d25e3a255486f6c1c2809ee7d26b14081a03b33a3db9332c640b5fc04ed3da43c73a878add9786c9da4fa91f1e5e8080eaa9f
+  languageName: node
+  linkType: hard
+
+"@nuxtjs/critters@npm:^0.8.0":
+  version: 0.8.0
+  resolution: "@nuxtjs/critters@npm:0.8.0"
+  dependencies:
+    "@nuxt/kit": "npm:^3.14.1592"
+    beasties: "npm:^0.1.0"
+    pathe: "npm:^1.1.2"
+    ufo: "npm:^1.5.4"
+  checksum: 10/102c0d128fb8ed83c4cf6edecb017706c36715815c1374ab4a72b4df48c9c1c6285c744e28f8a5276c7a69f4b660f47d12d01ec9a555b8262458c301d0a5e3c4
   languageName: node
   linkType: hard
 
@@ -5433,6 +5445,7 @@ __metadata:
     "@iconify/json": "npm:^2.2.19"
     "@nuxt/content": "npm:^2.13.4"
     "@nuxt/image-edge": "npm:^1.3.0-28493895.369b747"
+    "@nuxtjs/critters": "npm:^0.8.0"
     "@nuxtjs/device": "npm:^3.1.0"
     "@nuxtjs/i18n": "npm:^8.0.0-rc.5"
     "@pinia/nuxt": "npm:^0.5.5"
@@ -5470,6 +5483,7 @@ __metadata:
     pug: "npm:^3.0.2"
     rand-seed: "npm:^2.1.4"
     rehype-prism-plus: "npm:^1.5.1"
+    rehype-raw: "npm:^7.0.0"
     rehype-slug: "npm:^6.0.0"
     rehype-stringify: "npm:^9.0.3"
     remark: "npm:^14.0.2"
@@ -5484,7 +5498,7 @@ __metadata:
     typescript: "npm:^5.1.6"
     typescript-cookie: "npm:^1.0.4"
     unified: "npm:^10.1.2"
-    unist-util-visit: "npm:^4.1.2"
+    unist-util-visit: "npm:^5.0.0"
     unplugin-auto-import: "npm:^0.14.2"
     unplugin-icons: "npm:^0.15.2"
     unplugin-vue-components: "npm:^0.23.0"
@@ -5853,6 +5867,22 @@ __metadata:
   dependencies:
     safe-buffer: "npm:5.1.2"
   checksum: 10/3419b805d5dfc518f3a05dcf42aa53aa9ce820e50b6df5097f9e186322e1bc733c36722b624802cd37e791035aa73b828ed814d8362333d42d7f5cd04d7a5e48
+  languageName: node
+  linkType: hard
+
+"beasties@npm:^0.1.0":
+  version: 0.1.0
+  resolution: "beasties@npm:0.1.0"
+  dependencies:
+    css-select: "npm:^5.1.0"
+    css-what: "npm:^6.1.0"
+    dom-serializer: "npm:^2.0.0"
+    domhandler: "npm:^5.0.3"
+    htmlparser2: "npm:^9.0.0"
+    picocolors: "npm:^1.1.1"
+    postcss: "npm:^8.4.47"
+    postcss-media-query-parser: "npm:^0.2.3"
+  checksum: 10/7708d69dd0f9412589c769932cfb5aaffd84cbc415bc4a299a41b19828c27248be78bae3e96004ff0da81e90f04c504c37613f384613feefc05423d8e3ae2566
   languageName: node
   linkType: hard
 
@@ -7015,7 +7045,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"domutils@npm:^3.0.1":
+"domutils@npm:^3.0.1, domutils@npm:^3.1.0":
   version: 3.1.0
   resolution: "domutils@npm:3.1.0"
   dependencies:
@@ -8585,6 +8615,18 @@ __metadata:
     css-line-break: "npm:^2.1.0"
     text-segmentation: "npm:^1.0.3"
   checksum: 10/595790810557a1d4287f07b6ead49aed4f169f08eb00e20c1f030b93344003e84797d28cd8a220e8ec1b78641d460ca6add11b8531960725526f11a7b9fa9900
+  languageName: node
+  linkType: hard
+
+"htmlparser2@npm:^9.0.0":
+  version: 9.1.0
+  resolution: "htmlparser2@npm:9.1.0"
+  dependencies:
+    domelementtype: "npm:^2.3.0"
+    domhandler: "npm:^5.0.3"
+    domutils: "npm:^3.1.0"
+    entities: "npm:^4.5.0"
+  checksum: 10/6352fa2a5495781fa9a02c9049908334cd068ff36d753870d30cd13b841e99c19646717567a2f9e9c44075bbe43d364e102f9d013a731ce962226d63746b794f
   languageName: node
   linkType: hard
 
@@ -11962,7 +12004,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"picocolors@npm:^1.0.0, picocolors@npm:^1.0.1, picocolors@npm:^1.1.0":
+"picocolors@npm:^1.0.0, picocolors@npm:^1.0.1, picocolors@npm:^1.1.0, picocolors@npm:^1.1.1":
   version: 1.1.1
   resolution: "picocolors@npm:1.1.1"
   checksum: 10/e1cf46bf84886c79055fdfa9dcb3e4711ad259949e3565154b004b260cd356c5d54b31a1437ce9782624bf766272fe6b0154f5f0c744fb7af5d454d2b60db045
@@ -12093,6 +12135,13 @@ __metadata:
   peerDependencies:
     postcss: ^8.4.31
   checksum: 10/e41c448305f96a93ec97a4a8ce2932a123283898041ff38ed2f7a35fcb76d937f448c2c8efb7d74d53d38b4ebf9163ae12935297bb99baec2f6751776b0ea29b
+  languageName: node
+  linkType: hard
+
+"postcss-media-query-parser@npm:^0.2.3":
+  version: 0.2.3
+  resolution: "postcss-media-query-parser@npm:0.2.3"
+  checksum: 10/39f9e9c383ec98d85103c5f3d1eb5a9088a47357ed26d3c7501aeba1302840521cffa1b851bc2d8146f1ccdef263fe3088f4d435bda1c0dc0b6f9387865574c8
   languageName: node
   linkType: hard
 
@@ -14664,7 +14713,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"unist-util-visit@npm:^4.0.0, unist-util-visit@npm:^4.1.2":
+"unist-util-visit@npm:^4.0.0":
   version: 4.1.2
   resolution: "unist-util-visit@npm:4.1.2"
   dependencies:

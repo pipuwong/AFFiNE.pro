@@ -147,6 +147,7 @@ export default defineNuxtConfig({
   modules: [
     '@nuxt/content',
     '@nuxt/image-edge',
+    '@nuxtjs/critters',
     '@nuxtjs/device',
     '@nuxtjs/i18n',
     '@element-plus/nuxt',
