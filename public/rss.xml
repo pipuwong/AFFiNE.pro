@@ -5,8 +5,8 @@
     <description>All In One KnowledgeOS</description>
     <link>https://affine.pro</link>
     <atom:link href="https://affine.pro/rss.xml" rel="self" type="application/rss+xml" />
-    <lastBuildDate>Tue, 24 Dec 2024 15:54:06 GMT</lastBuildDate>
-    <pubDate>Tue, 24 Dec 2024 15:54:06 GMT</pubDate>
+    <lastBuildDate>Tue, 24 Dec 2024 16:00:27 GMT</lastBuildDate>
+    <pubDate>Tue, 24 Dec 2024 16:00:27 GMT</pubDate>
     <ttl>60</ttl>
     
     <item>
@@ -281,7 +281,7 @@
     
     <item>
       <title>Top AI Summarizers for Articles, Videos, and Documents</title>
-      <description><![CDATA[Discover top AI summarizers for articles, videos, and documents to enhance productivity and manage information efficiently.]]></description>
+      <description><![CDATA[Discover top AI summarizers for articles, videos and documents to enhance productivity and manage information efficiently.]]></description>
       <link>https://affine.pro/blog/ai-summarizer</link>
       <guid isPermaLink="true">https://affine.pro/blog/ai-summarizer</guid>
       <pubDate>Wed, 11 Dec 2024 00:00:00 GMT</pubDate>
