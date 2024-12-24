@@ -5,18 +5,19 @@ import path from "node:path";
 
 import { createHash } from "node:crypto";
 
-import { HeadObjectCommand, PutObjectCommand, S3Client } from "@aws-sdk/client-s3";
+import {
+  ListObjectsV2Command,
+  PutObjectCommand,
+  S3Client,
+} from "@aws-sdk/client-s3";
 
 import { rootDir } from "./utils";
+import { loadContents, loadPageMetas, savePageMetas } from "./sync-utils";
 
 const reader = instantiateReader({
   workspaceId: "qf73AF6vzWphbTJdN7KiX",
   target: "https://app.affine.pro",
 });
-
-const clean = async () => {
-  await fs.emptyDir(path.join(rootDir, "content", "templates"));
-};
 
 const R2_BUCKET = "affine-cdn";
 const R2_PREFIX = "template-snapshots";
@@ -31,17 +32,27 @@ const uploadTemplateSnapshot = (() => {
     },
   });
 
+  let existingSnapshots: string[] | undefined;
+
   return async function upload(key: string, buffer: Buffer) {
-    // check if the file exists
-    const c0 = new HeadObjectCommand({
-      Bucket: R2_BUCKET,
-      Key: `${R2_PREFIX}/${key}.zip`,
-    });
-    const response = await r2.send(c0);
-    if (response.ContentLength) {
+    if (!existingSnapshots) {
+      const c0 = new ListObjectsV2Command({
+        Bucket: R2_BUCKET,
+        Prefix: R2_PREFIX,
+      });
+      const response = await r2.send(c0);
+      existingSnapshots = response.Contents?.map((c) =>
+        c.Key?.replace(R2_PREFIX + "/", "")
+      ).filter((k) => k !== undefined) as string[];
+      console.log("existingSnapshots", existingSnapshots);
+    }
+    console.log("key", key);
+
+    if (existingSnapshots.includes(key + ".zip")) {
       console.log(`${key}.zip already exists, skipping upload`);
       return;
     }
+
     const c1 = new PutObjectCommand({
       Bucket: R2_BUCKET,
       Key: `${R2_PREFIX}/${key}.zip`,
@@ -59,6 +70,11 @@ async function crawlTemplates() {
   if (!pages) {
     throw new Error("No pages found");
   }
+
+  const existingPageMetas = await loadPageMetas();
+  const existingTemplateMetas = await loadContents('templates');
+
+  const visitedSlugs = new Set<string>();
 
   await fs.ensureDir(path.join(rootDir, "public", "templates", "snapshots"));
 
@@ -83,57 +99,71 @@ async function crawlTemplates() {
       delete template.parsedBlocks;
       delete template.linkedPages;
 
-      const zip = await reader.getDocSnapshot(template.templateId);
-      if (!zip) {
-        console.log(`no snapshot for ${template.templateId}`);
-        continue;
-      }
-      const buffer = Buffer.from(await zip.arrayBuffer());
-
-      const featured = index === 0;
-
-      const hash = createHash("sha256")
-        .update(template.updated?.toString() || "")
-        .digest("hex")
-        .slice(0, 8);
-      const snapshotUrl = `https://cdn.affine.pro/${R2_PREFIX}/${template.templateId}.${hash}.zip`;
-
-      const params = new URLSearchParams({
-        workspaceId: reader.workspaceId,
-        docId: template.templateId,
-        pageId: template.id, // deprecated
-        name: template.title || template.id,
-        mode: template.templateMode || "page",
-        snapshotUrl,
-      });
-
-      template.slug = template.slug.replaceAll("/", "");
-      processed.set(template.templateId, {
-        slug: template.slug,
-        title: template.title || "",
-      });
-
-      const t = {
-        ...template,
-        featured,
-        cateTitle: category.title,
-        cateName: category.category,
-        cateSlug: category.slug,
-        cateIndex: categoryIndex,
-        index,
-        intro: featured ? category.description : undefined,
-        useTemplateUrl: `https://app.affine.pro/template/import?${params.toString()}`,
-        previewUrl: `https://app.affine.pro/template/preview?${params.toString()}`,
-      };
-
-      console.log(`uploading ${template.templateId}.${hash} to ${R2_BUCKET}`);
-
-      await uploadTemplateSnapshot(`${template.templateId}.${hash}`, buffer);
-      await fs.writeFile(
-        path.join(rootDir, "content", "templates", `${template.slug}.json`),
-        stringify(t, { space: "  " })
+      const oldUserTemplateMeta = existingPageMetas.find(
+        (meta) => meta.id === template.templateId
       );
-      console.log(`saved ${template.slug}`);
+      const userTemplateMeta = pages.find(
+        (meta) => meta.id === template.templateId
+      );
+      const oldTemplateMeta = existingTemplateMetas.get(template.id);
+      if (oldTemplateMeta && oldUserTemplateMeta?.updatedDate === userTemplateMeta?.updatedDate) {
+        console.log(`${template.templateId} is not updated, skipping`);
+        if (oldTemplateMeta.slug) {
+          visitedSlugs.add(oldTemplateMeta.slug);
+        }
+        continue;
+      } else {
+        const zip = await reader.getDocSnapshot(template.templateId);
+        if (!zip) {
+          console.log(`no snapshot for ${template.templateId}`);
+          continue;
+        }
+        const buffer = Buffer.from(await zip.arrayBuffer());
+        const hash = createHash("sha256")
+          .update(template.updated?.toString() || "")
+          .digest("hex")
+          .slice(0, 8);
+        console.log(`uploading ${template.templateId}.${hash} to ${R2_BUCKET}`);
+        await uploadTemplateSnapshot(`${template.templateId}.${hash}`, buffer);
+        const snapshotUrl = `https://cdn.affine.pro/${R2_PREFIX}/${template.templateId}.${hash}.zip`;
+      
+        const featured = index === 0;
+
+        const params = new URLSearchParams({
+          workspaceId: reader.workspaceId,
+          docId: template.templateId,
+          pageId: template.id, // deprecated
+          name: template.title || template.id,
+          mode: template.templateMode || "page",
+          snapshotUrl,
+        });
+  
+        template.slug = template.slug.replaceAll("/", "");
+        processed.set(template.templateId, {
+          slug: template.slug,
+          title: template.title || "",
+        });
+  
+        const t = {
+          ...template,
+          featured,
+          cateTitle: category.title,
+          cateName: category.category,
+          cateSlug: category.slug,
+          cateIndex: categoryIndex,
+          index,
+          intro: featured ? category.description : undefined,
+          useTemplateUrl: `https://app.affine.pro/template/import?${params.toString()}`,
+          previewUrl: `https://app.affine.pro/template/preview?${params.toString()}`,
+        };
+  
+        await fs.writeFile(
+          path.join(rootDir, "content", "templates", `${template.slug}.json`),
+          stringify(t, { space: "  " })
+        );
+        visitedSlugs.add(template.slug);
+        console.log(`saved ${template.slug}`);
+      }
     }
   }
 
@@ -163,12 +193,20 @@ async function crawlTemplates() {
   if (hasDuplicate) {
     throw new Error("Duplicate slugs found");
   }
+
+  for (const [id, meta] of existingTemplateMetas.entries()) {
+    if (meta.slug && !visitedSlugs.has(meta.slug)) {
+      console.log(`Deleting ${meta.title} (${id})`);
+      await fs.unlink(path.join(rootDir, "content", "templates", meta.slug.replaceAll("/", "") + ".json"));
+    }
+  }
+
+  await savePageMetas(pages);
 }
 
 async function main() {
   const start = Date.now();
   console.log("Sync Template Start");
-  await clean();
   await crawlTemplates();
   console.log(`Sync Template Done in ${Date.now() - start}ms`);
   process.exit(0);
