@@ -1,0 +1,57 @@
+{
+  "author": "AFFiNE",
+  "authors": [
+    "AFFiNE"
+  ],
+  "cateIndex": 12,
+  "cateName": "Digital Planner",
+  "cateSlug": "digital-planner",
+  "cateTitle": "Digital Planner",
+  "cover": "https://app.affine.pro/api/workspaces/qf73AF6vzWphbTJdN7KiX/blobs/ypu8X_X0o4W-wM3HpYQVOZBXiy4kuwIJwrfZrD6kd_k=",
+  "coverAlt": "Wedding Planner",
+  "createDate": 1727205363904,
+  "created": 1727136000000,
+  "description": "Plan your perfect wedding with the Wedding Planner. Stay organized with tools for managing your budget, guest list, vendors, and timeline. Whether it’s a grand celebration or an intimate event, this planner ensures no detail is overlooked.",
+  "featured": false,
+  "guid": "R4n4R_zBoDjxNjBVRi1pS",
+  "id": "R4n4R_zBoDjxNjBVRi1pS",
+  "index": 30,
+  "linkedPageIds": [
+    "QfflKnX7ttXjPtaUGbDJ8",
+    "mhXkUvwacMxFPXrxlUQEF",
+    "y3GwFuCD7PCzfmAihbd5m",
+    "EzCZzdu56cBrqqDab4RtK",
+    "oapgNIuMNG",
+    "2M31SDtu6DPaYofLoR9NT",
+    "8yoI71clK3"
+  ],
+  "md": "## Wedding Planner – Plan Your Dream Wedding with Ease\n\n\nThe Wedding Planner is an essential tool for organizing every detail of your special day, from the initial vision to the final touches. Whether you’re planning an intimate gathering or a grand celebration, this planner helps you keep track of everything — from budgets and guest lists to vendor bookings and timelines. With its clear structure and comprehensive sections, the Wedding Planner ensures that you stay on top of all the important details while reducing stress and ensuring no task is overlooked.\n\n\n### Stay Organized and Stress-Free with the Wedding Planner\n\n\nThe Wedding Planneris designed to make the complex process of wedding planning smooth and enjoyable. It provides dedicated sections for budgeting, scheduling, vendor management, guest list tracking, and even inspiration boards for themes and colors. Whether you’re working with a wedding planner or organizing the event yourself, this planner offers all the tools you need to coordinate every aspect of your wedding efficiently.\n\n\n",
+  "previewUrl": "https://app.affine.pro/template/preview?workspaceId=qf73AF6vzWphbTJdN7KiX&docId=QfflKnX7ttXjPtaUGbDJ8&pageId=R4n4R_zBoDjxNjBVRi1pS&name=Wedding+Planner&mode=edgeless&snapshotUrl=https%3A%2F%2Fcdn.affine.pro%2Ftemplate-snapshots%2FQfflKnX7ttXjPtaUGbDJ8.e3b0c442.zip",
+  "publish": true,
+  "relatedBlogIds": [
+    "oapgNIuMNG",
+    "2M31SDtu6DPaYofLoR9NT",
+    "8yoI71clK3"
+  ],
+  "relatedBlogs": [
+    "5-best-free-daily-planner-apps-for-2023",
+    "ai-homework-helper",
+    "best-open-source-notion-alternatives"
+  ],
+  "relatedTemplates": [
+    "coquette-aesthetic-vision-board",
+    "weekly-planner",
+    "hourly-planner"
+  ],
+  "slug": "wedding-planner",
+  "tags": [
+    "Digital Planner"
+  ],
+  "template": "LinkedPage:QfflKnX7ttXjPtaUGbDJ8:edgeless",
+  "templateId": "QfflKnX7ttXjPtaUGbDJ8",
+  "templateMode": "edgeless",
+  "title": "Wedding Planner",
+  "updatedDate": 1734500812536,
+  "useTemplateUrl": "https://app.affine.pro/template/import?workspaceId=qf73AF6vzWphbTJdN7KiX&docId=QfflKnX7ttXjPtaUGbDJ8&pageId=R4n4R_zBoDjxNjBVRi1pS&name=Wedding+Planner&mode=edgeless&snapshotUrl=https%3A%2F%2Fcdn.affine.pro%2Ftemplate-snapshots%2FQfflKnX7ttXjPtaUGbDJ8.e3b0c442.zip",
+  "valid": true
+}

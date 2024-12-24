@@ -1,0 +1,57 @@
+{
+  "author": "AFFiNE",
+  "authors": [
+    "AFFiNE"
+  ],
+  "cateIndex": 12,
+  "cateName": "Digital Planner",
+  "cateSlug": "digital-planner",
+  "cateTitle": "Digital Planner",
+  "cover": "https://app.affine.pro/api/workspaces/qf73AF6vzWphbTJdN7KiX/blobs/VkFf_gZyBd9ZGaaYWMFkBh4lardpmlaFa6-YRtIHP7g=",
+  "coverAlt": "Academic Planner for MBA students",
+  "createDate": 1727203185123,
+  "created": 1727136000000,
+  "description": "The Academic Planner for MBA Students is a specialized tool to help manage complex schedules, deadlines, and career goals. With sections for course schedules, assignments, networking events, and internships, it provides structure and focus to balance academic and professional responsibilities.",
+  "featured": false,
+  "guid": "18pEltFlAQ0nf3zAtspEK",
+  "id": "18pEltFlAQ0nf3zAtspEK",
+  "index": 27,
+  "linkedPageIds": [
+    "WobtmEmS_d6Sr5K7Lk6B0",
+    "4SBqQ6lf4oJjmlRejOhyH",
+    "y3GwFuCD7PCzfmAihbd5m",
+    "EzCZzdu56cBrqqDab4RtK",
+    "oapgNIuMNG",
+    "lcJBVVHl3hkDVJpn67AWx",
+    "8yoI71clK3"
+  ],
+  "md": "The Academic Planner for MBA Students is a specialized tool designed to help graduate business students manage their academic, career, and personal responsibilities. This planner offers a structured approach with sections for course schedules, project deadlines, case study preparation, and networking events. It ensures MBA students stay organized and focused, balancing their coursework, internships, and extracurricular activities. Tailored to maximize productivity, the Academic Planner for MBA Students helps students achieve their goals and excel in both their academic and professional pursuits.\n\n\n## Key Features of the Academic Planner for MBA Students\n\n\n### 1. Course Schedules and Deadlines\n\n\nThe course schedules and deadlines section helps students keep track of their classes, assignments, exams, and key project milestones, ensuring they never miss an important deadline.\n\n\n### 2. Networking and Events\n\n\nWith dedicated space for networking and events, this planner helps MBA students stay on top of industry events, guest lectures, networking opportunities, and club activities to build a strong professional network.\n\n\n### 3. Personal and Career Development Goals\n\n\nThe personal and career development goalssection allows students to set and track goals related to internships, job applications, skill development, and career planning, aligning their academic journey with their professional aspirations.\n\n\n",
+  "previewUrl": "https://app.affine.pro/template/preview?workspaceId=qf73AF6vzWphbTJdN7KiX&docId=WobtmEmS_d6Sr5K7Lk6B0&pageId=18pEltFlAQ0nf3zAtspEK&name=Academic+Planner+For+MBA+Students&mode=edgeless&snapshotUrl=https%3A%2F%2Fcdn.affine.pro%2Ftemplate-snapshots%2FWobtmEmS_d6Sr5K7Lk6B0.e3b0c442.zip",
+  "publish": true,
+  "relatedBlogIds": [
+    "oapgNIuMNG",
+    "lcJBVVHl3hkDVJpn67AWx",
+    "8yoI71clK3"
+  ],
+  "relatedBlogs": [
+    "5-best-free-daily-planner-apps-for-2023",
+    "research-assistant",
+    "best-open-source-notion-alternatives"
+  ],
+  "relatedTemplates": [
+    "home-school-planner",
+    "weekly-planner",
+    "hourly-planner"
+  ],
+  "slug": "academic-planner-for-mba-students",
+  "tags": [
+    "Digital Planner"
+  ],
+  "template": "LinkedPage:WobtmEmS_d6Sr5K7Lk6B0:edgeless",
+  "templateId": "WobtmEmS_d6Sr5K7Lk6B0",
+  "templateMode": "edgeless",
+  "title": "Academic Planner For MBA Students",
+  "updatedDate": 1734329798346,
+  "useTemplateUrl": "https://app.affine.pro/template/import?workspaceId=qf73AF6vzWphbTJdN7KiX&docId=WobtmEmS_d6Sr5K7Lk6B0&pageId=18pEltFlAQ0nf3zAtspEK&name=Academic+Planner+For+MBA+Students&mode=edgeless&snapshotUrl=https%3A%2F%2Fcdn.affine.pro%2Ftemplate-snapshots%2FWobtmEmS_d6Sr5K7Lk6B0.e3b0c442.zip",
+  "valid": true
+}

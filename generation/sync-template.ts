@@ -5,10 +5,9 @@ import path from "node:path";
 
 import { createHash } from "node:crypto";
 
-import { ListObjectsV2Command, PutObjectCommand, S3Client } from "@aws-sdk/client-s3";
+import { HeadObjectCommand, PutObjectCommand, S3Client } from "@aws-sdk/client-s3";
 
 import { rootDir } from "./utils";
-import { loadPageMetas, savePageMetas } from "./sync-utils";
 
 const reader = instantiateReader({
   workspaceId: "qf73AF6vzWphbTJdN7KiX",
@@ -32,25 +31,17 @@ const uploadTemplateSnapshot = (() => {
     },
   });
 
-  let existingSnapshots: string[] | undefined;
-
   return async function upload(key: string, buffer: Buffer) {
-    if (!existingSnapshots) {
-      const c0 = new ListObjectsV2Command({
-        Bucket: R2_BUCKET,
-        Prefix: R2_PREFIX,
-      });
-      const response = await r2.send(c0);
-      existingSnapshots = response.Contents?.map((c) => c.Key?.replace(R2_PREFIX + '/', "")).filter((k) => k !== undefined) as string[];
-      console.log('existingSnapshots', existingSnapshots);
-    }
-    console.log('key', key);
-
-    if (existingSnapshots.includes(key + ".zip")) {
+    // check if the file exists
+    const c0 = new HeadObjectCommand({
+      Bucket: R2_BUCKET,
+      Key: `${R2_PREFIX}/${key}.zip`,
+    });
+    const response = await r2.send(c0);
+    if (response.ContentLength) {
       console.log(`${key}.zip already exists, skipping upload`);
       return;
     }
-
     const c1 = new PutObjectCommand({
       Bucket: R2_BUCKET,
       Key: `${R2_PREFIX}/${key}.zip`,
@@ -68,8 +59,6 @@ async function crawlTemplates() {
   if (!pages) {
     throw new Error("No pages found");
   }
-
-  const existingPageMetas = await loadPageMetas();
 
   await fs.ensureDir(path.join(rootDir, "public", "templates", "snapshots"));
 
@@ -93,14 +82,6 @@ async function crawlTemplates() {
       delete template.properties;
       delete template.parsedBlocks;
       delete template.linkedPages;
-
-      const oldTemplateMeta = existingPageMetas.find(meta => meta.id === template.templateId);
-      const templateMeta = pages.find(meta => meta.id === template.templateId);
-
-      if (oldTemplateMeta?.updatedDate === templateMeta?.updatedDate) {
-        console.log(`${template.templateId} is not updated, skipping`);
-        continue;
-      }
 
       const zip = await reader.getDocSnapshot(template.templateId);
       if (!zip) {
@@ -154,8 +135,6 @@ async function crawlTemplates() {
       );
       console.log(`saved ${template.slug}`);
     }
-
-    await savePageMetas(pages);
   }
 
   // check if there are duplicate slugs

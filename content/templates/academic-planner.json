@@ -1,0 +1,57 @@
+{
+  "author": "AFFiNE",
+  "authors": [
+    "AFFiNE"
+  ],
+  "cateIndex": 12,
+  "cateName": "Digital Planner",
+  "cateSlug": "digital-planner",
+  "cateTitle": "Digital Planner",
+  "cover": "https://app.affine.pro/api/workspaces/qf73AF6vzWphbTJdN7KiX/blobs/Xcq54-QEAMf5wv73cikljmjPM452y4IDjjX0ZU1t0LI=",
+  "coverAlt": "Academic Planner",
+  "createDate": 1727203098714,
+  "created": 1727136000000,
+  "description": "Stay organized and excel in academics with the perfect planner for students, educators, and professionals. Manage courses, assignments, and goals effortlessly while keeping track of deadlines and study schedules.",
+  "featured": false,
+  "guid": "zdQDYnR6oRTGHaQ3xWtS-",
+  "id": "zdQDYnR6oRTGHaQ3xWtS-",
+  "index": 28,
+  "linkedPageIds": [
+    "bFj3cSxHlpc6G7z0cu837",
+    "4SBqQ6lf4oJjmlRejOhyH",
+    "y3GwFuCD7PCzfmAihbd5m",
+    "EzCZzdu56cBrqqDab4RtK",
+    "oapgNIuMNG",
+    "HlFIhNSGZdLXqaK5K3ZGJ",
+    "8yoI71clK3"
+  ],
+  "md": "An Academic Planner is an indispensable tool for students, educators, and professionals alike, offering a comprehensive solution to manage academic tasks, assignments, and long-term goals. This planner allows you to organize your coursework, set deadlines, schedule study sessions, and track academic progress. It helps you break down large projects into manageable tasks while maintaining a clear overview of your academic calendar. Whether you’re a high school student, college student, or educator, an academic planner ensures that you stay organized and on top of your responsibilities throughout the school year.\n\n\n## Key Features of the Academic Planner\n\n\n### 1. Course Overview\n\n\nThe course overview section provides a space to list all your courses, instructors, and key details, helping you manage your academic workload in a structured way.\n\n\n### 2. Assignment and Deadline Tracker\n\n\nStay on top of your deadlines with the assignment and deadline tracker, which ensures that no project, paper, or exam date is overlooked.\n\n\n### 3. Study Schedule and Goals\n\n\nSet up your study schedule and weekly goals to ensure you’re dedicating the necessary time to each subject while keeping an eye on your long-term academic objectives.\n\n\n",
+  "previewUrl": "https://app.affine.pro/template/preview?workspaceId=qf73AF6vzWphbTJdN7KiX&docId=bFj3cSxHlpc6G7z0cu837&pageId=zdQDYnR6oRTGHaQ3xWtS-&name=Academic+Planner&mode=edgeless&snapshotUrl=https%3A%2F%2Fcdn.affine.pro%2Ftemplate-snapshots%2FbFj3cSxHlpc6G7z0cu837.e3b0c442.zip",
+  "publish": true,
+  "relatedBlogIds": [
+    "oapgNIuMNG",
+    "HlFIhNSGZdLXqaK5K3ZGJ",
+    "8yoI71clK3"
+  ],
+  "relatedBlogs": [
+    "5-best-free-daily-planner-apps-for-2023",
+    "best-app-for-personal-family-knowledge-and-document-sharing",
+    "best-open-source-notion-alternatives"
+  ],
+  "relatedTemplates": [
+    "home-school-planner",
+    "weekly-planner",
+    "hourly-planner"
+  ],
+  "slug": "academic-planner",
+  "tags": [
+    "Digital Planner"
+  ],
+  "template": "LinkedPage:bFj3cSxHlpc6G7z0cu837:edgeless",
+  "templateId": "bFj3cSxHlpc6G7z0cu837",
+  "templateMode": "edgeless",
+  "title": "Academic Planner",
+  "updatedDate": 1733819487730,
+  "useTemplateUrl": "https://app.affine.pro/template/import?workspaceId=qf73AF6vzWphbTJdN7KiX&docId=bFj3cSxHlpc6G7z0cu837&pageId=zdQDYnR6oRTGHaQ3xWtS-&name=Academic+Planner&mode=edgeless&snapshotUrl=https%3A%2F%2Fcdn.affine.pro%2Ftemplate-snapshots%2FbFj3cSxHlpc6G7z0cu837.e3b0c442.zip",
+  "valid": true
+}
