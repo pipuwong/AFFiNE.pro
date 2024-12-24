@@ -49,7 +49,6 @@ const uploadTemplateSnapshot = (() => {
     console.log("key", key);
 
     if (existingSnapshots.includes(key + ".zip")) {
-      console.log(`${key}.zip already exists, skipping upload`);
       return;
     }
 
@@ -107,7 +106,6 @@ async function crawlTemplates() {
       );
       const oldTemplateMeta = existingTemplateMetas.get(template.id);
       if (oldTemplateMeta && oldUserTemplateMeta?.updatedDate === userTemplateMeta?.updatedDate) {
-        console.log(`${template.templateId} is not updated, skipping`);
         if (oldTemplateMeta.slug) {
           visitedSlugs.add(oldTemplateMeta.slug);
         }
@@ -126,7 +124,7 @@ async function crawlTemplates() {
         console.log(`uploading ${template.templateId}.${hash} to ${R2_BUCKET}`);
         await uploadTemplateSnapshot(`${template.templateId}.${hash}`, buffer);
         const snapshotUrl = `https://cdn.affine.pro/${R2_PREFIX}/${template.templateId}.${hash}.zip`;
-      
+
         const featured = index === 0;
 
         const params = new URLSearchParams({
@@ -137,13 +135,13 @@ async function crawlTemplates() {
           mode: template.templateMode || "page",
           snapshotUrl,
         });
-  
+
         template.slug = template.slug.replaceAll("/", "");
         processed.set(template.templateId, {
           slug: template.slug,
           title: template.title || "",
         });
-  
+
         const t = {
           ...template,
           featured,
@@ -156,7 +154,7 @@ async function crawlTemplates() {
           useTemplateUrl: `https://app.affine.pro/template/import?${params.toString()}`,
           previewUrl: `https://app.affine.pro/template/preview?${params.toString()}`,
         };
-  
+
         await fs.writeFile(
           path.join(rootDir, "content", "templates", `${template.slug}.json`),
           stringify(t, { space: "  " })

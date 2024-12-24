@@ -59,7 +59,7 @@
     "@unocss/extractor-pug": "^0.49.4",
     "@unocss/nuxt": "^0.49.4",
     "@zadigetvoltaire/nuxt-gtm": "^0.0.13",
-    "affine-reader": "^3.3.4",
+    "affine-reader": "^3.3.6",
     "fs-extra": "^11.2.0",
     "json-stable-stringify": "^1.1.1",
     "lodash": "^4.17.21",

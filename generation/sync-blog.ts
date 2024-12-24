@@ -53,7 +53,6 @@ async function crawlBlogs() {
       }
 
       // skip the page that is not updated
-      console.log('Skipping', page.title);
       continue;
     }
 
