@@ -1,22 +1,24 @@
-import { instantiateReader } from "affine-reader/blog";
+import { instantiateReader, WorkspacePageContent } from "affine-reader/blog";
 import fs from "fs-extra";
 import stringify from "json-stable-stringify";
 
 import path from "node:path";
 import { rootDir } from "./utils";
+import { loadContents, loadPageMetas, savePageMetas } from "./sync-utils";
 
 const reader = instantiateReader({
   workspaceId: "qf73AF6vzWphbTJdN7KiX",
   target: "https://app.affine.pro",
 });
 
-const clean = async () => {
-  await fs.emptyDir(path.join(rootDir, "content", "blog"));
-};
-
 declare module "affine-reader/blog" {
   interface WorkspacePageContent {
     layout?: string;
+    updatedDate?: number;
+  }
+
+  interface WorkspacePage {
+    updatedDate?: number;
   }
 }
 
@@ -28,8 +30,30 @@ async function crawlBlogs() {
     throw new Error("No pages found");
   }
 
+  const existingPageMetas = await loadPageMetas();
+  const existingBlogMetas = await loadContents('blog');
+
+  const visitedSlugs = new Set<string>();
+
+  if (!pages) {
+    throw new Error("No pages found");
+  }
+
   for (const [idx, page] of pages.entries()) {
     if (page.trash || !page.title) {
+      continue;
+    }
+
+    const existingPageMeta = existingPageMetas.find(meta => meta.id === page.id);
+    const existingBlogMeta = Array.from(existingBlogMetas.values()).find(meta => meta.id === page.id);
+
+    if (existingPageMeta && existingPageMeta.updatedDate === page.updatedDate) {
+      if (existingBlogMeta?.slug) {
+        visitedSlugs.add(existingBlogMeta.slug);
+      }
+
+      // skip the page that is not updated
+      console.log('Skipping', page.title);
       continue;
     }
 
@@ -58,6 +82,8 @@ async function crawlBlogs() {
     delete content.linkedPages;
     // @ts-ignore
     delete content.properties;
+
+    visitedSlugs.add(content.slug);
 
     await fs.writeFile(fileDist, stringify(content, { space: "  " }));
     console.log(`Saved ${page.id}`);
@@ -89,12 +115,22 @@ async function crawlBlogs() {
   if (hasDuplicate) {
     throw new Error("Duplicate slugs found");
   }
+
+
+  for (const [id, meta] of existingBlogMetas.entries()) {
+    // if the meta is not in the updatedBlogMeta or addedBlogMeta, it is deleted
+    if (meta.slug && !visitedSlugs.has(meta.slug)) {
+      console.log(`Deleting ${meta.title} (${id})`);
+      await fs.unlink(path.join(rootDir, "content", "blog", meta.slug.replaceAll("/", "") + ".json"));
+    }
+  }
+
+  await savePageMetas(pages);
 }
 
 async function main() {
   console.log("Sync Blog Start");
 
-  await clean();
   await crawlBlogs();
 
   console.log("Sync Blog Done");
