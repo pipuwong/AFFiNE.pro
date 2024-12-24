@@ -189,6 +189,9 @@ export default defineNuxtConfig({
         },
       },
     },
+    build: {
+      modulePreload: false,
+    }
   },
 
   i18n: {
