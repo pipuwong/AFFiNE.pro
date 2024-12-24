@@ -56,7 +56,9 @@ jobs:
         if: steps.sync-command-again-3.outcome == 'failure'
         run: yarn gen:all
       - name: "Commit sync contents"
-        uses: stefanzweifel/git-auto-commit-action@v4
+        uses: stefanzweifel/git-auto-commit-action@v5
         with:
           commit_message: "[GitHub Action] Sync blog contents from AFFiNE Cloud"
-          file_pattern: "content/blog/*.json content/templates/*.json content/changelogs/*.json public/rss.xml public/sitemap.xml"
+          file_pattern: "content/blog/*.json content/templates/*.json content/changelogs/*.json content/page-metas.json public/rss.xml public/sitemap.xml"
+          skip_fetch: true
+          skip_checkout: true
