@@ -5,7 +5,7 @@ import path from "node:path";
 
 import { createHash } from "node:crypto";
 
-import { PutObjectCommand, S3Client } from "@aws-sdk/client-s3";
+import { HeadObjectCommand, PutObjectCommand, S3Client } from "@aws-sdk/client-s3";
 
 import { rootDir } from "./utils";
 
@@ -32,13 +32,23 @@ const uploadTemplateSnapshot = (() => {
   });
 
   return async function upload(key: string, buffer: Buffer) {
-    const command = new PutObjectCommand({
+    // check if the file exists
+    const c0 = new HeadObjectCommand({
+      Bucket: R2_BUCKET,
+      Key: `${R2_PREFIX}/${key}.zip`,
+    });
+    const response = await r2.send(c0);
+    if (response.ContentLength) {
+      console.log(`${key}.zip already exists, skipping upload`);
+      return;
+    }
+    const c1 = new PutObjectCommand({
       Bucket: R2_BUCKET,
       Key: `${R2_PREFIX}/${key}.zip`,
       Body: buffer,
       ContentType: "application/zip",
     });
-    await r2.send(command);
+    await r2.send(c1);
   };
 })();
 
@@ -156,10 +166,11 @@ async function crawlTemplates() {
 }
 
 async function main() {
+  const start = Date.now();
   console.log("Sync Template Start");
   await clean();
   await crawlTemplates();
-  console.log("Sync Template Done");
+  console.log(`Sync Template Done in ${Date.now() - start}ms`);
   process.exit(0);
 }
 

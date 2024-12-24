@@ -129,11 +129,12 @@ async function crawlBlogs() {
 }
 
 async function main() {
+  const start = Date.now();
   console.log("Sync Blog Start");
 
   await crawlBlogs();
 
-  console.log("Sync Blog Done");
+  console.log(`Sync Blog Done in ${Date.now() - start}ms`);
 }
 
 main();
