@@ -1,0 +1,57 @@
+{
+  "author": "AFFiNE",
+  "authors": [
+    "AFFiNE"
+  ],
+  "cateIndex": 5,
+  "cateName": "Checklist Template",
+  "cateSlug": "checklist-template",
+  "cateTitle": "Checklist Template",
+  "cover": "https://app.affine.pro/api/workspaces/qf73AF6vzWphbTJdN7KiX/blobs/vMIJWG2g3b4TttskdWJpnUd9ZSWtxAi7dh6HXlEXcS8=",
+  "coverAlt": "Metro Bus Tracker",
+  "createDate": 1730786582439,
+  "created": 1730678400000,
+  "description": "Stay on top of your commute with the Metro Bus Tracker. Get real-time bus tracking, route info, and live alerts for a more convenient and efficient transit experience.",
+  "featured": false,
+  "guid": "RXK_ysw8rH1I3ykWcQieK",
+  "id": "RXK_ysw8rH1I3ykWcQieK",
+  "index": 13,
+  "linkedPageIds": [
+    "PcLEjhsf_D26h9mD3FYJr",
+    "pjvRYee73VRaWsV4GFJPM",
+    "F89MHSLmVqv-2d9nOTsJd",
+    "F-iIk03tG_3Q8AN-mqZrV",
+    "zbiWWxhn3ToqvUcrY4wCE",
+    "sFSYqsUVWuWbH5LkiaZIA",
+    "8yoI71clK3"
+  ],
+  "md": "## Overview of the Metro Bus Tracker\n\n\nThe Metro Bus Tracker is designed to streamline commuting by providing real-time tracking for buses, accessible route and schedule information, and helpful alerts. By offering timely updates on bus locations and arrival times, this tool helps users make better-informed decisions and manage their travel time more efficiently.\n\n\n## Key Features of the Metro Bus Tracker\nReal-Time Bus Tracking\n\n\nWith the Metro Bus Tracker, users can see the exact location of their bus on a live map, along with estimated arrival times for upcoming stops. This feature helps riders plan their arrival at the bus stop, reducing uncertainty and minimizing waiting time.\n\n\n### Route and Schedule Information\n\n\nThe tracker provides easy access to route maps, stop locations, and bus schedules, making it simple for users to find routes, identify bus stops, and understand transit timing. This feature ensures that riders are well-prepared for their journey, even if they’re navigating a new route.\n\n\n### Alerts and Notifications\n\n\nThe Metro Bus Tracker sends alerts for delays, schedule adjustments, or route disruptions, keeping users informed in real time. With these notifications, riders can adapt to changes and plan alternative routes if necessary, making their commute more flexible.\n\n\n### User-Friendly Interface\n\n\nThe app and web interface are designed to be intuitive, allowing users to quickly view essential information like bus locations, schedules, and alerts. The simplicity of the interface ensures that both regular and first-time users can easily navigate and benefit from the tracker.\n\n\n### Benefits of Using the Metro Bus Tracker\n\n\n### Reduced Wait Times\n\n\nWith real-time tracking, users know exactly when their bus will arrive, allowing them to reduce time spent waiting at the bus stop and arrive just as the bus is approaching.\n\n\n### Efficient Trip Planning\n\n\nHaving access to up-to-date bus schedules and route maps makes it easier to plan trips efficiently. Riders can view alternate routes and transfer options, which helps optimize their travel.\n\n\n### Improved Commute Experience\n\n\nAlerts and updates improve the overall commute experience by making it more predictable and stress-free. With the ability to stay informed about delays or disruptions, users can plan accordingly and experience fewer commuting issues.\n\n\n\n\n\n\n\n\n",
+  "previewUrl": "https://app.affine.pro/template/preview?workspaceId=qf73AF6vzWphbTJdN7KiX&docId=PcLEjhsf_D26h9mD3FYJr&pageId=RXK_ysw8rH1I3ykWcQieK&name=Metro+Bus+Tracker%E2%80%8B&mode=page&snapshotUrl=https%3A%2F%2Fcdn.affine.pro%2Ftemplate-snapshots%2FPcLEjhsf_D26h9mD3FYJr.e3b0c442.zip",
+  "publish": true,
+  "relatedBlogIds": [
+    "zbiWWxhn3ToqvUcrY4wCE",
+    "sFSYqsUVWuWbH5LkiaZIA",
+    "8yoI71clK3"
+  ],
+  "relatedBlogs": [
+    "15-best-free-adhd-app-for=knowledge=management",
+    "adhd-planner",
+    "best-open-source-notion-alternatives"
+  ],
+  "relatedTemplates": [
+    "planner-2024",
+    "grocery-list-template",
+    "printable-template-to-track-hitting-lessons"
+  ],
+  "slug": "metro-bus-tracker",
+  "tags": [
+    "Checklist Template"
+  ],
+  "template": "LinkedPage:PcLEjhsf_D26h9mD3FYJr",
+  "templateId": "PcLEjhsf_D26h9mD3FYJr",
+  "templateMode": "page",
+  "title": "Metro Bus Tracker​",
+  "updatedDate": 1735056502447,
+  "useTemplateUrl": "https://app.affine.pro/template/import?workspaceId=qf73AF6vzWphbTJdN7KiX&docId=PcLEjhsf_D26h9mD3FYJr&pageId=RXK_ysw8rH1I3ykWcQieK&name=Metro+Bus+Tracker%E2%80%8B&mode=page&snapshotUrl=https%3A%2F%2Fcdn.affine.pro%2Ftemplate-snapshots%2FPcLEjhsf_D26h9mD3FYJr.e3b0c442.zip",
+  "valid": true
+}
