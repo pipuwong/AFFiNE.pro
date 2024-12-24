@@ -97,7 +97,9 @@ export default defineNuxtConfig({
         },
         {
           href: 'https://fonts.googleapis.com/css2?family=Kalam:wght@400;700&display=swap',
-          rel: 'stylesheet',
+          rel: 'preload',
+          as: 'style',
+          onload: "this.onload=null;this.rel='stylesheet'",
         },
       ],
       script: [
