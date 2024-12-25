@@ -33,6 +33,21 @@
         <priority>0.8</priority>
     </url>
     <url>
+        <loc>https://affine.pro/blog/meet-the-teacher-template</loc>
+        <changefreq>daily</changefreq>
+        <priority>1.0</priority>
+    </url>
+    <url>
+        <loc>https://affine.pro/blog/smart-goals-template</loc>
+        <changefreq>daily</changefreq>
+        <priority>1.0</priority>
+    </url>
+    <url>
+        <loc>https://affine.pro/blog/ats-resume-template</loc>
+        <changefreq>daily</changefreq>
+        <priority>1.0</priority>
+    </url>
+    <url>
         <loc>https://affine.pro/blog/planner-best</loc>
         <changefreq>daily</changefreq>
         <priority>1.0</priority>
