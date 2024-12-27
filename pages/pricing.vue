@@ -119,7 +119,9 @@
               .planning-name Teams / Enterprise
               .planning-desc Best for scalable teams.
               .price-row.flex.items-end.gap-2
-                .price-amount Coming Soon
+                .price-amount
+                  span.number {{ isYearly ? '$12' : '$15' }}
+                  | &nbsp;{{ $t('pricePage.perMonth') }}
 
             .planning-list
               .list-section Both in Teams & Enterprise:
@@ -274,13 +276,15 @@
 
           .price-card.type-enterprise
             .card-header
-              .planning-name Teams / Enterprise
+              .planning-name Team
               .planning-desc Best for scalable teams.
               .price-row.flex.items-end.gap-2
-                .price-amount Coming Soon
+                .price-amount
+                  span.number {{ isYearly ? '$10' : '$12' }}
+                  | &nbsp;per seat/month
 
             .planning-list
-              .list-section Both in Teams & Enterprise:
+              .list-section Include in Team Workspace:
               .item
                 .item-icon
                   nuxt-icon( name="Done" filled)
@@ -288,35 +292,35 @@
               .item
                 .item-icon
                   nuxt-icon( name="Done" filled)
-                .item-body Advanced Permission control, Page history and Review mode
+                .item-body 100 GB initial storage + 20 GB per seat
               .item
                 .item-icon
                   nuxt-icon( name="Done" filled)
-                .item-body Pay for seats, fits all team size
+                .item-body 500 MB of maximum file size
               .item
                 .item-icon
                   nuxt-icon( name="Done" filled)
-                .item-body Email & Slack Support
-              .list-section Enterprise only:
+                .item-body Unlimited team members (10+ seats)
               .item
                 .item-icon
                   nuxt-icon( name="Done" filled)
-                .item-body SSO Authorization
+                .item-body Multiple admin roles
               .item
                 .item-icon
                   nuxt-icon( name="Done" filled)
-                .item-body Solutions & Best Practices for Dedicated needs
+                .item-body Priority customer support
               .item
                 .item-icon
-                  nuxt-icon( name="Done" filled)
-                .item-body Embed-able & Integrations with IT support
+                .item-body
+                  | The solution you need is more complex?&nbsp;
+                  a( :href="PATH.PRICING_CONTACT_FORM_TEAM" target="_blank" rel="nofollow" ) Tell us your use case.
 
             .card-footer
-              nuxt-link( :href="PATH.PRICING_CONTACT_FORM_ENTERPRISE" target="_blank" rel="nofollow" )
+              nuxt-link( :href="teamActionLink" target="_blank" rel="nofollow" )
                 el-button(
                   type="primary"
                   size="action"
-                ) Tell Us Your Use Case
+                ) Upgrade
 
   .section.section-believer-tier.mb-60px
     .limit-container
@@ -352,6 +356,14 @@ const proActionLink = computed(() => {
   if (store.context.coupon) {
     baseLink = `${baseLink}&coupon=${store.context.coupon}`;
   }
+
+  return baseLink;
+});
+
+const teamActionLink = computed(() => {
+  let baseLink = isMonthly.value
+    ? PATH.PRICING_TEAM_MONTHLY
+    : PATH.PRICING_TEAM_YEARLY;
 
   return baseLink;
 });
@@ -769,6 +781,9 @@ useHead({
       font-size: 43px
       padding-top: 17px
 
+    .number
+      min-width: 44px
+
   .card-footer
     padding: 12px 16px
 
@@ -801,6 +816,10 @@ useHead({
 
       .nuxt-icon
         font-size: 16px
+
+    .item-body
+      a
+        color: var(--brand)
 
   .contact-us-button
     text-align: center
