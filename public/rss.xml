@@ -5,8 +5,8 @@
     <description>All In One KnowledgeOS</description>
     <link>https://affine.pro</link>
     <atom:link href="https://affine.pro/rss.xml" rel="self" type="application/rss+xml" />
-    <lastBuildDate>Thu, 26 Dec 2024 11:11:47 GMT</lastBuildDate>
-    <pubDate>Thu, 26 Dec 2024 11:11:47 GMT</pubDate>
+    <lastBuildDate>Fri, 27 Dec 2024 08:02:45 GMT</lastBuildDate>
+    <pubDate>Fri, 27 Dec 2024 08:02:45 GMT</pubDate>
     <ttl>60</ttl>
     
     <item>
@@ -25,6 +25,15 @@
       <guid isPermaLink="true">https://affine.pro/blog/meeting-notes-template</guid>
       <pubDate>Thu, 26 Dec 2024 00:00:00 GMT</pubDate>
       <enclosure url="https://app.affine.pro/api/workspaces/qf73AF6vzWphbTJdN7KiX/blobs/dPXC8NHs5XvDmWX2FlScJSs-IiTNyANeS1YVCfo_V_8=" type="image/png" />
+    </item>
+    
+    <item>
+      <title>What&apos;s new in AFFiNE - December 2024 Update</title>
+      <description><![CDATA[Explore Affine’s December updates: Log in to self-hosted instances via the desktop app, experience Team Workspace 1.0, enjoy AI improvements, utilize new backlinks, and streamline workflows with enhanced sidebar-editor drag-and-drop functionality.]]></description>
+      <link>https://affine.pro/blog/whats-new-affine-dec-update</link>
+      <guid isPermaLink="true">https://affine.pro/blog/whats-new-affine-dec-update</guid>
+      <pubDate>Thu, 26 Dec 2024 00:00:00 GMT</pubDate>
+      <enclosure url="https://app.affine.pro/api/workspaces/qf73AF6vzWphbTJdN7KiX/blobs/jw-uvFyNy40qF2ovduyI6wH0gHeiK5pmNsZP5pNM62E=" type="image/png" />
     </item>
     
     <item>
