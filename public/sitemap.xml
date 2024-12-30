@@ -33,6 +33,11 @@
         <priority>0.8</priority>
     </url>
     <url>
+        <loc>https://affine.pro/blog/5-best-free-daily-planner-apps-for-2023</loc>
+        <changefreq>daily</changefreq>
+        <priority>1.0</priority>
+    </url>
+    <url>
         <loc>https://affine.pro/blog/mac-performance-for-efficient-management</loc>
         <changefreq>daily</changefreq>
         <priority>1.0</priority>
@@ -194,6 +199,11 @@
     </url>
     <url>
         <loc>https://affine.pro/blog/social-media-planner</loc>
+        <changefreq>daily</changefreq>
+        <priority>1.0</priority>
+    </url>
+    <url>
+        <loc>https://affine.pro/blog/best-evernote-alternatives-and-competitors-for-note-taking</loc>
         <changefreq>daily</changefreq>
         <priority>1.0</priority>
     </url>
@@ -494,11 +504,6 @@
     </url>
     <url>
         <loc>https://affine.pro/blog/10-best-ai-productivity-tools-must-know-upgrade-workflow-improve-business</loc>
-        <changefreq>daily</changefreq>
-        <priority>1.0</priority>
-    </url>
-    <url>
-        <loc>https://affine.pro/blog/5-best-free-daily-planner-apps-for-2023</loc>
         <changefreq>daily</changefreq>
         <priority>1.0</priority>
     </url>
@@ -874,11 +879,6 @@
     </url>
     <url>
         <loc>https://affine.pro/blog/10-best-airtable-alternatives-to-manage-your-project-free-paid</loc>
-        <changefreq>daily</changefreq>
-        <priority>1.0</priority>
-    </url>
-    <url>
-        <loc>https://affine.pro/blog/best-evernote-alternatives-and-competitors-for-note-taking</loc>
         <changefreq>daily</changefreq>
         <priority>1.0</priority>
     </url>
